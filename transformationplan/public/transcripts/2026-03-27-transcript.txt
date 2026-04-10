@@ -1,0 +1,595 @@
+[00:00:01] Simon Plummer: Morning. Good morning.
+[00:00:07] Rob Williams: Yes, it's morning for me. How are you?
+[00:00:10] Simon Plummer: Not too bad, not too bad. I've been tinkering, I've built. I threw up a website in about 18 minutes.
+[00:00:18] Simon Plummer: I started building an entire service desk ticketing system. I haven't published that yet though.
+[00:00:26] Simon Plummer: So I've got a load of code. I don't know what it looks like it might be a load of, but.
+[00:00:35] Rob Williams: That's funny, I am. I think part of the problem when you start doing this is, is not doing too much.
+[00:00:42] Rob Williams: It's actually like pulling back and targeting
+[00:00:47] Simon Plummer: going down a rabbit hole. And before.
+[00:00:49] Simon Plummer: I know I've lost half a day and you know, I should have sent invoices or something and I'll be there like trying to build something and.
+[00:00:55] Simon Plummer: Yeah,
+[00:00:58] Rob Williams: no, I'm exactly the same.
+[00:00:59] Simon Plummer: Yeah. Where are we at? So, sorry, one second. Yeah, so I've terminated my Gemini, obviously.
+[00:01:11] Simon Plummer: I've still got. I don't think it really loses anything, really.
+[00:01:16] Simon Plummer: It would just be access to some of the more advanced models, I expect.
+[00:01:21] Simon Plummer: So I'm quite happy there, you know, like image generation. I think that will still.
+[00:01:25] Simon Plummer: The free stuff will be all right
+[00:01:26] Rob Williams: for what we need.
+[00:01:29] Simon Plummer: So I've got a pro.
+[00:01:32] Rob Williams: I'm listening. Pro. Claude. Yeah.
+[00:01:36] Simon Plummer: We've left Kate on Gemini for the minute because it seemed.
+[00:01:41] Simon Plummer: I feel like I want to get the foundations in and it doesn't need both of us doing that, if that makes sense.
+[00:01:47] Simon Plummer: So I think we need that sort of top level
+[00:01:51] Rob Williams: content.
+[00:01:52] Simon Plummer: I can't remember what we called it. Sort of like the context instructions of the organizations that.
+[00:01:56] Simon Plummer: And that's where we'll duplicate those over every account, won't we?
+[00:02:01] Simon Plummer: So, yeah, irrespective of the knowledge, they'll. They'll have that context and they're all the same.
+[00:02:06] Rob Williams: So we need to develop that.
+[00:02:09] Simon Plummer: Funnily enough. We were at a networking thing last night and a guy was doing a.
+[00:02:15] Simon Plummer: That works for node 4 and he was. Oh, yeah, I think.
+[00:02:18] Simon Plummer: I don't know if he's their CTO or something like that, but he was doing. What was it, Tom?
+[00:02:28] Simon Plummer: It's not actually from node 4. The node 4. Well, the same. The same hedge fund has gone around.
+[00:02:35] Simon Plummer: They bought Node four and then they bought a few others, but they've actually merged them all together under the Node 4 brand.
+[00:02:40] Simon Plummer: So I think he went from somewhere down south.
+[00:02:43] Rob Williams: I know the guy who.
+[00:02:44] Rob Williams: I don't know if you're saying nope because, you know, I know them, but I know the guy who founded no Paul.
+[00:02:49] Rob Williams: He used to Work for.
+[00:02:50] Simon Plummer: Yes.
+[00:02:50] Rob Williams: And. And then the like, I know most of the top people there sort so.
+[00:02:54] Rob Williams: But now this probably all changed because they sold out.
+[00:02:56] Simon Plummer: Yeah, I think they've sold out to a hedge and made the money and run.
+[00:02:59] Rob Williams: I think so, yeah, very possibly.
+[00:03:01] Kate Plummer: That sounds like you talked about Nade 4.
+[00:03:04] Rob Williams: Yeah, yeah, yeah, yeah, yeah, yeah.
+[00:03:07] Kate Plummer: I did a load of filming and a video project a few years ago. No, it must have been.
+[00:03:12] Simon Plummer: What was the guy's name from yesterday? Tom Bevan.
+[00:03:17] Rob Williams: Bevan. Oh right, right. I think I might have met him once. He was there a while ago.
+[00:03:23] Rob Williams: But yeah, I know Andy Gilbert who founded it and then yeah, Rich, what's his name? Rich. Rick.
+[00:03:35] Rob Williams: Rick Williams who was kind of his second hand guy who came to our wedding and then, and then Andy Betts, I know like four or five of them who sort of set it all up because Andy used to work for me and said, right, I'm gonna, I'm gonna quit.
+[00:03:49] Rob Williams: I remember hounding his notice in and saying, right, I'm gonna quit, I'm gonna go, I'm gonna make millions, I'm gonna do my own thing and all this.
+[00:03:54] Rob Williams: He was really, he was really young, like a really young kid, really talented and really cocky and like then he just went off and set up Node 4 and now he's like driving around in Formula 1 cars.
+[00:04:06] Kate Plummer: I remember, I remember turning up at Node 4 at the Derby database center.
+[00:04:12] Rob Williams: Yeah, yeah, yeah.
+[00:04:13] Kate Plummer: With all the kit because we were doing. It was when I worked at Spinning Clock.
+[00:04:20] Kate Plummer: So Jack would have been about two. So yeah, about 10 years ago. And I remember turning up and I just.
+[00:04:27] Kate Plummer: All the Teslas lined up outside.
+[00:04:29] Simon Plummer: Teslas were brand new on it and it was like, yeah.
+[00:04:33] Kate Plummer: And it was like, bloody hell. Yeah, he not got one, he had three.
+[00:04:37] Kate Plummer: And they were like, yeah, they're all his. And I was like, wow.
+[00:04:40] Kate Plummer: And then they said, oh yeah, we had a Formula one car here the other day and it was, it was very, very nice.
+[00:04:46] Kate Plummer: And I remember, I think that was when they were doing all the videos about data centers and all that years
+[00:04:52] Rob Williams: ago and yeah, yeah, no it's, it was quite a meteoric rise. Yeah, so.
+[00:04:59] Rob Williams: So yeah, that's exactly right there, Simon, to set that up first and just both for both of you, just apologies this week because I was in the uk.
+[00:05:06] Rob Williams: It's been a insane.
+[00:05:07] Kate Plummer: You said it was going to be fairly back to back.
+[00:05:10] Rob Williams: Yeah, yeah, so.
+[00:05:13] Rob Williams: So I think one of the things from last week was just thinking through how you like how you want it to be and act and kind of.
+[00:05:24] Rob Williams: And like, like silly things like thinking about names and stuff like that. I don't know that there's.
+[00:05:30] Rob Williams: There was. I can't remember when I haven't looked up.
+[00:05:32] Rob Williams: I don't know that there were many actions from last week for me.
+[00:05:38] Rob Williams: From my side though, what I know I haven't done that I was going to do was share my proposal flow folders and then set up this memory for you to be able to access.
+[00:05:49] Rob Williams: And so that I think that's going to be a big thing and I need to do that for me.
+[00:05:53] Rob Williams: So I haven't done that yet. So my. So this weekend I have like last weekend I was prepping to leave.
+[00:05:59] Rob Williams: This weekend I have nothing and so I need to move my memory and make it sort of scalable.
+[00:06:06] Rob Williams: So one of the things I think that's useful is. Did I mention about setting up a Supabase account? Yes.
+[00:06:15] Rob Williams: So that I think is one thing I need you to do before I can port my memory system to you.
+[00:06:24] Rob Williams: You talked about image generation.
+[00:06:26] Rob Williams: The other thing to consider is setting up an OpenAI developer account.
+[00:06:34] Rob Williams: And so the reason I say this is that the best image generation at the moment, I mean Nano Banana is pretty good.
+[00:06:39] Rob Williams: So you can, you could also use Google, but OpenAI image generation, they maybe Google does, they have an API that you can use and the.
+[00:06:52] Rob Williams: It's really cheap to generate images. It's like a few pence per image.
+[00:06:57] Rob Williams: And so one of the things I do is I have a OpenAI image, I have an OpenAI developer account.
+[00:07:04] Rob Williams: I put in like $10 worth of credit and then I just, I have a MCP which again I can set up that from my.
+[00:07:14] Rob Williams: All my CLAUDE instances that then they can just go and use that to generate an image.
+[00:07:19] Rob Williams: So you can just say to them generate me an image as though you're kind of using Gemini.
+[00:07:24] Rob Williams: And they just do it on a per image basis. And like I said, it's really cheap.
+[00:07:28] Rob Williams: You know, $10 lasts me a month easily. Like and I'm doing all sorts of stuff.
+[00:07:34] Rob Williams: Sometimes it lasts me two or three. So that's another thing to consider.
+[00:07:37] Rob Williams: Either Gemini developer account and then we set up an API key or OpenAI.
+[00:07:44] Rob Williams: And that, that then is really interesting because it allows you to kind of.
+[00:07:48] Rob Williams: What we're doing is basically building a set of tools for the AI that it can use through these mcp.
+[00:07:53] Rob Williams: So that's another thing to consider doing. But certainly Supabase free account.
+[00:08:00] Rob Williams: The other one is I said about Vercel, did you set up A Vercel account and played around with that.
+[00:08:04] Simon Plummer: Yeah, I've got Vercel.
+[00:08:05] Simon Plummer: Yeah, I've got stuff published on there already and it's connected to my git and stuff.
+[00:08:09] Rob Williams: Awesome. Okay, awesome. So, yeah, so what I will. What I'll need is if you. If you share.
+[00:08:20] Rob Williams: So we need to create. We probably want to create a repo for the memory. I call it Memory Palace.
+[00:08:28] Rob Williams: Just because it's like, I don't know, it's from fight club or something, but.
+[00:08:32] Rob Williams: But it's like easy to remember and it's not something you're ever going to say.
+[00:08:35] Rob Williams: And if you say store that in your memory palace, then sounds funny and they know what it means.
+[00:08:40] Rob Williams: So if you create a memory palace like repo, I'll tell you what to do. Actually, Simon.
+[00:08:45] Simon Plummer: So is that in Supabase or is that in.
+[00:08:48] Rob Williams: No, so. So in GitHub. So don't do that in GitHub.
+[00:08:51] Rob Williams: Create an MCP repo or an MCPS repo and then share that with me.
+[00:08:59] Rob Williams: Robwilliams 74 give me access to that repo. There can be nothing in it.
+[00:09:06] Rob Williams: And then what I will do is I will.
+[00:09:09] Rob Williams: I'll start building these things inside of that repo and because most of them are going to be MCPs, which are these tools that the AI can use.
+[00:09:19] Rob Williams: And then what, what you can do is you can both set that repo, you can clone that repo on your.
+[00:09:27] Rob Williams: On Your Macs or PCs or whatever you've got.
+[00:09:30] Rob Williams: And then that means that you'll be able to access those tools.
+[00:09:33] Rob Williams: And I can, I can give you instructions inside the repo on how to do it.
+[00:09:39] Rob Williams: And then what you can do is you can set it so that every night or every time your computer boots up or whatever, it will just grab the latest version from that repo.
+[00:09:48] Rob Williams: So you'll basically both have a set of these local tools that you can use that will be like shared.
+[00:09:54] Rob Williams: So you'll both get the same tools.
+[00:09:56] Rob Williams: So as soon as one of you or as soon as I or anyone builds you a new tool that accesses whatever, HubSpot or whatever, then you know that morning you'll both have access to it and your AIs will have access to it.
+[00:10:07] Rob Williams: So I think that's a really good way to frame it is, is if we do it in a repo and then the other thing to do, the other thing I would do is you want to set up a shared.
+[00:10:22] Rob Williams: Like you've got shared areas, I assume set up in that shared area.
+[00:10:29] Rob Williams: I would set up A second repo just generally called, call it Agent Ware.
+[00:10:38] Rob Williams: So two repos, one called, one called MCPS and one called agentware.
+[00:10:47] Rob Williams: And that agentware folder is where we will create these kind of processes.
+[00:10:52] Rob Williams: And that one you'll again, I'll put instructions in there and what you will do is you'll copy stuff out of there and put it into your shared areas.
+[00:11:00] Rob Williams: So that'll be like a store of a bunch of stuff we're working on.
+[00:11:03] Rob Williams: So anything that we work on in these sessions, once we've got all this set up for next week, I'll be going and doing it in that repo.
+[00:11:11] Rob Williams: At the end of this session I can just push it up and then you can download it and access it from then.
+[00:11:17] Rob Williams: Because one thing I was going to say today and then I'll stop talking for a bit is this weekend's different.
+[00:11:24] Rob Williams: So this weekend I'm going to do a bunch of work and get these things set up initially.
+[00:11:27] Rob Williams: But what I think is going to be really important for you to get the most value out of me is if these sessions are sessions in which we do stuff, build together and then you, you aren't waiting for me to do stuff all week and I just don't do it.
+[00:11:43] Rob Williams: So like this one will plan a bit more, but from next week on, these are practical sessions where, where you'll have all the infrastructure because I'll get all the infrastructure set up this weekend and that means that then we can build a process in this session which means at the end of it, even if I go dark for the week, you've got something to work on.
+[00:12:04] Kate Plummer: I think that's really important because I think that's the bit now is that I'm just like, I will learn better if I have something physically to play with in front of me.
+[00:12:12] Kate Plummer: So at the moment, Simon been talking to me about it and it's just like, it's blowing my mind a little bit and I'm like, I can't see it, I don't understand it.
+[00:12:22] Kate Plummer: I.
+[00:12:22] Kate Plummer: I'm getting there with a theory, but there's only so long and then again I just need to do the practical stuff.
+[00:12:28] Kate Plummer: I. Rather than just theory and I'm.
+[00:12:31] Kate Plummer: I'm eager to get started, but I also know I don't want to rush it and I want to do it right the first time rather than going, oh, I'll out.
+[00:12:40] Rob Williams: Yeah, yeah.
+[00:12:42] Rob Williams: I mean, one thing that would be useful as well, I think, because of what I would like to do.
+[00:12:47] Rob Williams: So, and, and how, and just A question, I suppose. But like Kate, how like.
+[00:12:52] Rob Williams: Well, for both of you, I suppose. How technically familiar are you?
+[00:12:55] Rob Williams: So when I'm talking about GitHub, do you. Are you. Totally.
+[00:12:58] Rob Williams: I get what GitHub is and I get what a repo is and I get what a pull and a push and a branch and a commit is.
+[00:13:03] Simon Plummer: Yeah, sort of. So I've used it. I'm still get.
+[00:13:08] Simon Plummer: Branches are confusing at the moment, but I'm not really. I think that's.
+[00:13:12] Simon Plummer: Essentially you can have your dev and your produce and like your environments, you can then sync your branches.
+[00:13:17] Simon Plummer: Is that right? Something like that.
+[00:13:19] Rob Williams: Well, yeah, the thing, the thing to think of is not the use. So GitHub's an incredible.
+[00:13:23] Rob Williams: This is where it's quite interesting.
+[00:13:23] Rob Williams: GitHub's a really flexible tool and it's really, really simple but.
+[00:13:29] Rob Williams: But like thinking of it in terms of its use, like brand, like dev and prod is probably the wrong way to think of it, but I'll do two minutes on it and again it's.
+[00:13:36] Rob Williams: It.
+[00:13:37] Rob Williams: It'll be on the transcript and I've had a great idea for what I'm going to do with all these transcripts and everything as well, but I'll take that later.
+[00:13:43] Rob Williams: So all it is literally is folder and file management. And so a repo, a repository is just a folder.
+[00:13:49] Rob Williams: That's all it is. And the folder sits remotely in the cloud in GitHub.
+[00:13:55] Rob Williams: Although what's interesting is Git itself, which GitHub uses, is actually just a sort of framework, an open source framework.
+[00:14:04] Rob Williams: So I have git running on my server and then I. And then. So I don't use GitHub.
+[00:14:10] Rob Williams: I mean I do, but for this, what I'm going to say, I don't.
+[00:14:12] Rob Williams: I can have GitHub running on my server and then I can. On a.
+[00:14:15] Rob Williams: On a Mac or somewhere I can have git running and then I can connect those two.
+[00:14:20] Rob Williams: So even internally you can connect your app, you could have a git repo on your PC and a git repo on.
+[00:14:26] Rob Williams: On Kate's Mac and those two could sync. So it's just a folder.
+[00:14:31] Rob Williams: And when we're talking about GitHub, the core is in the cloud and what you do is on you.
+[00:14:37] Rob Williams: First of all, you build something on the cloud and you clone.
+[00:14:41] Rob Williams: So clone is that it creates a copy, then when you're working on that copy you can do a commit which locally saves the state of the files.
+[00:14:50] Rob Williams: And so that's like a checkpoint. So whenever you do a commit you can then undo, undo, undo.
+[00:14:55] Rob Williams: So the basic thing is if you go in and create a proposal, so again, not code, write a proposal and then you commit and then you write a little bit more of it and then you commit and then you write a little bit more of it and you commit.
+[00:15:06] Rob Williams: You're basically creating save points throughout that proposal.
+[00:15:10] Rob Williams: And so like when you're doing like work in code, you can keep committing after every change and you've got all this stuff, when you're comfortable, you can push and that goes up to the main repo, but it also pushes all the commits.
+[00:15:23] Rob Williams: So if you commit something, even if five years later you realize you've got a problem, you can roll back five years.
+[00:15:30] Rob Williams: And then the second thing you can do is, let's say you're working on a proposal and you commit and then you think, maybe I want to try completely different approach on this proposal.
+[00:15:41] Rob Williams: So then you can branch.
+[00:15:42] Rob Williams: And when you branch it just, it keeps the old version over here, it creates a new, new copy of the folder.
+[00:15:48] Rob Williams: So now you've got a branch and so now you've got two.
+[00:15:51] Rob Williams: And you can actually then switch between branches.
+[00:15:54] Rob Williams: So you can do a little bit of work on this version, little on that, little on this, little on that, and you can just switch between the branches.
+[00:15:59] Rob Williams: When you're comfortable. You can either say, this is what I want, I'm going to delete that one.
+[00:16:03] Rob Williams: Now you've just got one branch or you can merge the branches back and then it will, it will show you the difference between the two branches and you can cherry pick and say, oh, I'll have that from that, that from that, that from that, that from that.
+[00:16:15] Rob Williams: And you can do that across whole files and everything.
+[00:16:17] Rob Williams: Now a lot of people use that branching to say, we'll have a development branch and a production branch and then what they'll do is they'll, they'll merge back in.
+[00:16:26] Rob Williams: And now the production branch is ready. That's one way it's used.
+[00:16:30] Rob Williams: But what's interesting is when you start using AI in a big way and start doing this stuff, you're going to have like processes and things.
+[00:16:38] Rob Williams: And so you might want to.
+[00:16:39] Rob Williams: So let's say you've got your process folders and you store that in a repo and then what you want to do is you want to, you've got all your proposals in there as well.
+[00:16:47] Rob Williams: And now you want to like change the process, but keep all of those old proposals the same.
+[00:16:53] Rob Williams: You can use Git to do that. So you can say, right, we're going to clone that as a repo.
+[00:16:59] Rob Williams: We're now going to go in and change all the processes.
+[00:17:01] Rob Williams: We're going to keep the old one as a branch, old processes and we're going to have the new one.
+[00:17:05] Rob Williams: And once we're happy with the new process, you merge back in.
+[00:17:07] Rob Williams: And so what's fascinating is you can use all this stuff for files and folders and things, as well as using it for code, which again, you don't need to get too heavily into that, but just explaining kind of what it is.
+[00:17:21] Rob Williams: Yeah, so.
+[00:17:23] Simon Plummer: So those two repos are done and shared with you now. So you've got those.
+[00:17:30] Simon Plummer: I think there's one thing, just managing these sessions as well.
+[00:17:33] Simon Plummer: Obviously we've got your note taker, which can summarize everything and we talked about using like a Trello or something to keep track of those actions.
+[00:17:42] Simon Plummer: Now I don't know if it would be easier to have your note taker populate that automatically, whatever that method is, whether you do one of your fancy dashboards or whatever, or just into your Trello account or whatever, however you want to do it, but.
+[00:17:58] Simon Plummer: And then just give us that great idea. Yeah, yeah, that's great.
+[00:18:01] Kate Plummer: If not, I can set it up the old traditional way.
+[00:18:04] Rob Williams: Yeah, well that, I mean that maybe that's one of the things.
+[00:18:07] Rob Williams: So, so that's one of the things that we can use to show like this way of working.
+[00:18:16] Rob Williams: And so what I will do. So, so I. So you, you've set up the repos. That's great.
+[00:18:22] Rob Williams: Supabase needs to hang up just a free Supabase account and then, and then you've got Vercel.
+[00:18:31] Rob Williams: So I don't know that I will need Vercel yet. I'll have a look at that. So what, what we can do.
+[00:18:38] Rob Williams: So tomorrow I will set up. I'll set up the Supabase and the Memory Palace.
+[00:18:45] Rob Williams: I will set up the proposal, the agentware folder and put in my, my proposals process, which was the one I was going to do.
+[00:18:54] Rob Williams: And then I will also. I wonder if we just put it in agentware.
+[00:19:01] Rob Williams: I was wondering whether we create one more. No, let's do it in agentware.
+[00:19:07] Rob Williams: So in Agent, where what I'll also do is I'll create a folder, I'll put the transcripts from the meetings we've had so far in that folder.
+[00:19:16] Rob Williams: So you've got all of those transcripts to look at and work from with your AIs to say. Right.
+[00:19:22] Rob Williams: What did Rob teach us in the first session or do Me some crib notes on all the stuff he's been talking about.
+[00:19:29] Rob Williams: But also in that session or in that folder, I'll.
+[00:19:33] Rob Williams: I'll create the board that tracks everything and I'll create a little process in there that my AIs can run because the benefit will be once we've got that repo, then I can run scheduled tasks and stuff across that every night to go in, look through, find the actions, put them on the dashboard so that every morning that'll be there.
+[00:19:54] Rob Williams: And then as I do things, I can just tell them, right, we've done that now, so I will take me a couple of hours tomorrow.
+[00:20:01] Rob Williams: So I'll set. I'll set all of that up.
+[00:20:05] Rob Williams: One of the things from you I would like is a list, I think I might have mentioned it, but a list of the processes.
+[00:20:10] Simon Plummer: So.
+[00:20:12] Rob Williams: So like if you think through what you do and we can talk through it now, creating pitches is one.
+[00:20:20] Rob Williams: But then there's like, potentially there is going to be things like creating content like marketing, etc.
+[00:20:26] Rob Williams: So it'd be good in that Agentware folder to start to build up a list of all the different processes you run that you want to automate and like what the priority of those is.
+[00:20:38] Simon Plummer: Yeah. So when you say that, how do I.
+[00:20:41] Simon Plummer: Because I was learning that from a coding perspective for GitHub. How do I do.
+[00:20:45] Simon Plummer: I just drag any file in.
+[00:20:49] Rob Williams: So are you on the web at the moment?
+[00:20:53] Simon Plummer: I am at the moment. Yeah.
+[00:20:53] Rob Williams: I've got. I've got desktop as well. Yeah.
+[00:20:57] Simon Plummer: Right.
+[00:20:57] Rob Williams: So. So just here's a lesson. Right?
+[00:21:01] Rob Williams: So ignore this, ignore GitHub Desktop at the moment and just go into. So go into.
+[00:21:11] Rob Williams: Yeah, that's interesting. Going to. Claude.
+[00:21:16] Rob Williams: Let me, let me, let me show you and you can follow along and do it.
+[00:21:23] Rob Williams: In fact, what I'll do is I'll do it. I'll do it with your repo. Okay.
+[00:21:30] Rob Williams: So you watch and this is what you're going to do.
+[00:21:45] Rob Williams: Okay, so here is. So I'm going to do this in.
+[00:21:53] Rob Williams: I'm going to see if. I'll see if. If Cowork can do it. I'm not sure. Let's have a look.
+[00:21:59] Rob Williams: Right, so I'm going to go in here and I want to create a new folder. So I'll choose a folder.
+[00:22:11] Rob Williams: I'm going into a. It doesn't matter at the moment.
+[00:22:22] Rob Williams: So I'm creating a folder called Cyan Kate and I'm opening it up.
+[00:22:36] Rob Williams: Where have you created that folder?
+[00:22:38] Simon Plummer: Is that locally on your machine?
+[00:22:39] Rob Williams: No, it's Just local. Just a local folder on my drive.
+[00:22:43] Simon Plummer: Yeah.
+[00:22:43] Kate Plummer: Okay, so back to one second.
+[00:22:49] Rob Williams: So I'm going to say now I'm just going to check. Can you clone a repo into this folder?
+[00:23:02] Rob Williams: Just see if it has the.
+[00:23:12] Rob Williams: Okay, so now it's saying if you have a URL, like a GitHub link, just share it and I'll pull it down into a folder.
+[00:23:19] Rob Williams: And so now I can go into GitHub. And I should have a message from you. Here we go.
+[00:23:43] Rob Williams: And let's get this agentware folder gone. So I accept the invitation for agent where.
+[00:23:48] Rob Williams: So you see here we have.
+[00:23:52] Rob Williams: We have a little thing here that shows what this repo is and I can copy that and then I can go into.
+[00:24:01] Rob Williams: Where's my cowork? I'm going to cowork and I can give it that link. So let's see what it does.
+[00:24:19] Rob Williams: See if this works.
+[00:24:35] Rob Williams: And it's okay. Cool. Htms clone works. The repo is currently empty.
+[00:24:42] Rob Williams: Okay, so now if you look at this now I can say, can you create me a little file in this folder that just says hello.
+[00:25:04] Rob Williams: And now could you commit and push that please?
+[00:25:10] Rob Williams: So if we just look now over here and I created that in here in Cyan Kate, there is the agentware folder.
+[00:25:20] Rob Williams: Okay, so it hasn't put it inside the agent folder, which let me just explain that it should.
+[00:25:31] Rob Williams: Could you make sure that's inside the agentware folder so that I can then commit it and push it.
+[00:25:41] Rob Williams: So it's creating me a little file called hello. TXT.
+[00:25:45] Rob Williams: And so over here now we have Cync8 here, which is just a folder on my desktop.
+[00:25:53] Rob Williams: Inside that we have the agentware repo, which looks just like a normal folder because it is.
+[00:25:59] Rob Williams: And inside the agentware repo, we've now put this little hello Txt.
+[00:26:18] Rob Williams: Yes, please commit.
+[00:26:19] Rob Williams: And can you push. I'm just gonna.
+[00:26:23] Rob Williams: I don't know if this is going to be able to do it, but it's getting quite a way.
+[00:26:41] Rob Williams: So you can see what it's doing.
+[00:26:54] Rob Williams: Let me just delete everything and start again.
+[00:26:58] Rob Williams: I think it's learning what to do. Delete that. Deleted everything.
+[00:27:14] Rob Williams: Can you try cloning again to agentware and then create the file inside agentware and then commit and push.
+[00:27:25] Rob Williams: The commands to do it are really easy and I know claude code will do this fine.
+[00:27:30] Rob Williams: But if cowork does it, then this is just really clean. So cloning it. Clone worked.
+[00:27:39] Rob Williams: Creating the file, committing.
+[00:28:05] Rob Williams: Here we go. Yep. Okay, here we go. So that's pushed. So what now?
+[00:28:11] Rob Williams: What we've got. Yeah, it's because I. It's because it hasn't set up on my thing.
+[00:28:16] Rob Williams: Let me just check something. Is it working or. Let me just test this. So if you.
+[00:28:23] Rob Williams: Have you got GitHub set up as a connector on your Claude? Yeah, on your claude.
+[00:28:31] Simon Plummer: No, not yet.
+[00:28:32] Rob Williams: So. So just set that up.
+[00:28:34] Rob Williams: So just go into GitHub integration, go into connectors GitHub integration and just set that up.
+[00:28:39] Rob Williams: If this works.
+[00:28:40] Simon Plummer: Oh no, it is connected. Tuna line.
+[00:28:43] Rob Williams: Awesome, awesome. Let me just go back in and get this working.
+[00:28:54] Simon Plummer: Just check it is. Can you see. You can't see which one it's connected to, can you?
+[00:29:00] Rob Williams: That's right. I think. Well, I would assume you've.
+[00:29:02] Simon Plummer: I've just got a purse. I had an old personal one, but I doubt it would be connected to that.
+[00:29:07] Simon Plummer: I'm sure it's fine.
+[00:29:13] Rob Williams: Okay, so here we were. Let's just.
+[00:29:20] Rob Williams: I'm just going to try this once more a bit differently because I think it's getting confused because I've set up my own thing with it.
+[00:29:28] Rob Williams: So. Cyan K agentware hello. Txt is all there.
+[00:29:34] Rob Williams: What I'm going to do now is I'm going to create a new task.
+[00:29:40] Rob Williams: I'm going to put it inside the agentware folder, which in theory is now a repo.
+[00:29:55] Rob Williams: Can you use your GitHub connector to tell me if this is a repo? A GitHub repo.
+[00:30:00] Rob Williams: And if it is, can you commit and push the file inside here? Annoying.
+[00:30:10] Rob Williams: Yesterday I've moved all my MCPs. I've forgotten to clean them out of cowork.
+[00:30:13] Rob Williams: So it pops up an error for everyone every time.
+[00:30:21] Rob Williams: Yes, this is a GitHub repo to git repository link to that.
+[00:30:25] Rob Williams: Let me check what's in the file and commit and push. The state lock file still.
+[00:30:44] Rob Williams: So if this doesn't work, then what we will do. Oh, the commit went through. Awesome.
+[00:30:58] Rob Williams: You have a GitHub connector with credentials. Can you not use this?
+[00:31:12] Rob Williams: I Wonder if the GitHub connector is. I wonder if it's like you wonder. It's set up on an old.
+[00:31:19] Rob Williams: I wonder if it's not set up on Robwilliams.
+[00:31:33] Rob Williams: This might be what I did yesterday and broke it.
+[00:31:35] Rob Williams: So is yours connected? Yes.
+[00:31:38] Simon Plummer: Well, it should be.
+[00:31:39] Rob Williams: Okay, so just try this. Okay, so. So go on to. So do what I'm trying to do.
+[00:31:48] Rob Williams: Let's just see if it works from where I am, because if I can pull it, I'm meanwhile going to do this in code.
+[00:31:57] Rob Williams: So what I want you to do is go into. Go into Cowork and create a folder on your drive.
+[00:32:06] Rob Williams: It can be anywhere. This is just a test.
+[00:32:09] Rob Williams: Go into that folder and say can you clone the agentware repo into this folder for me?
+[00:32:16] Simon Plummer: So create a folder called agentware.
+[00:32:18] Rob Williams: Yeah, you don't have to. Yeah, you can create a folder called whatever you want.
+[00:32:22] Rob Williams: Just sign Kate at the moment or anything or test.
+[00:32:28] Simon Plummer: So we've got now a shared folder called AI Transformation where we'll keep everything
+[00:32:32] Rob Williams: but I'll just create one of their test
+[00:32:37] Simon Plummer: choose a folder. While I'm doing that Rob the I think the only action on me was to look at the
+[00:32:46] Rob Williams: file structure.
+[00:32:48] Simon Plummer: Yeah like our whole data and I've looked at it again.
+[00:32:52] Simon Plummer: I think I'm going to keep it how it is and I'll run through that at some point.
+[00:32:55] Simon Plummer: So you've got an idea but it's that some of the data needs moving around and it tidying up.
+[00:33:00] Simon Plummer: But the actual top level structure I think will work. So AI transformation test.
+[00:33:11] Simon Plummer: So we allow access here.
+[00:33:13] Rob Williams: Yep.
+[00:33:15] Simon Plummer: Right. So I've put that in in a prompt.
+[00:33:24] Rob Williams: Now what am I doing? So now I want you to say can you please clone the agentware repo?
+[00:33:37] Simon Plummer: Well, I don't need to tell it to put it in that folder because it knows I'm working in that folder.
+[00:33:43] Rob Williams: Yeah, yeah, it should do. I think this is what I did yesterday. I think I've broken all my MCPs.
+[00:33:55] Rob Williams: That's fine.
+[00:33:57] Simon Plummer: Here lies the risk.
+[00:34:00] Rob Williams: Yeah.
+[00:34:00] Simon Plummer: Well, I've broken you ten pound subscriptions everywhere. Oh.
+[00:34:05] Rob Williams: Oh, it's worked. Okay, this is all going to work now.
+[00:34:15] Simon Plummer: Oh, do I need the Chrome is saying I've got to install the Chrome plugin. I think I'm in the app. Not.
+[00:34:25] Simon Plummer: Not Chrome.
+[00:34:26] Rob Williams: Yeah.
+[00:34:27] Simon Plummer: So it must sit on Chrome as the.
+[00:34:30] Rob Williams: Maybe. I mean it should be okay. But you can't. There's no harm installing it. But you can.
+[00:34:36] Rob Williams: You can say can you do this with the GitHub? I mean I tell you what I'm wondering is whether you.
+[00:34:41] Rob Williams: We should just use code for this because code worked straight away. But yeah, there your screen.
+[00:34:45] Simon Plummer: So it's obviously we've got ple. Oh, because I put close not clone.
+[00:34:51] Rob Williams: Yeah, yeah, yeah, yeah, yeah.
+[00:34:53] Simon Plummer: Let me try that again.
+[00:34:56] Rob Williams: Yeah, because it said. Yeah, that's it. That's perfect.
+[00:35:07] Simon Plummer: Try again. Oh, it's got that there now. Is that right?
+[00:35:12] Rob Williams: That's right. It tried to connect to it. It's fine but it didn't need it.
+[00:35:15] Simon Plummer: There we go. So it's this one.
+[00:35:18] Rob Williams: Okay, that's it. Well, you can say I'll provide the URL and then go into GitHub.
+[00:35:26] Rob Williams: Yeah, and then you should. Where do I get that link?
+[00:35:35] Simon Plummer: Oh yeah, I've got it.
+[00:35:36] Rob Williams: Yeah, That's it. Awesome.
+[00:35:44] Rob Williams: This is a little bit of faff, but this is useful because what we're seeing here is the way that.
+[00:35:48] Rob Williams: And it looks all technical at the moment, but it won't be when we get it so that the AI knows what to do.
+[00:35:56] Rob Williams: This is the way that like you can switch up files, update your repos, like using Claude.
+[00:36:02] Rob Williams: What we'll do is this will be built into the process so it will know how to do it and so it won't have these kind of issues.
+[00:36:11] Rob Williams: So. Yep.
+[00:36:12] Simon Plummer: Allow.
+[00:36:22] Rob Williams: Basically how like it keeps making mistakes and then it tries this and it tries that and tries the other to get there rather than just failing.
+[00:36:30] Rob Williams: Like it's every time it does a red.
+[00:36:34] Simon Plummer: This is the same thing you had, wasn't it?
+[00:36:37] Rob Williams: Yeah. So now go into code. So at the top where it says chat, cowork and code. Yeah, go into code.
+[00:36:46] Rob Williams: And then like now where down the bottom where you've got your. That's it. Yeah, click in there and.
+[00:36:53] Rob Williams: And you want to open up. You're in a particular place.
+[00:36:59] Simon Plummer: Tinkering with that other stuff.
+[00:37:01] Rob Williams: Yeah, it's fine. Over on the left you want to click where it says collective service. Not.
+[00:37:05] Rob Williams: Not the main bit down a bit. Yeah, there. Click there.
+[00:37:08] Simon Plummer: That.
+[00:37:09] Rob Williams: No, no, down there. Right.
+[00:37:11] Simon Plummer: Yeah, yeah, yeah.
+[00:37:12] Rob Williams: Okay. And so you want. You want to do a folder rather than a there's agent. Yeah. Okay, go for it.
+[00:37:24] Rob Williams: And then right, say to it now can you clone this? So we want to be in a folder.
+[00:37:31] Rob Williams: Let me just see why you're not in a folder yet.
+[00:37:44] Rob Williams: I want you to get into a folder on your drive.
+[00:37:47] Rob Williams: Is this. This is the desktop app here. Okay. So just say.
+[00:37:50] Rob Williams: Can you just say can you clone this to a folder on my PC?
+[00:38:03] Rob Williams: Let's see if what it gives you as a question. All we need to do is link the two.
+[00:38:20] Simon Plummer: Is it done? That's wrong as well, isn't it?
+[00:38:23] Rob Williams: No, that's fine. It creates its own little branch. Okay. The repository. Simon Reflective agent.
+[00:38:32] Rob Williams: Where Is already cloned Home User agent wear on your PC. Just have a look at that. Is it?
+[00:38:38] Rob Williams: Yeah, shouldn't be. I don't know.
+[00:38:43] Simon Plummer: Home you. Where would that even be? So.
+[00:38:47] Rob Williams: So where did you. So it's your. It's your home area. So this PC,
+[00:39:01] Simon Plummer: I haven't created a Folder there. Got this PC
+[00:39:08] Rob Williams: or find. Well, where's the folder you want it in?
+[00:39:13] Simon Plummer: So I've created. So I suppose just to give you an overview of how we've got it.
+[00:39:18] Simon Plummer: So essentially these are SharePoint sites just synced. Yeah. So we've got.
+[00:39:23] Simon Plummer: Forget these confidential and file shares. It's gonna. That's gonna be simplified.
+[00:39:27] Simon Plummer: But we've got group everything. So that's more the operational stuff for the business.
+[00:39:32] Simon Plummer: Then we've got security and inspiration, and then that's where all client information and all specific stuff for each side will sit.
+[00:39:40] Simon Plummer: For this one, obviously, I've created.
+[00:39:43] Simon Plummer: Under the group one, I've got AI transformation and then there's test folder.
+[00:39:48] Rob Williams: Excellent. And just go into the test folder for a second and go inside agent.
+[00:39:54] Simon Plummer: Where. Yeah, there.
+[00:39:56] Rob Williams: It's done it. No, so it hasn't. It hasn't quite done it. But. But there's something there. So now.
+[00:40:02] Rob Williams: So now come back up one. Okay, so I want to. Yeah, I want to go to agentware. Yeah.
+[00:40:11] Rob Williams: So now just right click that and get the location of that properties or copies path. Yeah.
+[00:40:20] Rob Williams: And then go back into code and just say, I want to clone it here.
+[00:40:28] Simon Plummer: So I had that agentware folder and stuff that wasn't there, by the way.
+[00:40:33] Simon Plummer: So that has been created by something here.
+[00:40:36] Rob Williams: Yeah. Yes. Yeah, exactly. So say I want to clone it here. Yeah. Yep.
+[00:40:47] Rob Williams: And I know this is a lot of faff and as I said at the start, I'm not sure if this will work.
+[00:40:52] Rob Williams: I know there's a very easy way to do it, but this is like, if we get this working, this is a better way because you can just do it all through this.
+[00:41:09] Rob Williams: Yeah, that's really interesting. Okay, so pop back into Cowork for a second. This is kind of.
+[00:41:17] Rob Williams: Yeah, this is kind of troubleshooting at the moment rather than. Okay, okay.
+[00:41:25] Rob Williams: Unfortunately, the sandbox environment's blocking the outbound HTTPs. Okay. So. And we are just.
+[00:41:35] Rob Williams: Just go in here and say.
+[00:41:39] Rob Williams: And that once it's there, I'll be able to read, edit and work with this directory since I have access to the folder.
+[00:41:46] Rob Williams: Yeah. In theory, you'd think that's true. So just copy that command then that it's got there. Yeah.
+[00:41:56] Rob Williams: And then just go into your finder again, your file explorer, wherever you just were where we could see the files and folders.
+[00:42:05] Rob Williams: And then just right click on that agent ware there. In fact, don't do that.
+[00:42:10] Rob Williams: Delete that agent where completely. Yep. Go up one. Right click on that test folder.
+[00:42:26] Rob Williams: And then open in terminal down the bottom.
+[00:42:32] Simon Plummer: Okay. Yeah.
+[00:42:34] Rob Williams: And then just paste and then press enter.
+[00:42:45] Simon Plummer: Seems to have.
+[00:42:48] Rob Williams: Okay, now close this down. Go into test.
+[00:42:55] Simon Plummer: Yep.
+[00:42:56] Rob Williams: Right, so now we've got agent where. And inside agent where we've got hello.
+[00:42:59] Rob Williams: Okay, so now come back to cowork.
+[00:43:01] Rob Williams: So we've had to set up manually, which is interesting, but not a problem.
+[00:43:05] Rob Williams: So now in cowork, now create a new task.
+[00:43:11] Simon Plummer: Oh, yeah, that is the right folder, I'm guessing.
+[00:43:19] Rob Williams: We want to go. So choose a different folder. Yeah, and we want to go.
+[00:43:24] Rob Williams: Actually, we want to click double click on the agent bare folder this time inside.
+[00:43:33] Simon Plummer: Yep.
+[00:43:38] Rob Williams: Okay, awesome. So now just say what's inside this folder. Okay, so let's see if this now works.
+[00:43:54] Rob Williams: So we've now cloned. We know it's copied. We know git is working. We know we are linked.
+[00:44:05] Rob Williams: Okay, so just say to it we've opened two folders. Fine.
+[00:44:08] Rob Williams: Say inside the agent work folder, please create a reply txt that says hello back and then commit.
+[00:44:21] Simon Plummer: Oops, sorry. Create a file called
+[00:44:26] Rob Williams: yeah, and then commit and push that repo. That's fine. Yeah, go for it.
+[00:44:42] Simon Plummer: Omit.
+[00:44:43] Rob Williams: That's fine. It'll figure that out.
+[00:44:46] Simon Plummer: As long as it doesn't omit it.
+[00:44:49] Rob Williams: No, that'll be fine. So let's create a file. Yep, there's the reply.
+[00:45:04] Rob Williams: The file was created, but the push hit an error. Yeah, it's the same thing.
+[00:45:19] Rob Williams: Just.
+[00:45:20] Rob Williams: I'm a bit confused by this. This is a bit weird. I might take this offline and troubleshoot it.
+[00:45:26] Rob Williams: But, but, but just, just ask it.
+[00:45:32] Simon Plummer: What.
+[00:45:33] Rob Williams: What capability does the GitHub connector have? Surely this should be able to do this.
+[00:45:50] Rob Williams: This has been working really well and for some reason it's.
+[00:46:06] Rob Williams: Unfortunately, there's no GitHub connector available, and so go into your Pro. Go into your.
+[00:46:12] Rob Williams: Click on Simon Plumber, bottom left. Yeah. Oh, in fact. Oh, yeah, yeah. Settings connectors.
+[00:46:24] Rob Williams: Yeah, so click on the. All right, it's the same. We've both got GitHub connector working.
+[00:46:33] Rob Williams: I wonder if there's a new version. Settings connectors. GitHub integration. Okay, I'm gonna.
+[00:46:46] Rob Williams: I'm gonna disconnect my GitHub integration and reconnect it. Try that just for a second.
+[00:46:54] Rob Williams: That isn't what. Yeah,
+[00:47:07] Simon Plummer: I was going to say call site. Yes.
+[00:47:09] Simon Plummer: It's been creating all the other stuff that I was doing in the website and everything.
+[00:47:13] Simon Plummer: So, yeah, it's definitely the right instance, but. That's just taking an age.
+[00:47:26] Rob Williams: Right. I'll get rid of.
+[00:47:41] Simon Plummer: Something's not right,
+[00:47:54] Rob Williams: I think. Yeah.
+[00:47:55] Rob Williams: I think something's gone wrong with the GitHub connector because I've just disconnected it, reconnected it and it said, I don't have a GitHub connector.
+[00:48:08] Simon Plummer: So that's.
+[00:48:09] Rob Williams: So that's.
+[00:48:09] Simon Plummer: Claude was having some issues yesterday. Not. Was it yesterday or the day before yesterday?
+[00:48:13] Rob Williams: Possibly, yeah. Okay, let's not worry about that.
+[00:48:16] Simon Plummer: Things happening.
+[00:48:18] Rob Williams: Yeah, so basically let's not worry about that because Kate's now going, what the fuck is going on?
+[00:48:23] Rob Williams: This is a nightmare. We've not done anything.
+[00:48:27] Rob Williams: So the point I was trying to make there is when it's working, which, I'll build us a GitHub MCP and we'll put that in the MCPS folder and we won't use that one again.
+[00:48:39] Rob Williams: Breaking out of their ones is quite useful because it means, you know, you're always using things that work.
+[00:48:45] Rob Williams: But the point is you kind of saw it a little bit. I can just go in there and commit stuff.
+[00:48:50] Rob Williams: You saw the hello Txt, you can go in and write an.
+[00:48:54] Rob Williams: Add stuff to it and then you can push and I can see it. So now we're both working on these files.
+[00:48:59] Rob Williams: The clever thing is if you make changes, then when they get checked in, they get checked in as you.
+[00:49:04] Rob Williams: When I make changes and they get checked in, they checked in as me.
+[00:49:07] Rob Williams: So you'll be able to say, like, has Rob made any changes today?
+[00:49:10] Rob Williams: And it will say, yeah, he's added these three things.
+[00:49:13] Rob Williams: And you can literally just rather than you having to worry about, like, all the commands, what happens is it just.
+[00:49:20] Rob Williams: It knows what GitHub is and so you can talk in plain English to it, which is what I was trying to get to rather than all that techy shit.
+[00:49:29] Rob Williams: I was trying to get to the point where you can say, like, has Rob done anything today?
+[00:49:32] Rob Williams: And it will say, oh, yeah, he added a file. Oh, what's in the file?
+[00:49:35] Rob Williams: Oh, it's a letter to you to say he's changed this and this and this. Oh, let me read it.
+[00:49:40] Rob Williams: And then it will read it and then it will be able to tell you exactly what I've done. So, like.
+[00:49:45] Rob Williams: So the good thing there is that we can. We can add files. For instance, like, we're talking about the.
+[00:49:52] Rob Williams: We're talking about tracking our tasks through this.
+[00:49:55] Rob Williams: People don't realize that you can use GitHub quite cleverly for that.
+[00:49:58] Rob Williams: So what you can do is you can just say, could you have a look in the Tasks folder and tell me, like, if anything new has happened?
+[00:50:05] Rob Williams: And it will say, oh, yeah, Like, I can see that, like, a load of stuff has changed, right?
+[00:50:11] Rob Williams: What's changed? And it's using GitHub to do what's called a diff. And the diff is like, it.
+[00:50:15] Rob Williams: Looking at what's different now in code, that would be, oh, Simon added a feature, but when it's just a text file of tasks, it can say, oh, well, he's completed this task, this task and this task, and he's added this and this and this task.
+[00:50:29] Rob Williams: So what's really interesting is, again, GitHub is something you would never consider using for that, but all of a sudden you can use it.
+[00:50:38] Rob Williams: Now.
+[00:50:38] Rob Williams: The clever thing about GitHub is it's free and it manages like 100 developers working on a piece of code.
+[00:50:44] Rob Williams: So it will also manage 100 people working on a project.
+[00:50:48] Rob Williams: And you can go in and say, can you tell me all the things that have changed this week?
+[00:50:52] Rob Williams: And it will say, oh, Sally committed, like, three changes. She updated this and this and this.
+[00:50:57] Rob Williams: Rob completed this task and this task and this task. Tina did this, this, this and this.
+[00:51:03] Rob Williams: And so you don't even realize you're using GitHub in that way.
+[00:51:09] Rob Williams: But it's like it's used all over the world to manage thousands of developers working on one project and no one really thinks of using it in this way.
+[00:51:19] Rob Williams: And, you know, unlike what we just experienced there, once you've got, once you've set up a skill in Claude, you can just say, let me know what's changed this week, or you can just set up a schedule where every week it will go in, look at all the changes to the project, and then create you a dashboard saying, right, here are all the changes.
+[00:51:41] Rob Williams: And you're not having to, you're not having to. It's free. You're not having to buy any software.
+[00:51:46] Rob Williams: All you're having to do is say to each of your people, right, can you please update your timesheets in the Jeffrey folder that they've all cloned?
+[00:51:56] Rob Williams: And so they've all got that you've written them a little script to clone it.
+[00:52:00] Rob Williams: All they do is drop their files or whatever in, and then, bang, you're managing something quite epic.
+[00:52:04] Rob Williams: And you're managing through a tool that's massively powerful but doesn't cost a penny.
+[00:52:10] Rob Williams: And so that's why I was attempting to show you there, but it failed miserably. And so.
+[00:52:16] Rob Williams: But that's also why it's important to understand GitHub.
+[00:52:20] Rob Williams: So, like, it's, it's, it's a really powerful open source tool that, you know, even GitHub.
+[00:52:27] Rob Williams: GitHub up there, that's free.
+[00:52:30] Rob Williams: Like I, I can't even tell what the limits on it are because I've got like 50 repos and I still, I'm not paying a penny for it.
+[00:52:38] Rob Williams: Yeah, I think, I think it's more about if you've got like thousands of different team members and you want to track like in the cloud, all the kind of like enterprise basically, I think is where they get their money.
+[00:52:51] Rob Williams: But I have, I'm. I'm on like 30 repos from other people and I'm still not paying a penny.
+[00:52:59] Simon Plummer: Where, where are skills set up? Because I can't. Thought they would have been in.
+[00:53:05] Rob Williams: Yeah, so. So they are. So they are in, in. Well, there's two ways. One is they're in capabilities. So.
+[00:53:14] Rob Williams: So if you go into your settings, then there's, then there's a. Abilities. But.
+[00:53:20] Rob Williams: Yeah, but actually a better way of doing that is so you scroll down to the bottom and there's tools.
+[00:53:27] Rob Williams: But a better way of doing that is when you have something you want repeated or like a skill or a plugin.
+[00:53:33] Rob Williams: The better way of doing it is that Cowork has a skill builder skill and a plugin builder skill.
+[00:53:40] Rob Williams: And so if you want to start to do something repetitive, so if you're doing like policies or whatever all the time, then you can say to it, can you build me a plugin?
+[00:53:52] Rob Williams: And then it will build you a plugin that will do that thing.
+[00:53:54] Rob Williams: And a plugin is a set of skills, commands and agents. And so that's quite a kind of powerful thing.
+[00:54:04] Simon Plummer: So is that where we don't do it in here though?
+[00:54:08] Simon Plummer: And we were talking about putting that in as the text files command. So that then.
+[00:54:12] Simon Plummer: Because that's what we will need to do is not build it. Claude centric got to be transferable.
+[00:54:18] Rob Williams: Yeah, yeah, exactly.
+[00:54:19] Rob Williams: But if, but if you want, just if you want something quick and easy, like when we're talking about workflows, then they will all be centralized.
+[00:54:28] Rob Williams: But if Kate every single day does a thing where she always has to go into Claude and say, could you create me this document?
+[00:54:37] Rob Williams: I want it in Word, I want it like formatted like this, this and this.
+[00:54:41] Rob Williams: I want you to make sure that you do these corrections, don't put any EM dashes in and use my tone of voice.
+[00:54:47] Rob Williams: That sort of thing is a personal thing.
+[00:54:49] Rob Williams: And what she can do is she can go into Claude and say like, right, I keep asking you to do all this stuff.
+[00:54:55] Rob Williams: Could you please build that as a skill? Or could you please build that as a plugin?
+[00:54:59] Rob Williams: And then what happens is when you click into the actual prompt window, it comes up as an actual menu item that says write reports in style one or Write reports in style two.
+[00:55:13] Rob Williams: So that's like a little macro you can build and then you can just use that all the time.
+[00:55:18] Rob Williams: So you, what you'll be doing is you'll be doing your flows in Agent, where your big processes, and then you'll be doing little things like that in skills.
+[00:55:26] Simon Plummer: So what about proposals then?
+[00:55:31] Simon Plummer: I mean, that's, I think that's the key one at the moment because we, it's a good thing because we're trying to chuck out a lot of proposals, but that's not necessarily personal to me because Kate will probably want to be able to write a proposal for security,
+[00:55:44] Rob Williams: if that makes sense. Yeah, yeah.
+[00:55:47] Rob Williams: So that's what I'm going to do tomorrow is going to take my proposal flow.
+[00:55:50] Rob Williams: So, I mean, if you're, if you're available at all, if you want, this is entirely up to you.
+[00:55:57] Rob Williams: But I'm going to spend two hours tomorrow doing this and I am happy to put it in as a meeting.
+[00:56:04] Rob Williams: And then I'm happy to do two things.
+[00:56:06] Rob Williams: One is you can jump on if you want, or if you don't want, you don't jump on, and that's absolutely fine.
+[00:56:11] Rob Williams: But two is, then I will sit there and talk it through as I do it, and then you'll have the transcript of how I've done it and what it is and what it does.
+[00:56:20] Rob Williams: So you can always look at the transcript.
+[00:56:22] Rob Williams: But also, if at any point you want to just jump into that session, you can pop on and just have a look.
+[00:56:27] Simon Plummer: Yeah, Boat club work thing this weekend.
+[00:56:31] Rob Williams: Okay. Yeah.
+[00:56:32] Kate Plummer: Yes, you have. So, but that's.
+[00:56:35] Simon Plummer: I tend to only go on Saturday and then bid him off Sunday. So I'm available Sunday.
+[00:56:40] Rob Williams: Yeah, well, I'll put it in on Sunday. I'll try and find some time that's good for you guys.
+[00:56:45] Rob Williams: And again, you can jump on or not, it's fine.
+[00:56:47] Rob Williams: But even if you jump in for five minutes, I can just show you what I've done and talk it through and what I'll be doing.
+[00:56:54] Rob Williams: Then I won't put the memory palace in because that's really techy.
+[00:57:00] Rob Williams: Or if I do, I'll put it in and I'll just call out that it's the memory palace bit.
+[00:57:04] Rob Williams: And Simon, if you want to have a look at it, doing some real Development.
+[00:57:07] Rob Williams: You can, but I'll put in specifically the proposal flow, because that'll probably be an hour, say, and then I'll.
+[00:57:16] Rob Williams: I'll talk that through, I think.
+[00:57:19] Simon Plummer: Is there anything sort of foundational we need to do with Claude?
+[00:57:22] Simon Plummer: Because I've not really done anything with it. I'm using it a bit, you know, but I've.
+[00:57:26] Simon Plummer: I've just done it using projects and things like that rather than anything else.
+[00:57:30] Simon Plummer: So we talked about that sort of top level context that will copy and duplicate.
+[00:57:37] Simon Plummer: Is that something that will come later or do we do that now?
+[00:57:40] Rob Williams: No, I think we should get the memory done first. So. So this is my goal. My goal is. My goal is.
+[00:57:45] Rob Williams: This was like. This has just been me apologizing. Mostly.
+[00:57:49] Rob Williams: My goal is tomorrow we'll get memory done and we'll get proposals done and then on.
+[00:57:56] Rob Williams: On next Friday we will. Will. If you've.
+[00:58:00] Rob Williams: If you've gone in and looked at proposals and again there'll be instructions there on what to do if you've got stuck or it's not working or there's challenges, then we'll talk through that for the first half of the meeting and then in the second half we'll say.
+[00:58:12] Rob Williams: Hopefully you'll be saying, actually it was fucking brilliant.
+[00:58:15] Rob Williams: Like, now we want to start using that sort of stuff.
+[00:58:18] Rob Williams: And then what we'll do is we'll, we'll then say, right, then let's get it.
+[00:58:21] Rob Williams: So I hope when you play Simon with proposal flow that what you will do is go like, right, Kate needs this now because already.
+[00:58:31] Rob Williams: Now, now we've got our first flow. Yeah, I can really see the value.
+[00:58:36] Rob Williams: And then, and then for, for next week, the key would be for me, like, get super based on today free account and set and, and then let me know.
+[00:58:48] Rob Williams: And if it. Set it up with like a temporary password and just share the.
+[00:58:51] Rob Williams: Pass your password with me first, because then it cuts a load of shit out and I can go in and just get the access, but that's the first thing to do.
+[00:59:02] Rob Williams: And then the thing for next week is assuming you do, assuming you do the proposal flow and you love it, what I need is that list of what's the next process or flow.
+[00:59:15] Simon Plummer: So it's. Processes, workflows. We need that essentially just in any kind of file.
+[00:59:21] Simon Plummer: So I can just manually create that in, in that repo folder.
+[00:59:25] Rob Williams: Yeah, put it, put it inside the repo. And then like.
+[00:59:28] Rob Williams: And then like, we can, like, if you, if you, you know how it told you to kind of write that line, if you if you can't get it to push at any point, just.
+[00:59:40] Rob Williams: Just say to it, I need to push. Could you just give me the command to push it? And then it'll push it.
+[00:59:44] Rob Williams: And so if you write that in there, and then when you're done push it up, then I'll pull it down.
+[00:59:49] Rob Williams: Or just email me one tiny thing. I have to jump. One tiny thing is, we'll go for it.
+[00:59:57] Rob Williams: Oh, it's all right.
+[00:59:57] Simon Plummer: No, no, go, go.
+[00:59:58] Rob Williams: It's all right.
+[01:00:00] Rob Williams: When you're thinking about the flows, like, think about the kind of ones that are obvious, like, oh, you know, pitches or, like, reports or whatever, but think about ones that are less obvious.
+[01:00:13] Rob Williams: So I did one the other day that was really good, where you drop an idea in a folder, just a crazy idea.
+[01:00:19] Rob Williams: It then takes that idea. It researches it. It looks at competitors.
+[01:00:22] Rob Williams: It then goes in and does a product brief.
+[01:00:25] Rob Williams: It takes a product brief and then it gives it to an engineer that does an architectural review and creates the architecture.
+[01:00:31] Rob Williams: It then passes it to a designer that does a design brief.
+[01:00:34] Rob Williams: It then passes it to an engineer and a designer that then talk about how to build it.
+[01:00:39] Rob Williams: It then builds wireframes. You then go through the wireframes.
+[01:00:43] Rob Williams: Once you're happy with the wireframes, it then builds an actual working prototype for a piece of software.
+[01:00:48] Rob Williams: So ideation, design, don't just think about boring flows of, like this and that.
+[01:00:54] Rob Williams: Think about anything that you do that has a structured flow.
+[01:00:58] Kate Plummer: Okay.
+[01:00:59] Rob Williams: And the bigger the list, the more we've got.
+[01:01:02] Rob Williams: And then if you get the chance to look, to speak together through that list and say, what do we want to prioritize?
+[01:01:07] Rob Williams: Pick three flows. And then next week, what we'll do is build those flows.
+[01:01:11] Rob Williams: I'll show you how to build them so that you can then take that list. And then.
+[01:01:15] Rob Williams: And then over the course of the next week, you can start building your own flows.
+[01:01:18] Kate Plummer: Yeah, that sounds good.
+[01:01:21] Rob Williams: Okay, cool. I'll set up these meetings and then we'll.
+[01:01:25] Rob Williams: I might see you over the weekend, and if not, then next week we'll have some stuff.
+[01:01:30] Simon Plummer: See you later. All right, cheers. Bye.
+[01:01:33] Rob Williams: Bye.

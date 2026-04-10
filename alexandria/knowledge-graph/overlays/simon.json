@@ -1,0 +1,9 @@
+{
+  "author": "simon",
+  "updated_at": "",
+  "private_context": {
+    "example-contact": "SAMPLE: This is a private note only Simon's AI sees. e.g., 'Jane mentioned budget is tight this quarter, don't push the upsell yet.'"
+  },
+  "private_nodes": {},
+  "private_edges": []
+}

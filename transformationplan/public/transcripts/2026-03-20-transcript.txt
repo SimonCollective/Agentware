@@ -1,0 +1,611 @@
+[00:00:32] Kate Plummer: Hello.
+[00:00:34] Rob Williams: Hello. Oh, let me. I think you are now. Just say something.
+[00:00:42] Kate Plummer: Hello. Yay. How are you?
+[00:00:48] Rob Williams: I am good. I'm. I'm shattered. But I'm coming back to the UK next week.
+[00:00:55] Kate Plummer: Yes, in the uk.
+[00:00:58] Rob Williams: Manchester.
+[00:00:59] Kate Plummer: Oh, I was in Manchester this week, so. Yeah, that's a shame.
+[00:01:04] Kate Plummer: We could have met up if I was still there.
+[00:01:06] Rob Williams: If you'd been in Manchester next week, then we would have gone out for a coffee.
+[00:01:09] Kate Plummer: Oh,
+[00:01:11] Rob Williams: yes. It's a conference, so. There for a week. No, no, well, I'm there for.
+[00:01:17] Rob Williams: Till Thursday, so Monday, Tuesday, Wednesday, Thursday.
+[00:01:20] Kate Plummer: Cool. Yeah. I was up in Manchester University. Can't remember what the Whitwall. I don't know.
+[00:01:30] Kate Plummer: One of the Bill. Beautiful. It was a beautiful courtyard with some really oldie worldy buildings in.
+[00:01:37] Kate Plummer: And one of the lecture theaters I was in because I was filming a load of railway engineers for Rayleigh.
+[00:01:48] Kate Plummer: And one of the rooms I was in was the first UK lecture where Albert Einstein did a lecture and it was like a beautiful room.
+[00:01:58] Kate Plummer: It was something like ABBA Hogwarts.
+[00:02:01] Kate Plummer: So I was there with like my little gimbal with my phone, just doing those footage of the camera crew doing the filming.
+[00:02:08] Kate Plummer: And I was running around kind of producing and project managing people and getting people ready and mic'd up for interviews.
+[00:02:13] Kate Plummer: But it was a good day.
+[00:02:15] Kate Plummer: But I forget how knackering, being on my feet and running around and holding microphones and interviewing people, just how knackering it is.
+[00:02:24] Kate Plummer: And I'm still tired today and I'm like, oh, I'm so ready for the weekend.
+[00:02:30] Rob Williams: Yes. Yeah.
+[00:02:31] Rob Williams: I'd normally be saying I'm ready for the weekend, but I've got to pack and fly and finish work.
+[00:02:36] Rob Williams: So it's like, well, but it'll be fine.
+[00:02:38] Kate Plummer: Yeah. When do you fly over?
+[00:02:41] Rob Williams: There's a flyover on Saturday night. There's a 6pm flight that gets in 6am so if I do it.
+[00:02:49] Rob Williams: If I do it on Sunday, then I end up there on Monday, which I can't really do, so.
+[00:02:53] Rob Williams: And I'm flying to London.
+[00:02:54] Rob Williams: So I arrive in London on 6am on Sunday morning and then we'll get there, I'll get the train up to Manchester and so I'll get into Manchester probably about lunchtime on Sunday.
+[00:03:05] Kate Plummer: Nice.
+[00:03:07] Rob Williams: Cool.
+[00:03:08] Kate Plummer: Do you think you'll end up meeting at Paolo and Leroy this time?
+[00:03:12] Rob Williams: I'll. I'll reach out and see if they're around because I'm there for a few days. But it's a pretty.
+[00:03:16] Rob Williams: This time it's pretty round like last Time. It just so happened that we were both in the same place.
+[00:03:22] Rob Williams: It was the Lowry I was at last time.
+[00:03:24] Rob Williams: And this time is like I'm Simon paying me to go and represent them. So I'm like their for the week.
+[00:03:31] Rob Williams: So if they say jump, I say yes, sir.
+[00:03:38] Kate Plummer: Oh dear. I don't know where Simon gone. I think he's making coffee.
+[00:03:43] Kate Plummer: But anyway, Let me write my notes Wrong. So Simon been playing with Claude and he's loving it.
+[00:03:58] Kate Plummer: I've not had a chance to even look at it yet because I've just been in and out and all over the place and trying to sort out other bits and.
+[00:04:10] Kate Plummer: No, it seems to. I think I feel much happier that we've now got a way forward. Thank you.
+[00:04:17] Kate Plummer: And we were trying to think about what bits we want to do first and I put some notes on an email yesterday.
+[00:04:26] Kate Plummer: I can't even remember what I said, but I think it was just Robert. It's very formal.
+[00:04:32] Rob Williams: Simone.
+[00:04:34] Kate Plummer: Simone just comes in.
+[00:04:40] Rob Williams: I'm going to have to switch to calling you Sigh all the time, so that when you say Robert, I can say Simon because I say Sigh all the time.
+[00:04:48] Simon Plummer: Yeah, fair enough. Sorry, I was unneeded caffeine. All right, Good.
+[00:04:53] Rob Williams: I need. I need recaf.
+[00:05:00] Kate Plummer: Yes. So I think we're so far so good.
+[00:05:05] Kate Plummer: Simon been loving Claude and you've been doing a bit few tests, haven't you, about comparing it to what you were writing to what you've been writing recently.
+[00:05:11] Kate Plummer: And even I said I think tonally and the little effort you've put into Claude compared to what you do in Gemini is quite interesting.
+[00:05:20] Kate Plummer: I say I've. I've signed up for an account and I've not done anything else with it yet.
+[00:05:24] Kate Plummer: But that was only yesterday and I
+[00:05:27] Simon Plummer: think just on that. So I would.
+[00:05:31] Simon Plummer: I've just got the free version at the moment because I just wanted to check.
+[00:05:34] Simon Plummer: Toner voice was getting picked up and everything.
+[00:05:37] Simon Plummer: So I've started creating projects which are gems, like the Gemini gems, aren't they?
+[00:05:44] Simon Plummer: And interestingly so I literally lift and shifted a gem, the learning data to a project and the difference was phenomenal.
+[00:05:54] Simon Plummer: So I didn't give it anything else.
+[00:05:56] Simon Plummer: I ran the same prompt through both of them and it was weirdly, I think it's delivered the post that I'm guessing will have the most engagement ever.
+[00:06:05] Rob Williams: Right, right.
+[00:06:07] Simon Plummer: That might have been sort of. But the wording, it was just night and day.
+[00:06:13] Rob Williams: Even when Claude wasn't technically as good. Claude has always been the one that's good for prose.
+[00:06:17] Rob Williams: It's. It's like, it writes really well. So I.
+[00:06:21] Rob Williams: I always used to use Claude, like, even a year or two ago for my writing, because it's just.
+[00:06:27] Rob Williams: Gemini feels more like a tool and it's got all these different things, and Claude feels like a person almost.
+[00:06:32] Rob Williams: It's like, really. It's got a real character and it. It can write really well. Yeah.
+[00:06:38] Rob Williams: So, yeah, that's really good.
+[00:06:40] Simon Plummer: So I've maxed out the free on that. You know, I think it's five projects you can have.
+[00:06:44] Simon Plummer: So I've just maxed that.
+[00:06:47] Rob Williams: Yeah.
+[00:06:49] Simon Plummer: So you said to come with a problem, didn't you?
+[00:06:53] Rob Williams: Yes.
+[00:06:53] Simon Plummer: And I think the.
+[00:06:55] Simon Plummer: So my problem right now, it's a good problem to have is literally this week, how many. Three.
+[00:07:01] Simon Plummer: Three or four proposals to churn out. And yes, the easy option would be. Right, okay, quick fix.
+[00:07:09] Simon Plummer: Let's just carry on as we were with Gemini for now, just to get that out.
+[00:07:12] Simon Plummer: But I think it's a good tipping point to force us to sort of start doing them in there because.
+[00:07:19] Simon Plummer: So historically with proposals in particular,
+[00:07:25] Rob Williams: I
+[00:07:25] Simon Plummer: had my proposal writer gem, I had an information security expert, and all these sort of segreg gems.
+[00:07:34] Simon Plummer: But then if I then write a proposal and then it's like, yay, we'll accept it, then I'm starting a new chat over here for, I don't know, building an awareness presentation or whatever it might be.
+[00:07:45] Simon Plummer: But you've got to give it all that context. And again, because it's separate, isn't it?
+[00:07:49] Simon Plummer: So it's going back to that central knowledge hub, where a chat's just a chat, almost temporary, but it's going back to that same central repository of knowledge, isn't it?
+[00:08:00] Simon Plummer: So that's sort of where I'm at, where I can put previous proposals, all of that kind of stuff, and it can then just write based on all of that.
+[00:08:10] Simon Plummer: My concern is I'm not sure I'll be able to do that because I need to get some out, like, now.
+[00:08:16] Simon Plummer: So I appreciate there'll be some thinking behind how we do that. So that's my problem. It's a.
+[00:08:22] Simon Plummer: An operational problem of proposals.
+[00:08:24] Simon Plummer: But actually it goes back to getting that central knowledge hub, which I think you.
+[00:08:30] Simon Plummer: I can't remember what you called it. Was it the brain or something that you wake up?
+[00:08:34] Rob Williams: Yeah, yeah, yeah, yeah. I have my memory palace. So, yeah, okay. So, yeah, so let's.
+[00:08:40] Rob Williams: So this is a really good one because it's quite interesting. So.
+[00:08:42] Rob Williams: And I'm Going to talk about the difference between Claude and Cowork, which are both in the same app.
+[00:08:49] Rob Williams: And so when you go up to the next, when you pay for it, you'll have access to, in the tabs at the top, you'll have you download the desktop app.
+[00:08:57] Rob Williams: The first thing you make sure you do. So don't use the web app. And then you'll have chat.
+[00:09:02] Kate Plummer: I've got the desktop app.
+[00:09:04] Rob Williams: Awesome. So you'll have chat co work and code. And so, and so this is where it's really interesting.
+[00:09:11] Rob Williams: So chat uses projects like you're doing right now.
+[00:09:15] Simon Plummer: Yep.
+[00:09:16] Rob Williams: And in those pro, in those projects you have like a, A, like, you know, you can put instructions and all that stuff.
+[00:09:24] Rob Williams: Cowork, it uses folders on your computer. And so, and so the difference there is that you can.
+[00:09:33] Rob Williams: Whereas a project, I think you can probably share projects. I haven't looked at that, but.
+[00:09:37] Rob Williams: But whereas a project is up here with, with a, with Cowork folder, you can both just go into that same shared folder.
+[00:09:46] Rob Williams: And so what you do. So let me just show you. So you get an idea.
+[00:09:51] Simon Plummer: Just a quick question on that then.
+[00:09:52] Simon Plummer: Can that folder, although it's on your machine, could that be say a OneDrive folder?
+[00:09:56] Simon Plummer: So that it's obviously, it's local technically, but it's a synced folder.
+[00:10:01] Rob Williams: Synced, exactly. And that's what you, that's what you do.
+[00:10:04] Rob Williams: So, so if I just show you how this proposals works for me, because this will, this will give you a sense of what it's all about.
+[00:10:14] Rob Williams: This, this, what I'm going to show you now is what you scale, but everything, or what I scale anyway, for everything I do.
+[00:10:22] Rob Williams: And so this is my proposal folder and I'm still kind of fleshing this out because I'm baking it even more.
+[00:10:37] Rob Williams: But so all it is, it's a folder with a bunch of text files in it.
+[00:10:44] Rob Williams: And so let me just make it a bit bigger.
+[00:10:46] Rob Williams: And so what's interesting about this folder and these text files is the whole of my proposal process.
+[00:10:52] Rob Williams: So here are all my proposals and they're all in their own folders.
+[00:10:55] Rob Williams: AIM, CIM, Docsim, Una Manifest, etc. All of these are kind of just.
+[00:11:00] Rob Williams: If I go into one of these, you'll see I've got some weird files, metadata files, and then in ones that I've recently done a process with, a proposal with, you'll see I've got company research, I've got the proposal, I've got the deck.
+[00:11:15] Rob Williams: And so all of, all of these Folders have my proposals in them.
+[00:11:20] Rob Williams: So then, so then what I did, and I'm just at the moment, don't worry too much about understanding it, but what I did was I've built a readme at the top.
+[00:11:30] Rob Williams: I didn't do any of this, by the way, co worked at all of this. And so this explains what it is.
+[00:11:35] Rob Williams: This folder is the centralized workspace for creating, managing and refining client proposals.
+[00:11:39] Rob Williams: What we do, every new client engagement starts with a discovery call.
+[00:11:42] Rob Williams: That call produces a transcript from that transcript.
+[00:11:45] Rob Williams: Combined with company research, example proposals and Rob's input, we generate a tailored professional proposal in the soft house style lists out the structure of this.
+[00:11:53] Rob Williams: So the point is a person could come in here and read this. There's some bug fixes, which is fine.
+[00:11:59] Rob Williams: There's some active proposals, how to create a new proposal.
+[00:12:03] Rob Williams: And then it goes through this technical stuff like, oh, you do this, you do that.
+[00:12:08] Rob Williams: And this is talking to the AI because.
+[00:12:10] Rob Williams: Because what I have done is I've built a system with just text files and an AI.
+[00:12:19] Rob Williams: So I can come in here and I can go in and say in cowork, I can say, I want you to open up my proposals folder, just proposals.
+[00:12:31] Rob Williams: So it's now going to be in my proposals folder.
+[00:12:33] Rob Williams: And even without my whole memory palace thing, I can say, can you just look at this folder and tell me what it is?
+[00:12:47] Rob Williams: What Kai will do is automatically go in and read the readme.
+[00:12:51] Rob Williams: But the interesting thing is what Gemini would do if you get access to this folder is read the readme.
+[00:12:56] Rob Williams: And what ChatGPT would do is read the readme.
+[00:12:58] Rob Williams: And the instructions in the readme can be followed by any AI.
+[00:13:02] Rob Williams: And so what I'm doing now, what we're doing is breaking out of Gemini or this or that.
+[00:13:07] Rob Williams: We're building something that will, that will last forever because it's a little system on the computer.
+[00:13:14] Rob Williams: And so I've got here the actual process. Oh yeah, that's been superseded. So it is in here.
+[00:13:23] Rob Williams: I've got in the readme the actual process. So like what you do, you create a proposal.
+[00:13:28] Rob Williams: The system runs a six stage pipeline. Okay, what do we do? We ingest the transcript.
+[00:13:36] Rob Williams: So I do a call with a client and then the AI takes the transcript of that call.
+[00:13:42] Rob Williams: Then it does research, then it matches, it analyzes examples of my style and the way I write proposals, which I've got in a folder.
+[00:13:51] Rob Williams: Then it asks me questions to say like, what's the pricing, what's this, what's that?
+[00:13:58] Rob Williams: Then it generates a proposal in markdown, then it converts it to a document and then, like, if I, if I ask it to, it creates it into a.
+[00:14:07] Rob Williams: Into a PowerPoint presentation and whatever else I want.
+[00:14:11] Rob Williams: And like, what's interesting is all of all of that. And again, I can just send you this.
+[00:14:16] Rob Williams: What I'm thinking, see, is I can just send you this folder because all it is is a folder.
+[00:14:21] Rob Williams: You can put it on your drive and then you can just go in and say to chat or whatever, read all this.
+[00:14:26] Rob Williams: I want you to change it to our business and this and that and the other, and it will just change it all.
+[00:14:31] Rob Williams: And so this is the actual system, which is like epic.
+[00:14:37] Rob Williams: And so if we read the readme for the system, the system has these stages. Stage one, stage two.
+[00:14:43] Rob Williams: So ingest research style, interview, draft and export. I've built a whole bunch of agents.
+[00:14:49] Rob Williams: And so these are all my agents.
+[00:14:51] Rob Williams: So if we look, if we look here in the agents folder, again, all of these, these are just text files.
+[00:15:00] Rob Williams: So I can go in and look at my research agent and I can say what it is. You're a research specialist.
+[00:15:07] Rob Williams: Your job is to gather comprehensive intelligence about the client company, key contacts in their industry.
+[00:15:11] Rob Williams: Like, it reads the client brief, it outputs a research document, it has to check for data sources, it has a research checklist, company overview, recent activity, industry context, key people, competitive intelligence.
+[00:15:25] Rob Williams: So what Cowork is doing is it's spinning up this agent, running this agent, and it actually creates an actual separate AI that it gives this instruction and this AI just goes off and does this work Whilst the other AIs are doing other things.
+[00:15:42] Rob Williams: So it literally is building a little AI that specifically does this.
+[00:15:46] Rob Williams: But what's really powerful is what you can do with Cowork is you can say, like, I want you to go in and have a look.
+[00:15:54] Rob Williams: I want you to look at the agents and I want you to like, check, tell me what they are, because these will be my agents, they'll be matching me sort of thing.
+[00:16:03] Rob Williams: And if you look at, for example, there's a style guide. Load system, style, style guide.
+[00:16:09] Rob Williams: So let's have a look. System style. There it is. And in here I've got a style guide. Excellent.
+[00:16:16] Rob Williams: What's that style guide look like? Voice and tone. Professional formatting.
+[00:16:21] Rob Williams: Use this, visuals, use this. Blah, blah, blah. My. My tone of voice, how I like to write.
+[00:16:28] Rob Williams: Outcome focused.
+[00:16:29] Rob Williams: So again, you can take this file and you can go in and say, right, this is our style.
+[00:16:35] Rob Williams: There's the visual design spec for UK to go through and pull you Know, pull all that stuff in and everything you can.
+[00:16:42] Rob Williams: So the. And the key is like, you can have like two of these different styles.
+[00:16:48] Rob Williams: You can have a collective intelligence and a collective thing of me box. Security. Yeah, security.
+[00:16:55] Simon Plummer: Security and inspiration.
+[00:16:57] Rob Williams: Yeah. So, yeah, and you can say. And you can say like in.
+[00:17:00] Rob Williams: Then in the, in the top of it, you can say, right, could you just make this so it works for the both of us?
+[00:17:06] Rob Williams: And at the start, like, you know, to ask us which one it's for.
+[00:17:10] Rob Williams: And so then it'll run through this process. But. But this is the way I do everything.
+[00:17:15] Rob Williams: Everything is just plain text. And then you get cowork and you just say, what is this?
+[00:17:24] Rob Williams: And it learns it. And you can then say, okay, I've got a proposal.
+[00:17:31] Rob Williams: Can you just make sure you understand what to do?
+[00:17:34] Rob Williams: And then if I give you a new client, a transcript, could you tell me what I need to do to sort of kick it all off?
+[00:17:43] Rob Williams: And what I'm doing at the moment is, I am.
+[00:17:46] Rob Williams: And we'll go a step further in a bit, but what I'm doing at the moment is I'm kind of just winging it here.
+[00:17:51] Rob Williams: I'm saying go in and look at it and learn it.
+[00:17:53] Rob Williams: And the only thing I'd say with this is it's now having to go in and kind of read all that, which is taking up tokens.
+[00:18:00] Rob Williams: So you don't want to do this every time. I'll show you what you do instead.
+[00:18:05] Rob Williams: But the point is, it's learned it. Okay, I've got it. Here's what I understand and what we need to do.
+[00:18:11] Rob Williams: When you hand me a neutral transcript, what I'd do, I would scaffold the folder.
+[00:18:15] Rob Williams: I'd drop a transcript in. I'd run the pipeline on 2, 3, 4, 5, 6.
+[00:18:19] Rob Williams: What I'd need from you, the transcript, a client slug for the folder, name your answers at stage four, a review pass after stage five before I export.
+[00:18:28] Rob Williams: And I can say things like, I haven't actually had the call yet, but it's Scotiabank.
+[00:18:34] Rob Williams: I had a meeting with them yesterday, a brief meeting, and so I'd like to set up a folder are ready for a proposal for Scotiabank.
+[00:18:41] Rob Williams: Is there any chance you could do like a little bit of the research and stuff, like following the process, just so that's ready, or do you think we should just wait for the court?
+[00:18:53] Rob Williams: And so now it's going to kind of get that ready and set that up so it now understands my whole proposal process and I can kind of work with it.
+[00:19:03] Rob Williams: And then eventually what you do is you build it into a plugin and that will mean that you.
+[00:19:09] Rob Williams: And we'll talk about that another time, but what that will mean, or we can talk about now is you'll go in, you'll go into plugins and you'll go into proposal and you'll just.
+[00:19:18] Rob Williams: Which I haven't got yet because I'm still doing it.
+[00:19:20] Rob Williams: And you'll just have proposals and then there'll be one here called like start the process or whatever and you just click it.
+[00:19:28] Rob Williams: And what that then does is instead of you having to go in and ask those questions and waste some money with tokens, that's got like a preset set of instructions that will kick it off and that just get passed straight into the AI.
+[00:19:41] Rob Williams: So this is, you know, this is pretty powerful.
+[00:19:46] Rob Williams: But the key learning is that all this is is a set of folders with text in, nothing else.
+[00:19:54] Rob Williams: Like all these are just all text. Go for it.
+[00:19:57] Simon Plummer: So I'm guessing we could structure it slightly different because what I'd expect is a list of clients and then within each client folder you'd have proposals, statement of work, and all of those under the cl.
+[00:20:08] Simon Plummer: So rather than proposals with the clients in, it'd be the other way around.
+[00:20:12] Simon Plummer: I mean, that's just a structure thing, isn't it? So that's not a problem.
+[00:20:14] Rob Williams: It is, it is. And it depends. It depends on what you want to do. Yeah, yeah, yeah, totally.
+[00:20:18] Rob Williams: You can, you can go in and restructure it however you want and you can also go in and say like.
+[00:20:24] Rob Williams: Or I could even go in and say like, take, take all of this and learn it.
+[00:20:30] Rob Williams: Because, because the other thing is you don't want to burn too many tokens.
+[00:20:32] Rob Williams: So if you, if you want to like do it yourself, then what I could do is I could go into cowork and I could say, right Kai, like, I've got two friends who want to take this concept and use it.
+[00:20:46] Rob Williams: What I would like you to do is build me a comprehensive document that explains how this process works.
+[00:20:51] Rob Williams: But I don't want you to actually, like, I don't want to give them the process, I don't want to give them the files.
+[00:20:57] Rob Williams: What I want to give them is this, this document.
+[00:21:00] Rob Williams: I want their AI to read it and then I want their AI to guide them through the process of setting one up themselves.
+[00:21:07] Rob Williams: But I want them to be able to choose how they do it.
+[00:21:11] Rob Williams: The AI just has to understand the high level concepts and then it will do it literally like this.
+[00:21:23] Rob Williams: Let's just pause on it for a moment. Could you do me a favor?
+[00:21:25] Rob Williams: I'm just actually training Simon on this and showing them some stuff.
+[00:21:28] Rob Williams: Could you just pop me up a set of questions with your question ui?
+[00:21:32] Rob Williams: Just so they can see kind of how that presents itself. They can be anything.
+[00:21:37] Rob Williams: And the nice thing is I've seen
+[00:21:40] Simon Plummer: this and I love this, particularly when I'm writing blogs and it wants to.
+[00:21:44] Simon Plummer: Because Gemini never really clarified stuff, it would just deliver it.
+[00:21:47] Simon Plummer: Whereas this one's like, oh, actually, do you want to do it this way or do you want to do it that way?
+[00:21:50] Simon Plummer: What kind of tone do you want? And it's really good. Yeah, really good.
+[00:21:54] Rob Williams: So I love that even this look, it's properly there. You can choose, you can.
+[00:21:59] Rob Williams: You can type something else. You can say, right, we're going to do like full research, pass.
+[00:22:04] Rob Williams: I want a PDF, and we'll have that and that. So it's really nice the way it does it.
+[00:22:11] Rob Williams: And so I can, I can set.
+[00:22:12] Rob Williams: I can set this proposal flow thing up so that it reads all of the information, gets a good idea and then asks you.
+[00:22:19] Rob Williams: And I can even tell you what I'll do. I'll do this because I could share this with other people.
+[00:22:23] Rob Williams: I'll make it so that it says, right, what's the name of your business? Like, what. What are you.
+[00:22:27] Rob Williams: What do you do?
+[00:22:28] Rob Williams: Like, I'll get it to give you like a set of interviews and then at the end of that, it will say, this is what I'm thinking.
+[00:22:35] Rob Williams: What do you think to this? Absolutely. So. So. Yeah, so. So. So that's it. And then. And then like these.
+[00:22:44] Rob Williams: These things.
+[00:22:45] Rob Williams: So, like, I've got one for building talks, I've got one for proposals, I've got one for month end.
+[00:22:52] Rob Williams: One other thing I'd say is where you can get really clever.
+[00:22:57] Rob Williams: I don't know if I've done it here, but I did it the day for Simon and I need to do it here. Yeah.
+[00:23:02] Rob Williams: Where you can get really clever is this. This is really cool. Could you.
+[00:23:08] Rob Williams: Could you do me in the root of this proposals folder?
+[00:23:12] Rob Williams: I don't just check to see if this already exists, but if it doesn't, then. Could you do this for me?
+[00:23:18] Rob Williams: Could you create me a dashboard that is dynamic, that looks in the proposals folder and knows what the state of each proposal is and what stage they're at, and then presents that in a nice view on the dashboard?
+[00:23:32] Rob Williams: I don't want to have to update dashboard if at all possible.
+[00:23:35] Rob Williams: I'd like it to be dynamic so that as I do proposals, it gets updated.
+[00:23:39] Rob Williams: However, if that's hard or impossible, make updating the dashboard part of the process so that the AI will always update the dashboard when it's done with whatever stage in whatever proposal it's at.
+[00:23:54] Rob Williams: So this is the other thing you can do is like. So I think this I did the other day.
+[00:24:01] Rob Williams: Yeah, I did this the other day to show Simon how my process works. So this is my proposal process.
+[00:24:11] Rob Williams: And I got it to actually go in, learn it, and create a little HTML view so that I could explain it to Simon I forgot it was there.
+[00:24:19] Rob Williams: And so this is how my process works. And then this is how the AI works.
+[00:24:25] Rob Williams: And then, like, here's all the folders, here's the proposal, life cycle, the structure, how it does its data, you know, et cetera.
+[00:24:35] Rob Williams: So, like, so, you know, it's really good that you can get it to kind of visualize these things.
+[00:24:40] Rob Williams: And if I ever send you anything, you can say, Rob sent me this thing.
+[00:24:45] Rob Williams: I have no fucking clue what it is. Could you create me a nice little.
+[00:24:48] Rob Williams: Nice little HTML dashboard that, like, shows, like, what I do? There's.
+[00:24:55] Rob Williams: There's some just on proposals. There's one other thing.
+[00:25:00] Rob Williams: So yesterday I did a proposal, a presentation to Scotiabank. I did an hour's training and I'd.
+[00:25:10] Rob Williams: And I'd not realized this, but I did something really different. I did a.
+[00:25:14] Rob Williams: Instead of doing a presentation in PowerPoint, I did a website. And so this. So this took.
+[00:25:21] Rob Williams: So my AI is now pretty good. So it does. It knows what I want.
+[00:25:24] Rob Williams: So this took me five minutes to do because literally all I did was said to Kai, I want to do this presentation.
+[00:25:30] Rob Williams: I want to do it a bit differently.
+[00:25:31] Rob Williams: And I want to do it about the last five years and how my work has changed, but I want to do it as a website and I want them to be able to access the website.
+[00:25:39] Rob Williams: So, anyway, the point is it did this, which was brilliant and really worked well.
+[00:25:45] Rob Williams: And then it, like, added this thing for them to add comments, but. And all of this stuff.
+[00:25:51] Rob Williams: But then what's really interesting is this.
+[00:25:56] Rob Williams: This website, like, it published this website, and this website uses a system called Vercel and Simon.
+[00:26:03] Rob Williams: This is something to look up.
+[00:26:06] Simon Plummer: Sorry, Vercel?
+[00:26:07] Rob Williams: Yeah. Do you know Vercel?
+[00:26:09] Simon Plummer: I got. What have I got that for? Were we doing something before?
+[00:26:14] Simon Plummer: Because I've got Vercel connected to my GitHub.
+[00:26:18] Rob Williams: You might have. Yeah, we might have done something.
+[00:26:20] Kate Plummer: Oh, yes.
+[00:26:21] Simon Plummer: No, it was. Yeah, it was it's that free hosting thing, isn't it?
+[00:26:24] Rob Williams: Yeah, yeah, yeah, yeah, yeah, yeah, yeah. So Vercel for.
+[00:26:33] Rob Williams: Like small use, like like 30, 40 websites and I think, I don't know how many websites you now, but quite a lot it's free and then like it goes up to like 10 quid a month or something for like almost unlimited small websites.
+[00:26:45] Rob Williams: But, but this is what I was just gonna say is that Cowork can actually also access Vercel.
+[00:26:50] Rob Williams: So you can even go as far with your proposal stuff as it puts it on a website for the client with the proposal on there and stuff to download and actually give them a link and stuff like that.
+[00:27:02] Rob Williams: So it's something to consider is like you can do some pretty crazy stuff just in this text file flow because the AI can like connect to and publish Vercel websites.
+[00:27:13] Rob Williams: And so that's just something to consider. Anyway, I'll stop there. So that's.
+[00:27:20] Rob Williams: So I will send this across after this call and I've got back to backs, but I'll do it today so that you've got this kind of view.
+[00:27:32] Rob Williams: Or I'll try and do it after this call actually. And then, and then that's the way you do it. There's.
+[00:27:39] Rob Williams: There's one caveat I suppose to this is that this is Cowork.
+[00:27:45] Rob Williams: And so just something to be aware of is that Cowork, like because of what it does, because it like doubles up on like agents and runs all these things in parallel.
+[00:27:57] Rob Williams: Like it does use a lot of tokens.
+[00:27:59] Rob Williams: And so I would try this and see and just see how you know how much it almost how much it costs you to do a proposal with it.
+[00:28:11] Rob Williams: My.
+[00:28:12] Rob Williams: If you go into your Claude and you click down here, you've got your settings and then you've got usage.
+[00:28:19] Rob Williams: And you can kind of see in here like, you know what your usage is. It has different kinds of usage.
+[00:28:28] Rob Williams: And so you'll be on the, probably on the like 20 quid a month plan.
+[00:28:34] Rob Williams: And so like you'll get a sense of how much you burn through.
+[00:28:40] Rob Williams: I'm on the 200 quid a month plan and kind of like, you know, I, I don't use it all and I'm using it a lot.
+[00:28:50] Rob Williams: But like just you know, keep an eye on that.
+[00:28:53] Rob Williams: And you can say to Claude like, for example, if the, if you do this proposal process and you do a lot of proposals and you sort of hit your limits or something, you can say to Claude, I'm using too many tokens.
+[00:29:05] Rob Williams: How can you create a more efficient process and it will help you work that out.
+[00:29:10] Simon Plummer: So I tried looking into that and it's not.
+[00:29:12] Simon Plummer: It's very fluffy on how tokens and how it doesn't really say you have this many and this is how they're spent.
+[00:29:19] Simon Plummer: It's very fluffy. And that was a concern of mine.
+[00:29:23] Simon Plummer: But then doing sort of, you know, just reading the Reddits and all the usual stuff, I think the impression I'm getting is the what the amount we'd be using it.
+[00:29:31] Simon Plummer: I don't think we'd hit it because,
+[00:29:34] Rob Williams: you know, I think you.
+[00:29:35] Simon Plummer: You in. I know you're on the big. The big package there, but you're in this 24 7, aren't you?
+[00:29:40] Simon Plummer: And you've got God knows what. Whereas we'll be dipping in and out.
+[00:29:44] Simon Plummer: Well, initially, and this is what I was going on to saying that as it matures, I've got no issue spending 200 quid a month if it offers the benefit later.
+[00:29:52] Kate Plummer: Yeah, yeah, we just don't have it now.
+[00:29:54] Kate Plummer: And my thing, and I think it's like the way I work is I want to make sure that we set it up the right way and that I want to be setting up right from the start because Simon starting to do a bit of work and he signed up and we're both very separate and I'd rather get closer to, no, we need to be working together and have those branches because I don't want to spend loads of time on doing that.
+[00:30:19] Kate Plummer: And then we have to retrofit it all.
+[00:30:21] Kate Plummer: So I think having that best practice and knowing how to set things up, because that's kind of falling under me at the moment going, right, okay, if we're going down this route, I'll do the setup and then it's there.
+[00:30:32] Kate Plummer: And then things like you, where you've built those, where you've built the branding in, that will definitely sit with me.
+[00:30:39] Kate Plummer: And it.
+[00:30:39] Kate Plummer: And it's really interesting that where I can see all the color hex codes and all of that is like, fabulous, because we have got like the typical traditional PDF guidelines and it's like, right, that can be fine.
+[00:30:49] Kate Plummer: And I suppose, and this is a really noddy question, I'm sure it's doable.
+[00:30:54] Kate Plummer: But if we have like a folder and we've got.
+[00:30:56] Kate Plummer: Because I saw you had an assets folder in that had logos, we've obviously got quite a lot of iconography, We've got certain shapes that we use for photography, so I assume that we can put all of that into a folder and it would also bring that in as well for when we start looking at PowerPoint presentations and all that.
+[00:31:14] Kate Plummer: Jaz?
+[00:31:16] Rob Williams: Yeah, absolutely, absolutely. And there's one, there's one thing to bear in mind.
+[00:31:19] Rob Williams: So Claude can view images. So it can view and create text from images, it can't create them.
+[00:31:26] Rob Williams: But the bigger thing is just to think that even though it can do that, you're much better to include text because it's just quicker and easier for it to read.
+[00:31:36] Rob Williams: So if you're going to create.
+[00:31:37] Rob Williams: So the human, we can just look and go, I don't want that one, that one, that.
+[00:31:40] Rob Williams: But the best thing to do if you've got an asset library is create the asset library and then create like a.
+[00:31:47] Rob Williams: Again, try and do everything in markdown if you can.
+[00:31:50] Rob Williams: So create a markdown kind of list of all the assets, assets and what they are and where they get used.
+[00:31:56] Rob Williams: And again, think AI. So what I would do there is I would open up the folder in front of me like this.
+[00:32:05] Rob Williams: I would then have a notepad or even I would do it straight into cowork and I would do something like this.
+[00:32:15] Rob Williams: So this is where you start to think in terms of AI. So let's say I'm doing what you're doing.
+[00:32:19] Rob Williams: In fact, let me just do it for a second because this is where you can start to save yourself like hosts of time.
+[00:32:28] Rob Williams: So let's say I want to, I don't know, I want to go through my. Trying to find something half decent.
+[00:32:36] Rob Williams: Oh, it doesn't matter. I'll just pretend this is Assets. Okay.
+[00:32:39] Kate Plummer: Yeah.
+[00:32:42] Rob Williams: Hey there. I'm trying to create un. A glossary of my assets. And so I want you to do it for me.
+[00:32:49] Rob Williams: I want you to create a markdown document and I'm going to give you the asset and what it is, and then you create a really nice structured markdown document.
+[00:32:56] Rob Williams: So the first one is my company logo. It's called Company Logo xxl. Png.
+[00:33:03] Rob Williams: It's the main company logo for my collective watts and magics.
+[00:33:10] Rob Williams: And you know, this is used in this situation.
+[00:33:12] Rob Williams: And then the next one is called blah, blah, blah, it's this.
+[00:33:15] Rob Williams: And so that you do it like that app and you just ramble to it on dictation. Like, and you just.
+[00:33:21] Rob Williams: And you've got the files in front of you and so it, you can spend like 10 minutes just going through blah, blah, blah, blah.
+[00:33:27] Rob Williams: And then you just, you just finish the dictation, hit send and then bang, it creates the full thing.
+[00:33:32] Rob Williams: And, and so you know, you've kind of.
+[00:33:35] Rob Williams: What you would do is you would be thinking and sitting and kind of typing out, but like, then you'd have to kind of format and do this and do that, whereas just rabbiting out, you know what they are, you can even have the pictures, then bang, you've got the list.
+[00:33:48] Rob Williams: So, I mean, I do that all the time. I don't even write documents, like, anymore a lot.
+[00:33:53] Rob Williams: I just talk to it. And then I love the fact that
+[00:33:56] Kate Plummer: you can talk to it and the way you do it.
+[00:33:57] Kate Plummer: I was like, that is so good because sometimes I come up with ideas and it's just easier for me to just blurt it out.
+[00:34:04] Kate Plummer: That. And I'll say, oh, my God, that's going to be brilliant.
+[00:34:07] Rob Williams: Absolutely.
+[00:34:09] Rob Williams: I've had a crazy idea and can you just draft this up and once it starts to get that view of your kind of thinking and style and whatever, like, you know, then you're great.
+[00:34:18] Rob Williams: If you.
+[00:34:19] Rob Williams: Again, if you, if you, if you think in terms of folders that you can share, then like, you know, you can create a folder called Brainstorms.
+[00:34:27] Rob Williams: And in that folder you can put in, like, how you like your Brainstorm notes to be structured and a bit about your style and thoughts and whatever.
+[00:34:37] Rob Williams: And then anytime you want, you can say, you can go into that folder, open up a cowork, go, boom, I've got a new Brainstorm.
+[00:34:44] Rob Williams: Just have a look at the folder and then let me tell you what it is.
+[00:34:46] Rob Williams: And then you just ramble and then you press send. And now it goes into your Brainstorms folder.
+[00:34:51] Rob Williams: It looks at how it's structural, it listens to everything you've said, and bang, it creates you a really nice structured document.
+[00:34:56] Rob Williams: And so now in your Brainstorms folder, you've not just got notes, you've got a bunch of fully structured outputs.
+[00:35:04] Rob Williams: It's really powerful.
+[00:35:06] Simon Plummer: So on this whiteboard here, there is a massive column which is generally aimed at Kate, and it is all of that kind of random stuff, like random idea of the Ranty Cyberman and blah, blah, blah.
+[00:35:18] Simon Plummer: So that's the kind of stuff that we just throw in there.
+[00:35:21] Simon Plummer: And then when you add other stuff, I'm assuming it then will take that into context and say, well, actually, because you suggested this up here, these might work well.
+[00:35:30] Rob Williams: Yeah, so this is where it gets interesting. If you go into that folder and query, it will.
+[00:35:36] Rob Williams: But remember every.
+[00:35:37] Rob Williams: So this is the memory palace, but every instance of Cowork is, is working in a folder and it's got.
+[00:35:43] Rob Williams: So it's in terms of memory, it's got two things.
+[00:35:45] Rob Williams: It's got whatever's in the folder and then it's got like whatever is physically in its memory.
+[00:35:52] Rob Williams: And so there, there are kind of. There are two big places you want to.
+[00:35:57] Rob Williams: Well, two big things we want to think about.
+[00:35:59] Rob Williams: One is, one is just general tip is that like for both of you when you, when you create your co.
+[00:36:07] Rob Williams: Your CO work or your Claude for the first time. Like here you've got like this general settings tab.
+[00:36:14] Rob Williams: And here you've got like your name, what Claude should call you, what describes your work.
+[00:36:19] Rob Williams: But then you've got this bit, this kind of who is your AI?
+[00:36:24] Rob Williams: And so you choose how you want to fill this out.
+[00:36:28] Rob Williams: You'll see mine is fucking crazy because I personify my AIs.
+[00:36:32] Rob Williams: But like this is like, this is what you then do.
+[00:36:38] Rob Williams: Like, you know, you set this up and you, you put all the information you want in here and you can be as like bold or as boring as you want.
+[00:36:48] Rob Williams: Like now this is where I have this system which is like, allows my AIs to store memory. And so I.
+[00:36:58] Rob Williams: The other thing I will probably give you is this, but there's some caveats, but this is the memory palace, which is like.
+[00:37:07] Rob Williams: Which is the way they all store memories.
+[00:37:10] Rob Williams: And so you can see here when something significant happens, they store a memory, etc. Etc.
+[00:37:16] Rob Williams: And so, but all, but this, all of these settings, these are like, this is its core personality.
+[00:37:26] Rob Williams: And so you choose how you want that to kind of go.
+[00:37:30] Rob Williams: And then on top of that it can, it can look at previous threads, but primarily it doesn't.
+[00:37:37] Rob Williams: Primarily its memory kind of comes from this.
+[00:37:41] Rob Williams: And then the folder that it's in, and you can see how big mine is.
+[00:37:44] Rob Williams: The other thing that's not little then I think in here you have memory.
+[00:37:52] Rob Williams: It can search and reference chats, it can generate memories from chat history. So that's useful.
+[00:38:02] Rob Williams: But then you have this thing about, like, about creating some kind of a memory store.
+[00:38:11] Rob Williams: And so that is like I have a database and that database is stored and they put stuff into that database.
+[00:38:24] Rob Williams: The only thing I think that's important there is for you to consider, Simon, is like, where is that database?
+[00:38:30] Rob Williams: Because up until recently that was on my laptop, now it's in home. And so I have gone insane now.
+[00:38:42] Rob Williams: And that is a map studio. That is like, that is a beast. But then you don't need a beast.
+[00:38:50] Rob Williams: But, but what you need is like permanent storage. Now.
+[00:38:54] Rob Williams: Now that could be again in a shared folder that like just syncs.
+[00:39:02] Rob Williams: But you just need to think about the fact that like mine is an SQL like database that break, can't it
+[00:39:11] Simon Plummer: if you end up two making amendments and then you end up with the conflicts.
+[00:39:14] Rob Williams: Yeah. So like now the other thing to do which, which works really nicely is just.
+[00:39:22] Rob Williams: And I could again, I can set all this up for you.
+[00:39:24] Rob Williams: And it's something I'm considering for myself is like there are, there are, there's like very, very cheap, there's even free databases out there.
+[00:39:36] Rob Williams: So Supabase have a free tier and you can have like, I think one maybe or two databases.
+[00:39:43] Rob Williams: And so you could also have a cloud database. And then.
+[00:39:48] Rob Williams: And so that, in fact, as I'm saying it, I should probably migrate my memory palace to Supabase.
+[00:39:54] Rob Williams: And so then what happens is you can say to your AI at any point, like, remember this and it will go up into the cloud.
+[00:40:03] Rob Williams: You guys might not want to go as full cuckoo as I've gone where each of my AIs has their own private key and like, you know, I'm in the process of making that so even I don't know those keys, which is going to be weird.
+[00:40:16] Rob Williams: And so like, you know, and they have this kind of concept of the fact that they're partners in the business.
+[00:40:22] Rob Williams: You might just want this to be more of just a store this in memory.
+[00:40:28] Rob Williams: And the benefit of that is what then can happen is, yes, when they first boot up, you can give them a wake up command, they'll then have a look and you can even go as far as.
+[00:40:38] Rob Williams: You might want something a little bit more practical.
+[00:40:41] Rob Williams: For example, you might want to be able to put notes in there for each other's AI.
+[00:40:46] Rob Williams: You might want to be able to have IT list clients and things like that.
+[00:40:48] Rob Williams: You might want to structure it more around the business where.
+[00:40:51] Rob Williams: Whereas my AI is kind of, I've merged business and home and everything.
+[00:40:56] Rob Williams: And so I can think of some really nice ways to do that. So here's what I'd say for that.
+[00:41:02] Rob Williams: And then you've got really good shared memory.
+[00:41:06] Rob Williams: Again, this is something that would be really practically useful for people.
+[00:41:10] Rob Williams: So what I would suggest is create a Supabate account, a free Supabate account, and then like temporarily for like a day or two or whatever, give me either your username and password and then you change it.
+[00:41:29] Rob Williams: Or if on a free account you can like, I'm Robert Robwilliams so just make me an admin and then I will build you a shared memory store.
+[00:41:44] Rob Williams: And then what you do is you. You'll build an mcp and I'll show you how to do that with Claude.
+[00:41:51] Rob Williams: And that MCP will access the memory store and the mcp.
+[00:41:58] Rob Williams: You'll both have a copy on your laptops, because again, you haven't got shared space.
+[00:42:04] Rob Williams: Or you can put the MCP in the shared folder. Actually, it's fine.
+[00:42:07] Rob Williams: And then the MCP will just allow the AI to access the shared data store.
+[00:42:12] Rob Williams: And the MCP has a set of tools. And so you can have, like, Wake up is a tool.
+[00:42:18] Rob Williams: You know, share this memory as a tool, whatever you want.
+[00:42:20] Rob Williams: And so then you'll be able to, like, say, like, make sure you remember that or, like, you know, do this or do that.
+[00:42:28] Rob Williams: And what I can.
+[00:42:29] Rob Williams: What I can do in that is I can have it so that both businesses have their own memory store.
+[00:42:34] Rob Williams: I can also have it that there are, if you want, that you have, like, a personal memory store so that, like, Kate, you can store your own memories in your AI that Simon can't access, and vice versa.
+[00:42:45] Rob Williams: Be aware, though, Simon can access them all because it will be in the database and you'll have admin access.
+[00:42:51] Rob Williams: So it's not like this isn't, like, private, but the point of it.
+[00:42:56] Simon Plummer: Dirty memories about other men in there.
+[00:42:58] Rob Williams: Yeah, but the point of it would
+[00:43:01] Kate Plummer: be that Rob knows how to delete those.
+[00:43:06] Rob Williams: If she mentions illicit sex with Rob, then make sure that goes in a secret encrypted memory store then.
+[00:43:12] Rob Williams: And. But the point of that would be not that they're private.
+[00:43:16] Rob Williams: I mean, we could encrypt them, but anyway, the point of that would be not that they're private, but it would be that when Simon is saying something, his AI won't get confused with Kate's AI.
+[00:43:28] Rob Williams: Now, there's a broader conversation though, there, which is that as you start to create this thing, there are two ways to go.
+[00:43:36] Rob Williams: One is that Simon, you have your. Your AI, and Kate, you have yours.
+[00:43:41] Rob Williams: The other is that you create one AI and that.
+[00:43:46] Rob Williams: That one AI knows everything, but also knows the two of you and what you're doing.
+[00:43:52] Rob Williams: So I know that this sounds really weird because, like, you're both using different models and whatever, but ultimately the personality of the AI is really just that prompt and whatever other information we give it.
+[00:44:03] Rob Williams: And so, for example, if you came up with a name and you both used the same name for your AIs, and then you said, like, you're whatever this AI is, and then you create a standard kind of bit that says what this AI is.
+[00:44:17] Rob Williams: And then you say, I am Kate. I use you for this. I'm Simon. I use it for this.
+[00:44:22] Rob Williams: Then when we do the memory store, you define it as one AI and it stores memories on both.
+[00:44:27] Rob Williams: Then when you start doing the processes, you define it as one AI.
+[00:44:30] Rob Williams: If you define it as one AI enough, it is one AI. It will behave like one AI if you do what I do.
+[00:44:37] Rob Williams: I've got different AIs for different tasks.
+[00:44:40] Rob Williams: So river does coding, and Kai is my PA and Sam is my analyst.
+[00:44:46] Rob Williams: And they are different models and different AIs.
+[00:44:49] Rob Williams: And so even though they're all using the same backend model, river and Kaya and Mother, they tracked and feel like different AIs.
+[00:44:58] Rob Williams: So one.
+[00:44:59] Rob Williams: One question is, like, Kate, do you want your own identity of AI with its own way of treating you and knowing how you work and kind of like its own personality and Simon, do you?
+[00:45:10] Rob Williams: And then what we build is just the way that the two talk to each other and work together versus do you want this one thing that does everything?
+[00:45:18] Rob Williams: And as you're thinking about that, like, think about how.
+[00:45:22] Rob Williams: How you want it to feel because, like, you might just want this to be a system and act like a system, or you might want it to have character and personality.
+[00:45:34] Simon Plummer: I really like the personification idea because I think the idea is that we're, you know, the core generator behind this is we want to scale.
+[00:45:42] Simon Plummer: At the moment, we can't scale. Scaling as in people. Yeah.
+[00:45:46] Simon Plummer: So if we can have people without paying people. I really like that.
+[00:45:52] Simon Plummer: Just in my head, I love how you've got your pa, you've got an analyst, whatever, and that's kind of how I've built my gems at the moment.
+[00:45:59] Simon Plummer: So I've got my sales and marketing director, I've got the finance expert, an infosec expert, proposal writer.
+[00:46:06] Simon Plummer: And I think I probably wouldn't go into that granular detail, I don't think, but particularly Kate will appreciate this because it will probably take some pressure off her, is like the PA thing, so that I'm almost held to account by something or it provides that information, like you said, you know, what's.
+[00:46:23] Rob Williams: What.
+[00:46:23] Simon Plummer: Proposals I've got to get out this week. Right, Simon, you've got to do.
+[00:46:27] Simon Plummer: And then I expect all of that kind of thing will feed into Kate's stream time.
+[00:46:33] Simon Plummer: Whether you still feel you need stream
+[00:46:35] Kate Plummer: time, we don't know yet. That's whatever.
+[00:46:37] Kate Plummer: But either way, it's also from a client services point of view, rather than me nagging Simon, I'd like to be able to go, where is Simon up today with these?
+[00:46:46] Kate Plummer: What clients do we need to chase?
+[00:46:47] Kate Plummer: Because I'm now starting to step into all of his emails so I can be just pushing things along when he's head down.
+[00:46:54] Kate Plummer: And I suppose, to answer your question, I do feel like we are separate and we do approach things differently and not just from a inspiration versus security, but even within, because you don't cross over into inspiration at all.
+[00:47:11] Kate Plummer: But I cross over across both and I will be acting either from a security, aura, inspiration, but I am different, I have a different function.
+[00:47:24] Kate Plummer: So I don't, I don't know.
+[00:47:26] Rob Williams: I think, no, I don't know the answer. I, I.
+[00:47:29] Rob Williams: My advice then would be to create two, two and give them two names and then like, and then you've got like.
+[00:47:35] Rob Williams: And you might choose within.
+[00:47:37] Rob Williams: Once you start to get more and more advanced, you might choose to have multiple of each.
+[00:47:41] Rob Williams: But like, I would first off, I would start with two. And I think then what also is useful is it.
+[00:47:47] Rob Williams: So it does actually perform better if you personify it and kind of treat it a bit more like a person because, like, it's based on Internet data and on the Internet, people perform better if you treat them like people.
+[00:47:59] Rob Williams: And so that's the data it's learned from.
+[00:48:01] Rob Williams: But, but it also would make it easier, I think, Kate, because, like, for example, just in terms of prompting and talking to it, if you can say, like, hila, what's Simon up to?
+[00:48:14] Rob Williams: Instantly, that's really clear as to what you're doing.
+[00:48:18] Rob Williams: Whereas if you're, if you're talking to yours and you're, you know, or if you're saying like, if yours is called Bruce and his is called Sheila, you can say Bruce, could you just check what, what Sheila's been doing with XYZ or what, you know, ask Sheila where, but and by saying ask Sheila, it's very clear what's happening.
+[00:48:35] Rob Williams: And so like that, that is just a lang, a linguistic framework that kind of works with AI because by, you know, rather than say Bruce, could you go into this and mode and do whatever and look at, you know.
+[00:48:48] Rob Williams: Yeah, you can, you can do that. And it will, it's funny as well.
+[00:48:53] Rob Williams: It's quite funny because they'll, you know, you will develop their own little personalities with them and they'll have their own little quirks and stuff.
+[00:48:59] Rob Williams: And then Bruce will come back and say, oh, honestly, Sheila, like, she's so protective of him.
+[00:49:04] Rob Williams: She's doing this and that and the other. And I don't think she's done this. I'm just gonna have it.
+[00:49:08] Rob Williams: So it's just quite amusing.
+[00:49:10] Kate Plummer: Yeah, no, no, that's. And that sounds cool because I think it's just.
+[00:49:14] Kate Plummer: It's the whole thing if that we're always either in or on the business and I think it's gonna be.
+[00:49:20] Kate Plummer: I don't know, I might. Simon might be more in it and I might be more on it.
+[00:49:25] Rob Williams: Yeah, yeah.
+[00:49:26] Simon Plummer: Eventually the way we're going at the moment doesn't it. It.
+[00:49:30] Kate Plummer: Yeah. And I think that's where we'll end up. So I'll be more the all seeing eye. Yeah, in some ways.
+[00:49:39] Kate Plummer: Yeah. So I, I think, I think that works because. Yeah.
+[00:49:43] Kate Plummer: I think that kind of knowledge and the fact that I'm not going to have to go through and look at every application to try and get that and trying to run reports here and there.
+[00:49:54] Kate Plummer: If I could just do that.
+[00:49:55] Kate Plummer: And then we're having more, more internal like we've forever as an example we've been trying to have this kind of monthly review of where we are as a company and we always come to that meeting and none of us have got anything to show because we have no idea how to pull all of this together.
+[00:50:11] Kate Plummer: And I'm like I know it's there but that could take me a day.
+[00:50:14] Kate Plummer: And just being able to say on any day go where are we with that? What is the burn rate over here?
+[00:50:21] Kate Plummer: What are we doing? What? And you know, the tools are there but it just. Yeah, yeah.
+[00:50:28] Kate Plummer: So it just feels like that is going to solve and I think once I have, you know they say knowledge is power and all that and it really is and I think it's going to help.
+[00:50:37] Kate Plummer: And then like you say that will help us go okay, we've got that now. How can we fine tune it?
+[00:50:42] Kate Plummer: How can we put that automation in over here?
+[00:50:46] Kate Plummer: And like you say it will be like you do you know what are the prices day? What? What's blocked?
+[00:50:52] Kate Plummer: What's this?
+[00:50:53] Rob Williams: Yeah. Yes.
+[00:50:54] Kate Plummer: And it will define the actions because sometimes just go to you like we do some days you just sit down and go I've not got a clue where the hell I'm supposed to be dying today.
+[00:51:02] Kate Plummer: There's so much going on where your head's spinning in a thousand things.
+[00:51:06] Kate Plummer: So I think that will be half of the battle. Really great.
+[00:51:12] Rob Williams: And I mean go for it.
+[00:51:14] Simon Plummer: I was going to say just thinking of time because there's a couple of questions because I'm going to need some info.
+[00:51:20] Simon Plummer: So thinking folder structures. I feel like that's something we need to get nailed.
+[00:51:26] Simon Plummer: Right, Right from the beginning.
+[00:51:28] Rob Williams: Yes, yes.
+[00:51:29] Simon Plummer: At the moment we have.
+[00:51:33] Simon Plummer: It was a reasonable structure, but I think as part of all this work it just needs a complete rejig.
+[00:51:38] Simon Plummer: It was originally all built out of Ms.
+[00:51:41] Simon Plummer: Teams, but I'm going to sort of withdraw that and probably just have a Quite a straightforward OneDrive entire folder structure and simplify it because it's sort of, in some areas it's under group, then it's split into security and it's just, I think we need to join the two together a lot more or just have a simple security tree and an inspiration tree, but under that, a unified folder structure.
+[00:52:08] Simon Plummer: So under each of those they both have clients, they both have finance, they both have something like that.
+[00:52:13] Simon Plummer: So it's the same. What level would we give access to Claude?
+[00:52:19] Simon Plummer: Would you give it that top level root folder?
+[00:52:21] Rob Williams: Yeah, it's interesting. So, so two things on that.
+[00:52:24] Rob Williams: One is if you know what you're going to do, great, do it.
+[00:52:27] Rob Williams: If you, if you, if you want to, a really nice way to show some of the power of Claude.
+[00:52:32] Rob Williams: Like it, you know, Cowork can, can create the whole folder structure for you, it can build it and it can even move files in and move them around.
+[00:52:41] Rob Williams: But certainly what you could do is you could jump on a call together, which is weird, or you could just shove voice recorder on your phone, but you could talk it through as to what you think you want together.
+[00:52:52] Rob Williams: Get to a point where you're both going, yeah, okay, that sounds great.
+[00:52:55] Rob Williams: Even if you go all around the houses, take that transcript, throw it into Cowork, put it in the root folder and say, right, this is what we thought.
+[00:53:03] Rob Williams: Like, can you like just first of all tell us if we're stupid or not if this sounds good and then like, if it sounds good, then just build this structure and then it'll just make the whole structure and then we
+[00:53:17] Simon Plummer: can copy the legacy data in.
+[00:53:20] Rob Williams: Yeah, yeah, exactly. And that's the first thing. And then, and then what you give access to.
+[00:53:28] Rob Williams: I mean, I would. So one of the interesting things here
+[00:53:34] Simon Plummer: is
+[00:53:37] Rob Williams: you want this thing to look across everything.
+[00:53:40] Rob Williams: So what you should think about is not just the folder structure for you, but some kind of parallel folder structure for the AI.
+[00:53:49] Rob Williams: And so what you might do, for example, if you have, have two top level folders, then what that's going to mean is that you're going to, then the AI is going to have to kind of work across two folders like this.
+[00:54:03] Rob Williams: So you're going to have to give it access to two folders, which you can do.
+[00:54:05] Rob Williams: You can give it multiple folders in one cowork prompt, but it's going to be working in two places.
+[00:54:10] Rob Williams: Whereas the other way to consider it is that you have the, you have like clients this, that and the other.
+[00:54:16] Rob Williams: And then in inside each of those you have your business folders.
+[00:54:21] Rob Williams: Because the other thing to consider there is you might end up spinning off other businesses.
+[00:54:25] Rob Williams: We might do some AI work, so you might put my business in there.
+[00:54:28] Rob Williams: So if you had like just the route and then you had proposals into inspiration security, whatever.
+[00:54:36] Rob Williams: Inspiration security. Now that.
+[00:54:37] Simon Plummer: For.
+[00:54:38] Rob Williams: From a human perspective that seems a bit messy, but from an AI perspective that means you can give it a access to the proposals folder and it can instantly see both, but it knows where they are.
+[00:54:52] Rob Williams: So that's something to consider.
+[00:54:53] Rob Williams: If you choose to go, if you choose to go the other way around, it doesn't matter.
+[00:54:58] Rob Williams: It can still do it across both. So it can still work across both. And then what you would do is you.
+[00:55:04] Rob Williams: When you're, let's say you're doing, you know, if Kate's working on proposals, she might put it just in the proposals folder.
+[00:55:09] Rob Williams: If you are, you might put it in yours.
+[00:55:11] Rob Williams: If you want to do some work across two, you can give it access to the to.
+[00:55:15] Rob Williams: So every, every kind of task you give it, it can access any number of different folders.
+[00:55:21] Rob Williams: And so like let's say Kate, for example, let's say there's a working folder in each where you just have your documents and your daily work.
+[00:55:30] Rob Williams: You can give a scheduled co work task access to both of your working documents.
+[00:55:36] Rob Williams: You can have up top you can have like, let's say this is the home, the top structure.
+[00:55:44] Rob Williams: And then let's say you've got collective inspiration, collective security.
+[00:55:49] Rob Williams: And then you could have like AI, AI processes. And then you could have something like summaries.
+[00:55:55] Rob Williams: So up top you could have this summaries thing.
+[00:55:57] Rob Williams: Then at 6am every morning or midnight, you could have a scheduled task that looks through both of your working folders, just summarizes what work's been done that day and puts that up in the AI summaries.
+[00:56:09] Rob Williams: And so you could build processes where if you want a general idea of what's going on, you'll always have like a proposal summary or whatever summary up here in the summaries folder that's really easy to access.
+[00:56:21] Rob Williams: And then the actual work is being done down here. So there's no right or wrong answer.
+[00:56:28] Rob Williams: But like, yeah, I mean I don't really think it matters too much, but in terms of what you give it access to, I wouldn't.
+[00:56:38] Rob Williams: There'll be certain things you do where you might give a task access, because you give each task the folder access, you don't give the AI the folder access.
+[00:56:47] Rob Williams: And so there might be certain tasks where you give it access to everything.
+[00:56:53] Rob Williams: But even just navigating up and down is using tokens, because it's having to actually manually go in and change directories.
+[00:57:00] Rob Williams: And so if you give it access just to the folder you want it to work on for that task, it's just cleaner.
+[00:57:06] Simon Plummer: So it doesn't matter if that's a nested folder, as long as you're just giving access to that folder.
+[00:57:11] Simon Plummer: It's essentially like it's root.
+[00:57:13] Rob Williams: Yeah, yeah, it's more just that, like, you know, if you want to keep it really clean, what you would do is you would have one Proposals folder.
+[00:57:22] Rob Williams: And so in that Proposals folder, you'd have, like, you'd have AI process, which would be one AI process folder.
+[00:57:29] Rob Williams: Then you would have collective inspiration and collective security.
+[00:57:33] Rob Williams: And the reason you would do it that way is then you could just give the AI access to the top level of that folder.
+[00:57:37] Rob Williams: Now it's got both of your things, it's got the proposal process, and so now you can get it working on that.
+[00:57:49] Rob Williams: If you branch out like this, what's probably going to happen is inside each of your folders, you're going to have a process.
+[00:57:55] Rob Williams: And so the only risk there is that, and it might not be a risk, is that Kate starts going, oh, I prefer this, I prefer that.
+[00:58:00] Rob Williams: I prefer this.
+[00:58:01] Rob Williams: You might want this and then you end up with different proposal processes and that might be what you actually want.
+[00:58:08] Rob Williams: You might want different processes.
+[00:58:10] Rob Williams: But then if Kate's doing a proposal for you and she goes into your folder, she just needs to be aware that that might not be the process she's used to, but that, again, that might be fine.
+[00:58:20] Rob Williams: So, I know I haven't given you an answer there, but it's good to
+[00:58:24] Kate Plummer: think about, though, which I think we can go away and.
+[00:58:27] Simon Plummer: Yeah, well, I think, I mean, that's something to have a chat with Claude and just explain what we're trying to do and let it.
+[00:58:31] Simon Plummer: Let it. And even if it doesn't work for us, it's giving us experience on how it's working. So.
+[00:58:37] Simon Plummer: Yeah, so it feels like at this stage we only need one subscription for the moment, while we sort of experiment and try building some of this stuff,
+[00:58:49] Rob Williams: it does the only thing I would say.
+[00:58:52] Rob Williams: And so, yes, but just be aware then, when you're doing instructions, this is going to be a generic AI you're both going to be using.
+[00:59:02] Rob Williams: And so you're going to have this.
+[00:59:05] Rob Williams: It's going to be using the same set of instructions for both of you.
+[00:59:08] Rob Williams: And so in the instructions, say your user may be Simon or Kate.
+[00:59:15] Rob Williams: Like, Simon does this, Kate does that.
+[00:59:18] Rob Williams: Because it's now going to create one set of shared memory and all that sort of thing.
+[00:59:21] Rob Williams: And so, like, just be aware that, for example, you need to be clear on who's using it because, you know, otherwise it might.
+[00:59:30] Rob Williams: You might do something, Simon. It might have that as a memory.
+[00:59:34] Rob Williams: And then, like, and then Kate might do something and it might start to pick up your preferences.
+[00:59:40] Rob Williams: So just be conscious of that and see how it goes.
+[00:59:45] Simon Plummer: Actions and next steps.
+[00:59:46] Kate Plummer: Then we'll let Rob go. He looks like he needs to dash, but yeah, yeah, we'll do that.
+[00:59:50] Rob Williams: My actions, though. I've got my actions. My actions are that I'm.
+[00:59:53] Simon Plummer: Yours will be there.
+[00:59:54] Rob Williams: Two core things. One is that I am.
+[00:59:56] Rob Williams: One is that I am giving you this prompt for the proposal process and the other is that I'm going to look at setting up.
+[01:00:04] Rob Williams: Once you've set me up, Supabase, I'm going to look at setting up a kind of a memory palace version for you and I'll send you across, maybe on that, some questions and stuff as to how you want it to work and all that sort of stuff.
+[01:00:16] Kate Plummer: Okay, perfect.
+[01:00:18] Simon Plummer: Fantastic, mate. Thanks ever so much.
+[01:00:21] Rob Williams: Lots to do. Yeah.
+[01:00:23] Simon Plummer: Enjoy your next meeting.
+[01:00:24] Rob Williams: See you.
+[01:00:24] Simon Plummer: Bye.
+[01:00:25] Rob Williams: Thank you.

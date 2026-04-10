@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "updated_at": "2026-04-10T00:00:00+00:00",
+  "updated_by": "setup",
+  "nodes": {
+    "simon": {
+      "type": "person",
+      "name": "Simon Plummer",
+      "role": "Director",
+      "org": "collective-intelligence",
+      "relationship": "team",
+      "context": "Co-founder. Focuses on security consulting and technical delivery. Early adopter of AI tools.",
+      "tags": ["core", "team"]
+    },
+    "kate": {
+      "type": "person",
+      "name": "Kate Plummer",
+      "role": "Director",
+      "org": "collective-inspiration",
+      "relationship": "team",
+      "context": "Co-founder. Handles brand, operations, client services, and creative direction. Wants operational visibility across both businesses.",
+      "tags": ["core", "team"]
+    },
+    "collective-intelligence": {
+      "type": "company",
+      "name": "Collective Intelligence",
+      "context": "Security consulting business. One of two brands under the Collective umbrella.",
+      "tags": ["own", "security"]
+    },
+    "collective-inspiration": {
+      "type": "company",
+      "name": "Collective Inspiration",
+      "context": "Creative and brand-focused business. One of two brands under the Collective umbrella.",
+      "tags": ["own", "inspiration"]
+    },
+    "example-client": {
+      "type": "company",
+      "name": "Example Client Ltd",
+      "context": "SAMPLE: Replace with a real client. A mid-size logistics company in the Midlands looking at AI for route optimisation.",
+      "tags": ["client", "sample"]
+    },
+    "example-contact": {
+      "type": "person",
+      "name": "Jane Smith",
+      "role": "Head of Operations",
+      "org": "example-client",
+      "relationship": "client",
+      "context": "SAMPLE: Replace with a real contact. Primary contact at Example Client. Met at a networking event in March.",
+      "last_contact": "2026-03-15",
+      "contact_channel": "email",
+      "tags": ["client", "sample"]
+    },
+    "example-project": {
+      "type": "project",
+      "name": "Example Client AI Assessment",
+      "context": "SAMPLE: Replace with a real project. Initial AI readiness assessment for Example Client, scoping a familiarisation day.",
+      "tags": ["active", "sample"]
+    },
+    "derby": {
+      "type": "location",
+      "name": "Derby",
+      "context": "SAMPLE: Replace with your actual location. Home base for the Collective businesses.",
+      "tags": ["sample"]
+    },
+    "interest-cybersecurity": {
+      "type": "interest",
+      "name": "Cybersecurity",
+      "context": "Core professional domain for Collective Intelligence.",
+      "tags": []
+    },
+    "interest-ai": {
+      "type": "interest",
+      "name": "Artificial Intelligence",
+      "context": "Growing focus area across both businesses. Using AI to transform operations and client delivery.",
+      "tags": []
+    },
+    "weekly-planning": {
+      "type": "activity",
+      "name": "Weekly Planning",
+      "context": "SAMPLE: Replace with your actual recurring meetings. Weekly sync between Simon and Kate to review pipeline and priorities.",
+      "tags": ["sample"]
+    }
+  },
+  "edges": [
+    {"from": "simon", "to": "collective-intelligence", "type": "owns"},
+    {"from": "kate", "to": "collective-inspiration", "type": "owns"},
+    {"from": "simon", "to": "collective-inspiration", "type": "works_at", "detail": "cross-business involvement"},
+    {"from": "kate", "to": "collective-intelligence", "type": "works_at", "detail": "cross-business involvement"},
+    {"from": "example-client", "to": "collective-intelligence", "type": "client_of"},
+    {"from": "simon", "to": "example-client", "type": "advises"},
+    {"from": "example-contact", "to": "example-client", "type": "works_at"},
+    {"from": "simon", "to": "example-project", "type": "assigned_to"},
+    {"from": "example-project", "to": "example-client", "type": "client_of"},
+    {"from": "simon", "to": "derby", "type": "located_in"},
+    {"from": "kate", "to": "derby", "type": "located_in"},
+    {"from": "collective-intelligence", "to": "derby", "type": "located_in"},
+    {"from": "simon", "to": "interest-cybersecurity", "type": "interested_in"},
+    {"from": "simon", "to": "interest-ai", "type": "interested_in"},
+    {"from": "kate", "to": "interest-ai", "type": "interested_in"},
+    {"from": "simon", "to": "weekly-planning", "type": "participates_in"},
+    {"from": "kate", "to": "weekly-planning", "type": "participates_in"}
+  ]
+}
