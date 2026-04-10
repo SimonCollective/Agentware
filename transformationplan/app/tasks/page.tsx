@@ -16,14 +16,14 @@ const initialTasks: Task[] = [
     title: "Build proposal flow in Agentware",
     owner: "Rob",
     session: "2026-03-27",
-    status: "todo",
+    status: "done",
   },
   {
     id: "2",
     title: "Set up memory palace on Supabase",
     owner: "Rob",
     session: "2026-03-20",
-    status: "todo",
+    status: "in-progress",
   },
   {
     id: "3",
@@ -58,7 +58,7 @@ const initialTasks: Task[] = [
     title: "Set up free Supabase account",
     owner: "Simon/Kate",
     session: "2026-03-20",
-    status: "todo",
+    status: "done",
   },
   {
     id: "8",
@@ -93,7 +93,7 @@ const initialTasks: Task[] = [
     title: "Share proposal flow folder",
     owner: "Rob",
     session: "2026-03-20",
-    status: "todo",
+    status: "done",
   },
 ];
 

@@ -6,9 +6,9 @@ const infrastructure = [
   { name: "GitHub: MCP", status: "active" as const },
   { name: "Vercel", status: "active" as const },
   { name: "Claude Pro (Kate)", status: "pending" as const },
-  { name: "Supabase", status: "pending" as const },
+  { name: "Supabase", status: "active" as const },
   { name: "Memory Palace", status: "pending" as const },
-  { name: "Proposal Flow", status: "pending" as const },
+  { name: "Proposal Flow", status: "active" as const },
   { name: "Custom GitHub MCP", status: "pending" as const },
   { name: "AI Identities", status: "pending" as const },
 ];

@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftHouse Advisory | Proposal Pipeline</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1" integrity="sha384-jb8JQMbMoBUzgWatfe6COACi2ljcDdZQ2OxczGA3bGNeWe+6DChMTBJemed7ZnvJ" crossorigin="anonymous"></script>
+    <style>
+        :root {
+            --brand-blue: #1B4F72;
+            --brand-accent: #2E86C1;
+            --brand-dark: #1a1a2e;
+            --bg-primary: #f4f6f9;
+            --bg-card: #ffffff;
+            --text-primary: #212529;
+            --text-secondary: #6c757d;
+            --text-on-dark: #ffffff;
+            --positive: #27ae60;
+            --warning: #f39c12;
+            --negative: #e74c3c;
+            --neutral: #95a5a6;
+            --gap: 16px;
+            --radius: 10px;
+            --shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.5;
+        }
+
+        .dashboard-container {
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: var(--gap);
+        }
+
+        .dashboard-header {
+            background: linear-gradient(135deg, var(--brand-dark), var(--brand-blue));
+            color: var(--text-on-dark);
+            padding: 24px 32px;
+            border-radius: var(--radius);
+            margin-bottom: var(--gap);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .dashboard-header h1 {
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .header-meta {
+            font-size: 13px;
+            opacity: 0.7;
+        }
+
+        .filters {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .filter-group select {
+            padding: 6px 10px;
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 4px;
+            background: rgba(255,255,255,0.1);
+            color: var(--text-on-dark);
+            font-size: 13px;
+            cursor: pointer;
+        }
+        .filter-group select option {
+            background: var(--brand-dark);
+            color: var(--text-on-dark);
+        }
+        .filter-group label {
+            font-size: 12px;
+            opacity: 0.7;
+            margin-right: 4px;
+        }
+
+        /* KPI Cards */
+        .kpi-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--gap);
+            margin-bottom: var(--gap);
+        }
+
+        .kpi-card {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 20px 24px;
+            box-shadow: var(--shadow);
+        }
+
+        .kpi-label {
+            font-size: 12px;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .kpi-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .kpi-sub {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-top: 2px;
+        }
+
+        /* Charts */
+        .chart-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: var(--gap);
+            margin-bottom: var(--gap);
+        }
+
+        .chart-container {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 20px 24px;
+            box-shadow: var(--shadow);
+        }
+
+        .chart-container h3 {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .chart-container canvas {
+            max-height: 280px;
+        }
+
+        /* Pipeline table */
+        .table-section {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 20px 24px;
+            box-shadow: var(--shadow);
+            overflow-x: auto;
+            margin-bottom: var(--gap);
+        }
+
+        .table-section h3 {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .pipeline-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        .pipeline-table thead th {
+            text-align: left;
+            padding: 10px 12px;
+            border-bottom: 2px solid #dee2e6;
+            color: var(--text-secondary);
+            font-weight: 600;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+            user-select: none;
+            cursor: pointer;
+        }
+        .pipeline-table thead th:hover {
+            color: var(--text-primary);
+            background: #f8f9fa;
+        }
+
+        .pipeline-table tbody td {
+            padding: 12px 12px;
+            border-bottom: 1px solid #f0f0f0;
+            vertical-align: top;
+        }
+
+        .pipeline-table tbody tr:hover {
+            background: #f8f9fa;
+        }
+
+        /* Stage badges */
+        .stage-badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            white-space: nowrap;
+        }
+
+        .stage-signed { background: #d4edda; color: #155724; }
+        .stage-final_proposal_sent { background: #cce5ff; color: #004085; }
+        .stage-first_draft_sent { background: #fff3cd; color: #856404; }
+        .stage-in_development { background: #e2e3e5; color: #383d41; }
+        .stage-lead { background: #f8d7da; color: #721c24; }
+        .stage-stalled { background: #f5c6cb; color: #721c24; }
+        .stage-unknown { background: #e2e3e5; color: #383d41; }
+
+        /* Pipeline dots */
+        .pipeline-dots {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+        }
+
+        .pipeline-dot {
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 9px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .dot-complete { background: var(--positive); }
+        .dot-pending { background: #dee2e6; color: #adb5bd; }
+        .dot-in_progress { background: var(--warning); }
+
+        .next-action {
+            max-width: 280px;
+            font-size: 12px;
+            color: var(--text-secondary);
+            line-height: 1.4;
+        }
+
+        .urgency-urgent { color: var(--negative); font-weight: 600; }
+
+        .contact-list {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        .value-cell {
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        /* Footer */
+        .dashboard-footer {
+            text-align: center;
+            padding: 16px;
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .dashboard-header { flex-direction: column; align-items: flex-start; }
+            .kpi-row { grid-template-columns: repeat(2, 1fr); }
+            .chart-row { grid-template-columns: 1fr; }
+        }
+
+        @media print {
+            body { background: white; }
+            .dashboard-container { max-width: none; }
+            .filters { display: none; }
+            .kpi-card, .chart-container, .table-section { box-shadow: none; border: 1px solid #dee2e6; }
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <div>
+                <h1>SoftHouse Advisory: Proposal Pipeline</h1>
+                <div class="header-meta">Generated March 20, 2026 at 08:43 AM</div>
+            </div>
+            <div class="filters">
+                <div class="filter-group">
+                    <label>Stage:</label>
+                    <select id="filter-stage" onchange="dashboard.applyFilters()">
+                        <option value="all">All Stages</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <section class="kpi-row" id="kpi-row"></section>
+
+        <section class="chart-row">
+            <div class="chart-container">
+                <h3>Pipeline by Stage</h3>
+                <canvas id="chart-stages"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Proposal Value by Client</h3>
+                <canvas id="chart-values"></canvas>
+            </div>
+        </section>
+
+        <section class="table-section">
+            <h3>All Proposals</h3>
+            <div id="proposals-table"></div>
+        </section>
+
+        <footer class="dashboard-footer">
+            SoftHouse Advisory | Pipeline Dashboard | Updated March 20, 2026 at 08:43 AM<br>
+            Run <code>python3 system/scripts/update-dashboard.py</code> to refresh
+        </footer>
+    </div>
+
+    <script>
+    const DATA = [
+  {
+    "slug": "aiim",
+    "name": "Aiim",
+    "stage": "first_draft_sent",
+    "next_action": "Follow up with Patrick next week for meeting to discuss proposal",
+    "last_checked": "2026-03-06",
+    "urgency": "normal",
+    "docusign": null,
+    "total_value": 200000,
+    "monthly_value": 0,
+    "currency": "USD",
+    "pipeline": {
+      "1_ingest": "complete",
+      "2_research": "complete",
+      "3_style": "complete",
+      "4_interview": "complete",
+      "5_draft": "complete",
+      "6_export": "complete"
+    },
+    "contacts": [
+      "Patrick Masset",
+      "David Geddes"
+    ],
+    "created": "2026-02-26",
+    "has_stages": true
+  },
+  {
+    "slug": "cim",
+    "name": "CMI Group",
+    "stage": "first_draft_sent",
+    "next_action": "Send proposal email to Bryan; schedule follow-up call",
+    "last_checked": "2026-03-09",
+    "urgency": "normal",
+    "docusign": null,
+    "total_value": 10000,
+    "monthly_value": 10000,
+    "currency": "USD",
+    "pipeline": {
+      "1_ingest": "unknown",
+      "2_research": "unknown",
+      "3_style": "unknown",
+      "4_interview": "unknown",
+      "5_draft": "unknown",
+      "6_export": "unknown"
+    },
+    "contacts": [
+      "Bryan Jaskolka"
+    ],
+    "created": "",
+    "has_stages": false
+  },
+  {
+    "slug": "doxim",
+    "name": "Doxim",
+    "stage": "first_draft_sent",
+    "next_action": "Follow up with Nouman Mufti on proposal review; schedule discussion call",
+    "last_checked": "2026-03-09",
+    "urgency": "normal",
+    "docusign": null,
+    "total_value": 155000,
+    "monthly_value": 5000,
+    "currency": "USD",
+    "pipeline": {
+      "1_ingest": "unknown",
+      "2_research": "unknown",
+      "3_style": "unknown",
+      "4_interview": "unknown",
+      "5_draft": "unknown",
+      "6_export": "unknown"
+    },
+    "contacts": [
+      "Nouman Mufti",
+      "Javier Rivera",
+      "Chris Peterson"
+    ],
+    "created": "",
+    "has_stages": false
+  },
+  {
+    "slug": "nofence",
+    "name": "Nofence",
+    "stage": "final_proposal_sent",
+    "next_action": "Awaiting client signature",
+    "last_checked": "2026-03-20",
+    "urgency": "normal",
+    "docusign": null,
+    "total_value": 3000,
+    "monthly_value": 0,
+    "currency": "USD",
+    "pipeline": {
+      "1_ingest": "complete",
+      "2_research": "complete",
+      "3_style": "complete",
+      "4_interview": "complete",
+      "5_draft": "complete",
+      "6_export": "complete"
+    },
+    "contacts": [],
+    "created": "2026-01-15",
+    "has_stages": true
+  },
+  {
+    "slug": "nue",
+    "name": "Nue.io",
+    "stage": "lead",
+    "next_action": "Awaiting Mark's response to schedule discovery call with Rahul Parikh",
+    "last_checked": "2026-03-09",
+    "urgency": "normal",
+    "docusign": null,
+    "total_value": 0,
+    "monthly_value": 0,
+    "currency": "USD",
+    "pipeline": {
+      "1_ingest": "unknown",
+      "2_research": "unknown",
+      "3_style": "unknown",
+      "4_interview": "unknown",
+      "5_draft": "unknown",
+      "6_export": "unknown"
+    },
+    "contacts": [
+      "Mark Walker",
+      "Rahul Parikh"
+    ],
+    "created": "",
+    "has_stages": false
+  },
+  {
+    "slug": "nylas",
+    "name": "Nylas",
+    "stage": "final_proposal_sent",
+    "next_action": "Awaiting DocuSign signatures from Jeff and Brent",
+    "last_checked": "2026-03-20",
+    "urgency": "normal",
+    "docusign": "sent",
+    "total_value": 50000,
+    "monthly_value": 0,
+    "currency": "USD",
+    "pipeline": {
+      "1_ingest": "complete",
+      "2_research": "complete",
+      "3_style": "complete",
+      "4_interview": "complete",
+      "5_draft": "complete",
+      "6_export": "complete"
+    },
+    "contacts": [
+      "Jeff Koets",
+      "Brent Geddes"
+    ],
+    "created": "2026-02-13",
+    "has_stages": true
+  },
+  {
+    "slug": "registrarcorp",
+    "name": "Registrar Corp",
+    "stage": "lead",
+    "next_action": "Prepare for April 15 discovery meeting with Richard Motruk",
+    "last_checked": "2026-03-07",
+    "urgency": "normal",
+    "docusign": null,
+    "total_value": 0,
+    "monthly_value": 0,
+    "currency": "USD",
+    "pipeline": {
+      "1_ingest": "unknown",
+      "2_research": "unknown",
+      "3_style": "unknown",
+      "4_interview": "unknown",
+      "5_draft": "unknown",
+      "6_export": "unknown"
+    },
+    "contacts": [
+      "Richard Motruk",
+      "Alex Clarke"
+    ],
+    "created": "",
+    "has_stages": false
+  },
+  {
+    "slug": "rise",
+    "name": "Rise Broadband",
+    "stage": "first_draft_sent",
+    "next_action": "Follow up with Evan and Rod on retainer proposal review",
+    "last_checked": "2026-03-20",
+    "urgency": "normal",
+    "docusign": null,
+    "total_value": 10000,
+    "monthly_value": 10000,
+    "currency": "USD",
+    "pipeline": {
+      "1_ingest": "unknown",
+      "2_research": "unknown",
+      "3_style": "unknown",
+      "4_interview": "unknown",
+      "5_draft": "unknown",
+      "6_export": "unknown"
+    },
+    "contacts": [
+      "Evan Stoelzel",
+      "Rod",
+      "Bret Westwood"
+    ],
+    "created": "",
+    "has_stages": false
+  },
+  {
+    "slug": "theproductivityteam",
+    "name": "The Productivity Team",
+    "stage": "first_draft_sent",
+    "next_action": "Follow up with Shawn Lennon on proposal review",
+    "last_checked": "2026-03-20",
+    "urgency": "normal",
+    "docusign": null,
+    "total_value": 45000,
+    "monthly_value": 0,
+    "currency": "USD",
+    "pipeline": {
+      "1_ingest": "complete",
+      "2_research": "complete",
+      "3_style": "complete",
+      "4_interview": "complete",
+      "5_draft": "complete",
+      "6_export": "complete"
+    },
+    "contacts": [
+      "Shawn Lennon"
+    ],
+    "created": "2026-03-06",
+    "has_stages": true
+  },
+  {
+    "slug": "weintraub",
+    "name": "Weintraub",
+    "stage": "in_development",
+    "next_action": "Complete research and draft proposal for AI steering committee education session",
+    "last_checked": "2026-03-20",
+    "urgency": "normal",
+    "docusign": null,
+    "total_value": 0,
+    "monthly_value": 0,
+    "currency": "USD",
+    "pipeline": {
+      "1_ingest": "complete",
+      "2_research": "complete",
+      "3_style": "pending",
+      "4_interview": "pending",
+      "5_draft": "pending",
+      "6_export": "pending"
+    },
+    "contacts": [
+      "Caleb",
+      "Joseph Dineen",
+      "Christopher Puttock"
+    ],
+    "created": "",
+    "has_stages": true
+  }
+];
+
+    const STAGE_ORDER = ['lead', 'in_development', 'first_draft_sent', 'final_proposal_sent', 'signed', 'stalled'];
+    const STAGE_LABELS = {
+        'lead': 'Lead',
+        'in_development': 'In Development',
+        'first_draft_sent': 'First Draft Sent',
+        'final_proposal_sent': 'Final Proposal Sent',
+        'signed': 'Signed',
+        'stalled': 'Stalled',
+        'unknown': 'Unknown'
+    };
+
+    const PIPELINE_LABELS = ['Ingest', 'Research', 'Style', 'Interview', 'Draft', 'Export'];
+    const PIPELINE_KEYS = ['1_ingest', '2_research', '3_style', '4_interview', '5_draft', '6_export'];
+
+    const COLORS = ['#4C72B0', '#DD8452', '#55A868', '#C44E52', '#8172B3', '#937860', '#DA8BC3', '#8C8C8C'];
+
+    function fmt(val) {
+        if (val >= 1e6) return '$' + (val / 1e6).toFixed(1) + 'M';
+        if (val >= 1e3) return '$' + (val / 1e3).toFixed(0) + 'K';
+        return '$' + val.toLocaleString();
+    }
+
+    class Dashboard {
+        constructor(data) {
+            this.rawData = data;
+            this.filteredData = data;
+            this.charts = {};
+            this.sortCol = null;
+            this.sortDir = 'asc';
+            this.init();
+        }
+
+        init() {
+            this.populateFilters();
+            this.renderKPIs();
+            this.renderCharts();
+            this.renderTable();
+        }
+
+        populateFilters() {
+            const select = document.getElementById('filter-stage');
+            const stages = [...new Set(this.rawData.map(d => d.stage))];
+            stages.sort((a, b) => STAGE_ORDER.indexOf(a) - STAGE_ORDER.indexOf(b));
+            stages.forEach(s => {
+                const opt = document.createElement('option');
+                opt.value = s;
+                opt.textContent = STAGE_LABELS[s] || s;
+                select.appendChild(opt);
+            });
+        }
+
+        applyFilters() {
+            const stage = document.getElementById('filter-stage').value;
+            this.filteredData = this.rawData.filter(d => {
+                if (stage !== 'all' && d.stage !== stage) return false;
+                return true;
+            });
+            this.renderKPIs();
+            this.updateCharts();
+            this.renderTable();
+        }
+
+        renderKPIs() {
+            const d = this.filteredData;
+            const total = d.length;
+            const totalValue = d.reduce((s, r) => s + (r.total_value || 0), 0);
+            const monthlyRev = d.filter(r => r.stage === 'signed').reduce((s, r) => s + (r.monthly_value || 0), 0);
+            const signed = d.filter(r => r.stage === 'signed').length;
+            const active = d.filter(r => ['in_development', 'first_draft_sent', 'final_proposal_sent'].includes(r.stage)).length;
+
+            const container = document.getElementById('kpi-row');
+            container.innerHTML = `
+                <div class="kpi-card">
+                    <div class="kpi-label">Total Proposals</div>
+                    <div class="kpi-value">${total}</div>
+                    <div class="kpi-sub">${signed} signed, ${active} active</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-label">Total Pipeline Value</div>
+                    <div class="kpi-value">${fmt(totalValue)}</div>
+                    <div class="kpi-sub">Across all proposals</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-label">Monthly Recurring</div>
+                    <div class="kpi-value">${fmt(monthlyRev)}/mo</div>
+                    <div class="kpi-sub">From signed engagements</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-label">Awaiting Action</div>
+                    <div class="kpi-value">${d.filter(r => r.next_action && !['signed'].includes(r.stage)).length}</div>
+                    <div class="kpi-sub">Proposals needing attention</div>
+                </div>
+            `;
+        }
+
+        renderCharts() {
+            // Stage distribution doughnut
+            const stageCounts = {};
+            this.filteredData.forEach(d => {
+                const label = STAGE_LABELS[d.stage] || d.stage;
+                stageCounts[label] = (stageCounts[label] || 0) + 1;
+            });
+            const stageLabels = Object.keys(stageCounts);
+            const stageData = Object.values(stageCounts);
+
+            const ctx1 = document.getElementById('chart-stages').getContext('2d');
+            this.charts.stages = new Chart(ctx1, {
+                type: 'doughnut',
+                data: {
+                    labels: stageLabels,
+                    datasets: [{ data: stageData, backgroundColor: COLORS.slice(0, stageLabels.length).map(c => c + 'CC'), borderColor: '#fff', borderWidth: 2 }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '55%',
+                    plugins: {
+                        legend: { position: 'right', labels: { usePointStyle: true, padding: 12, font: { size: 12 } } }
+                    }
+                }
+            });
+
+            // Value bar chart
+            const valued = this.filteredData.filter(d => d.total_value > 0).sort((a, b) => b.total_value - a.total_value);
+            const ctx2 = document.getElementById('chart-values').getContext('2d');
+            this.charts.values = new Chart(ctx2, {
+                type: 'bar',
+                data: {
+                    labels: valued.map(d => d.name),
+                    datasets: [{
+                        label: 'Total Value',
+                        data: valued.map(d => d.total_value),
+                        backgroundColor: valued.map((d, i) => {
+                            if (d.stage === 'signed') return '#27ae60CC';
+                            if (d.stage === 'final_proposal_sent') return '#2E86C1CC';
+                            if (d.stage === 'first_draft_sent') return '#f39c12CC';
+                            return '#95a5a6CC';
+                        }),
+                        borderRadius: 4,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: function(ctx) { return fmt(ctx.parsed.x); }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            ticks: { callback: function(v) { return fmt(v); } }
+                        },
+                        y: {
+                            grid: { display: false }
+                        }
+                    }
+                }
+            });
+        }
+
+        updateCharts() {
+            // Stages
+            const stageCounts = {};
+            this.filteredData.forEach(d => {
+                const label = STAGE_LABELS[d.stage] || d.stage;
+                stageCounts[label] = (stageCounts[label] || 0) + 1;
+            });
+            this.charts.stages.data.labels = Object.keys(stageCounts);
+            this.charts.stages.data.datasets[0].data = Object.values(stageCounts);
+            this.charts.stages.data.datasets[0].backgroundColor = COLORS.slice(0, Object.keys(stageCounts).length).map(c => c + 'CC');
+            this.charts.stages.update('none');
+
+            // Values
+            const valued = this.filteredData.filter(d => d.total_value > 0).sort((a, b) => b.total_value - a.total_value);
+            this.charts.values.data.labels = valued.map(d => d.name);
+            this.charts.values.data.datasets[0].data = valued.map(d => d.total_value);
+            this.charts.values.data.datasets[0].backgroundColor = valued.map(d => {
+                if (d.stage === 'signed') return '#27ae60CC';
+                if (d.stage === 'final_proposal_sent') return '#2E86C1CC';
+                if (d.stage === 'first_draft_sent') return '#f39c12CC';
+                return '#95a5a6CC';
+            });
+            this.charts.values.update('none');
+        }
+
+        renderTable() {
+            const data = this.getSortedData();
+            const container = document.getElementById('proposals-table');
+
+            let html = '<table class="pipeline-table">';
+            html += '<thead><tr>';
+
+            const cols = [
+                { key: 'name', label: 'Client' },
+                { key: 'stage', label: 'Lifecycle Stage' },
+                { key: 'pipeline', label: 'Build Pipeline' },
+                { key: 'total_value', label: 'Value' },
+                { key: 'contacts', label: 'Contacts' },
+                { key: 'next_action', label: 'Next Action' },
+                { key: 'last_checked', label: 'Last Checked' },
+            ];
+
+            cols.forEach(col => {
+                const arrow = this.sortCol === col.key ? (this.sortDir === 'asc' ? ' \u25B2' : ' \u25BC') : '';
+                html += `<th onclick="dashboard.sort('${col.key}')">${col.label}${arrow}</th>`;
+            });
+            html += '</tr></thead><tbody>';
+
+            data.forEach(row => {
+                const stageClass = 'stage-' + row.stage;
+                const stageLabel = STAGE_LABELS[row.stage] || row.stage;
+
+                // Pipeline dots
+                let dots = '';
+                if (row.has_stages) {
+                    dots = '<div class="pipeline-dots">';
+                    PIPELINE_KEYS.forEach((k, i) => {
+                        const st = row.pipeline[k] || 'unknown';
+                        const cls = st === 'complete' ? 'dot-complete' : (st === 'in_progress' ? 'dot-in_progress' : 'dot-pending');
+                        dots += `<div class="pipeline-dot ${cls}" title="${PIPELINE_LABELS[i]}: ${st}">${i+1}</div>`;
+                    });
+                    dots += '</div>';
+                } else {
+                    dots = '<span style="color:#adb5bd;font-size:11px">N/A</span>';
+                }
+
+                const urgClass = row.next_action && row.next_action.toLowerCase().includes('urgent') ? 'urgency-urgent' : '';
+                const valueStr = row.total_value > 0 ? fmt(row.total_value) : '<span style="color:#adb5bd">TBD</span>';
+                const monthlyStr = row.monthly_value > 0 ? `<div style="font-size:11px;color:var(--text-secondary)">${fmt(row.monthly_value)}/mo</div>` : '';
+
+                html += `<tr>
+                    <td style="font-weight:600">${row.name}</td>
+                    <td><span class="stage-badge ${stageClass}">${stageLabel}</span></td>
+                    <td>${dots}</td>
+                    <td class="value-cell">${valueStr}${monthlyStr}</td>
+                    <td class="contact-list">${row.contacts.join(', ') || '<span style="color:#adb5bd">None listed</span>'}</td>
+                    <td class="next-action ${urgClass}">${row.next_action || ''}</td>
+                    <td style="white-space:nowrap;color:var(--text-secondary)">${row.last_checked || ''}</td>
+                </tr>`;
+            });
+
+            html += '</tbody></table>';
+            container.innerHTML = html;
+        }
+
+        getSortedData() {
+            if (!this.sortCol) return [...this.filteredData];
+            return [...this.filteredData].sort((a, b) => {
+                let aVal = a[this.sortCol];
+                let bVal = b[this.sortCol];
+                if (this.sortCol === 'stage') {
+                    aVal = STAGE_ORDER.indexOf(aVal);
+                    bVal = STAGE_ORDER.indexOf(bVal);
+                }
+                if (this.sortCol === 'contacts') {
+                    aVal = (aVal || []).join(', ');
+                    bVal = (bVal || []).join(', ');
+                }
+                if (typeof aVal === 'string') {
+                    const cmp = (aVal || '').localeCompare(bVal || '');
+                    return this.sortDir === 'asc' ? cmp : -cmp;
+                }
+                const cmp = (aVal || 0) - (bVal || 0);
+                return this.sortDir === 'asc' ? cmp : -cmp;
+            });
+        }
+
+        sort(col) {
+            if (this.sortCol === col) {
+                this.sortDir = this.sortDir === 'asc' ? 'desc' : 'asc';
+            } else {
+                this.sortCol = col;
+                this.sortDir = col === 'total_value' ? 'desc' : 'asc';
+            }
+            this.renderTable();
+        }
+    }
+
+    const dashboard = new Dashboard(DATA);
+    </script>
+</body>
+</html>

@@ -1,0 +1,487 @@
+Doxim Draft Proposal
+
+1. Executive Summary
+
+Doxim is a leading provider of Customer Communications Management (CCM),
+data-driven print, and document automation solutions, primarily serving
+the financial services sector (e.g., credit unions, banks, wealth
+management). Through acquisitions, Doxim has assembled a collection of
+platforms and systems that handle everything from data ingestion
+(pre-composed or raw data) to document composition, printing, mailing,
+and archival. There are also additional product lines, including payment
+solutions and software supporting loan/account origination.
+
+Doxim’s core challenges—high-volume manual QA, repetitive professional
+services activities, siloed or legacy platforms, and specialized custom
+implementations—offer substantial opportunities for generative AI and
+automation. By integrating AI-driven solutions, Doxim can:
+
+-   Reduce onboarding time and cost for new or existing clients
+
+-   Automate data QA and anomaly detection for ongoing production
+
+-   Accelerate document composition and transformation during
+    implementations
+
+-   Improve client services efficiency by applying generative AI for
+    ticket triage, knowledge management, and self-service
+
+-   Lay the groundwork for faster, more scalable migrations of clients
+    onto strategic, modernized CCM platforms
+
+The following proposal details a multi-phase engagement to assess,
+design, and implement Gen AI initiatives, with measurable KPIs such as
+“man-hours per client onboarded”,“QA automation coverage” and “delivery
+speed”. We will start with an “arms-length co-pilot” approach for key
+teams (professional services, data processing) and advance through
+increasing levels of automation, ultimately delivering transformative
+gains in operational efficiency and margin.
+
+2. Doxim’s Context and Industry Overview
+
+2.1 About Doxim
+
+Core Offering: Document composition, print & mail, digital delivery,
+payment services, and software-based solutions for BFSI, with a heavy
+emphasis on data processing and custom implementation for each client.
+
+Professional Services & Data Ops: Large teams handle thousands of
+changes a year for new and existing clients, from coding transformations
+to verifying data integrity.
+
+Multiple Platforms: Legacy and modern CCM engines across geographies,
+with varying levels of maturity, feature sets, and technology stacks.
+
+2.2 Competitors and Adjacent Players
+
+In the CCM and customer communications space, major players (e.g.,
+Quadient, OpenText Exstream, Precisely/GMC, Smart Communications, and
+sometimes in-house RPA solutions from IBM or Fortra) are already
+piloting or adopting generative AI to:
+
+-   Automate complex document composition tasks (e.g., building new
+    templates based on large data sets or example inputs).
+
+-   Deliver advanced analytics and QA—using AI to detect anomalies in
+    statement data prior to composition or printing.
+
+-   Enhance customer support with AI-driven chatbots that reduce service
+    costs.
+
+https://www.quadient.com/en/news/Quadient_Invests_in_AI_Capabilities_Leveraging_Microsoft_Azure_AI_Services_in_Cloud_Platform
+
+https://www.businesswire.com/news/home/20241205075495/en/Double-Recognition-Smart-Communications-Named-a-Leader-in-IDC-MarketScape-Reports-for-Intelligent-CCM-and-Automated-Document-Generation
+
+https://blogs.opentext.com/welcome-to-opentext-ai/
+
+In adjacent BFSI industries, generative AI is also used for:
+
+-   Data cleaning and pre-processing before ingestion into a core system
+    (reducing manual overhead).
+
+-   Automated code/script generation for transformation or integration
+    tasks.
+
+-   Automated QA that compares expected outcomes to actual runs and
+    flags potential issues.
+
+3. Current Pain Points
+
+From the discovery call, Doxim’s main pain points fall in these areas:
+
+Professional Services / Implementation
+
+-   High volume of repetitive tasks when onboarding new customers or
+    adding features
+
+-   Building out composition templates (markup languages, multi-language
+    code)
+
+-   Mapping raw data to final output (transaction statements, notices)
+
+-   Manual QA of changes and partial rework
+
+  Data Operations
+
+-   Pre-Processing QA: Data can arrive incomplete or incorrect; manual
+    checks are time-consuming
+
+-   Post-Production QA: Validating final output involves numerous steps,
+    sometimes a bottleneck for final delivery
+
+  Legacy & Multiple Platforms
+
+-   Acquisitions have created multiple CCM composition engines;
+    transferring a client from one to another is large and expensive
+
+-   Minimizing overhead from multiple codebases, languages, and
+    specialized staff
+
+  Client Service & Support
+
+-   Teams handle thousands of service tickets and changes each year
+
+-   Potential for AI in routing tickets, summarizing issues, and
+    eventually auto-resolving common requests
+
+  Security and Privacy Concerns
+
+-   Strict data confidentiality rules require solutions that do not send
+    PII or statements to public LLMs
+
+-   Necessitates a privacy-conscious approach (e.g., “no data leaves the
+    facility,” synthetic data approaches, or on-premise LLM solutions)
+
+4. Strengths of AI & Potential Solutions
+
+Generative AI can help Doxim:
+
+-   Accelerate Onboarding:
+
+    -   AI-driven data mapping & transformation code generation: The
+        model creates Python/.Net scripts to handle new data formats
+        quickly.
+
+    -   AI-based QA prompts: Automated generation of test plans and test
+        data.
+
+-   Improve Data QA:
+
+    -   Pre-processing checks for file anomalies (e.g., missing headers,
+        zero-length data). AI can learn from historical client data to
+        predict likely data errors.
+
+    -   Post-composition checks that compare final documents with
+        expected templates or known baselines, highlighting anomalies.
+
+-   Migrate Legacy Platforms:
+
+    -   AI can parse existing composition templates, then auto-generate
+        equivalent templates in a new CCM engine.
+
+-   Client Services Efficiency:
+
+    -   Generative AI co-pilot to draft updates, knowledge base
+        articles, or route tickets to the correct product team.
+
+    -   Potential future: partial or full self-service for
+        straightforward queries (reducing the load on 50+ support
+        agents).
+
+-   Continuous Improvement & Measurement:
+
+    -   By measuring KPIs such as “Average man-hours needed to onboard a
+        client,” Doxim can track how effectively AI-driven automation
+        reduces labor cost.
+
+5. Recommended Approach
+
+5.1 Overview
+
+A multi-phase approach will ensure Doxim can methodically discover and
+prove value, then scale AI solutions across professional services, data
+ops, support, and beyond.
+
+1.  Phase 1: AI Readiness & Discovery
+
+    a.  Discovery & Mapping: Map out Doxim’s main processes for
+        onboarding, data QA, ticket handling, and across the multiple
+        CCM platforms.
+
+    b.  Data Architecture & Security: Identify potential data
+        constraints (PII, on-prem requirements) and outline best
+        practices.
+
+    c.  Stakeholder Education & Brainstorming: Short workshop(s) to
+        align on AI fundamentals, clarify scope, and gather targeted use
+        cases from professional services, data ops, and client support.
+
+2.  Phase 2: Prototyping & Quick Wins
+
+    a.  Pilot #1 – “Arms-Length Co-Pilot”:
+
+        i.  Implement a secure environment (e.g., GPT in Azure or a
+            private LLM) for a professional services co-pilot that
+            drafts transformation scripts or composition templates.
+
+        ii. Evaluate gains in reduced dev/QA hours.
+
+    b.  Pilot #2 – “QA Automation”:
+
+        i.  Use generative AI to compare pre- vs. post-composition data
+            sets.
+
+        ii. Auto-generate detailed QA test cases.
+
+    c.  Measure ROI early to refine approach.
+
+3.  Phase 3: Broad Implementation & AI Tools Integration
+
+    a.  Rollout successful pilots to the full professional services and
+        data ops organizations.
+
+    b.  Extend AI usage to client service desk for routing and knowledge
+        base.
+
+    c.  Consolidate approaches for template-building and code generation
+        across the legacy CCM engines.
+
+    d.  Implement metrics-driven approach (e.g., man-hours per new
+        client, ticket resolution time, etc.) to continuously measure
+        efficiency gains.
+
+4.  Phase 4: Advanced Co-Pilot & Migration Strategies
+
+    a.  AI as Primary Operator: Let AI propose or even directly apply
+        data transformations for new clients, requiring only final human
+        approval.
+
+    b.  Legacy Platform Migration: Use AI to parse old composition
+        definitions and automatically replicate them in the newer Doxim
+        platform(s).
+
+    c.  Full or Near-Full Automation: For stable, repetitive tasks, the
+        AI pipeline can run end-to-end with minimal human input.
+
+5.2 Staged Process for AI Automation
+
+Below is the maturity model that Doxim can leverage to expand AI’s role
+methodically:
+
+1.  Arms-Length Co-Pilot
+
+    a.  Key individuals get AI-driven training and suggestions to speed
+        coding, analysis, QA.
+
+    b.  AI does not automatically transform or import data—staff remain
+        the gatekeepers.
+
+    c.  Goals: Build trust, measure initial efficiency gains, upskill
+        employees.
+
+2.  True Co-Pilot
+
+    a.  AI becomes a daily collaborator: it auto-generates scripts, maps
+        data, and suggests next steps.
+
+    b.  Humans correct or fine-tune results, eventually implementing
+        them.
+
+    c.  Goals: Larger reduction in average hours, faster TTR
+        (time-to-resolution) for new client setups.
+
+3.  AI as Primary Operator
+
+    a.  AI attempts to handle all standard or well-defined
+        transformations, requiring only final approval.
+
+    b.  Real-time QA and anomaly detection integrated, with minimal
+        human monitoring.
+
+    c.  Goals: Large automation coverage, improved accuracy through
+        continuous learning.
+
+4.  Full Automation
+
+    a.  AI fully manages repetitive or stable tasks end-to-end, with
+        confidence thresholds to escalate anomalies.
+
+    b.  QA becomes a monitoring function, focusing on edge cases or new
+        scenarios.
+
+    c.  Goals: Scale massively with minimal marginal cost, redeploy
+        staff to higher-value tasks.
+
+6. Proposed Phases in Detail
+
+Phase 1: AI Readiness & Discovery
+
+-   Activities:
+
+    -   Stakeholder interviews with professional services, data ops, and
+        support leads.
+
+    -   Technical review of existing platforms, data flows, data
+        security constraints.
+
+    -   AI Education Workshop with key management & staff.
+
+    -   Detailed scoping of pilot opportunities (onboarding vs. QA vs.
+        client support).
+
+-   Deliverables:
+
+    -   AI Readiness Report: Data flow diagrams, security approach,
+        recommended pilot scope.
+
+    -   Prioritized list of 2–3 pilot initiatives with ROI estimates.
+
+Phase 2: Prototyping & Quick Wins
+
+-   Activities:
+
+    -   Configure or expand a secure AI environment (Azure OpenAI,
+        private LLM, etc.).
+
+    -   Pilot for arms-length co-pilot in professional services
+        (auto-generate data transformation scripts, composition
+        templates).
+
+    -   Pilot QA automation approach (pre- vs. post-composition checks).
+
+    -   Evaluate man-hours saved, throughput, error reduction.
+
+-   Deliverables:
+
+    -   Working pilot solutions with documented results.
+
+    -   An initial partial rollout to a subset of the team.
+
+    -   ROI & Next Step Recommendations for full implementation.
+
+Phase 3: Broad Implementation & AI Tools Integration
+
+-   Activities:
+
+    -   Extend pilot solutions to all relevant teams in professional
+        services, data ops, and possibly client support.
+
+    -   Set up usage metrics: number of hours saved, TTR, etc.
+
+    -   Potential integration with ticketing systems (for auto-routing
+        or response drafting).
+
+-   Deliverables:
+
+    -   Deployed AI-based automation (co-pilot style) organization-wide.
+
+    -   Clear measurement framework tracking man-hour savings,
+        speed-to-onboard, etc.
+
+    -   Ongoing knowledge transfer to Doxim staff.
+
+Phase 4: Advanced Co-Pilot, Migration, & Full Automation
+
+-   Activities:
+
+    -   Expand from “true co-pilot” to “AI as primary operator” for
+        well-defined transformations.
+
+    -   Work on partial or full automatic platform migration (legacy
+        templates to new CCM).
+
+    -   Final stage: fully automated tasks for stable processes.
+
+-   Deliverables:
+
+    -   Scripts & pipelines that handle data transformation or template
+        creation automatically.
+
+    -   Policies & confidence thresholds for minimal human QA.
+
+    -   Roadmap for “fully automated” tasks, letting staff focus on
+        high-level innovation.
+
+7. Success Metrics & ROI
+
+-   Man-Hours per Client Onboarded
+
+    -   Baseline: e.g., “X hours per typical project”
+
+    -   Target: reduce by 30–50% within 12–18 months
+
+-   QA Automation Coverage
+
+    -   Baseline: manual checks for 80% of data sets
+
+    -   Target: AI-based checks handle 50–70% of QA
+
+-   Implementation Throughput
+
+    -   More projects handled by the same (or smaller) team
+
+    -   Faster time-to-market for new clients
+
+-   Client Satisfaction (internal & external)
+
+    -   Lower error rates, fewer rework cycles, improved on-time
+        delivery
+
+-   Support Ticket Efficiency
+
+    -   A measurable reduction in time to route and resolve standard
+        tickets
+
+8. Engagement Model & Timeline
+
+Below is one example structure. We can refine once final scope is
+agreed:
+
+Phase 1 (2–3 weeks): Discovery & AI Readiness
+
+Phase 2 (4–6 weeks): Pilots & Quick Wins
+
+Phase 3 (Ongoing): Broad Implementation — typically 3–6 months,
+retainer-based to allow iterative rollout
+
+Phase 4 (Longer Term): Advanced Solutions, Migrations, Full Automation
+
+Commercial Model
+
+Fixed-Fee or Retainer Hybrid:
+
+-   Phase 1 & 2 can be quoted as a fixed engagement covering workshops,
+    interviews, pilot build.
+
+-   Phase 3 & 4 often shift into a monthly retainer model to
+    continuously build, iterate, and refine AI solutions.
+
+9. Next Steps
+
+1.  NDA & Data Sharing: Execute NDA, share relevant project plans,
+    system documentation, etc.
+
+2.  Deep Dive: Gain deeper technical clarity on each CCM platform,
+    typical project “change requests,” and data flows.
+
+3.  Customized SOW: We will finalize a Statement of Work with timelines,
+    costs, responsibilities, and success metrics.
+
+4.  Kickoff Phase 1: Begin discovery, interviews, and immediate
+    quick-win identification.
+
+10. About Our Team & Philosophy
+
+We are a specialized AI consulting and engineering team offering:
+
+-   Expert AI Implementation: Including user training, process
+    automation, in-product AI, tool selection, broad productivity
+    enhancement, etc.
+
+-   Full Delivery Support: Prototyping, development, deployment, and
+    continued iteration.
+
+-   Sustainable Enablement: We prioritize knowledge transfer, so our
+    clients build internal capabilities.
+
+By starting with phased pilots and gradually expanding to advanced
+automation, we help ensure each AI initiative provides tangible ROI and
+sets Doxim up for continuous improvement. Our end goal is for Doxim to
+become self-sufficient in building and running AI-driven solutions that
+substantially reduce costs and time to market.
+
+Final Note
+
+We look forward to partnering with Doxim to unlock the transformative
+potential of generative AI. The combination of Doxim’s scale in document
+services and our proven AI expertise can accelerate operational
+efficiency, reduce onboarding effort, and deliver a world-class customer
+experience. Our phased roadmap provides a practical yet powerful path to
+measurable results—ultimately strengthening Doxim’s position as a leader
+in the CCM and data-driven communications industry.
+
+If you have any questions or need adjustments to this proposal, please
+let us know. We look forward to finalizing the scope and moving to Phase
+1 promptly.
+
+End of Proposal

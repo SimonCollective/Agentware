@@ -1,0 +1,720 @@
+[A red and white logo Description automatically generated]
+
+SOFTHOUSE AI ADVISORY
+
+AI Enablement and Implementation Proposal
+
+For Doxim
+
+March 5, 2025
+
+ID: EXA_Doxim_20250301-1.0
+
+This document contains proprietary and confidential material of
+Softhouse Advisory Services Ltd., its subsidiaries and its authorized
+partners. Any unauthorized reproduction, use, or disclosure of this
+material, or any part thereof, is strictly prohibited. This document is
+solely for the use of Softhouse employees and authorized partners and
+customers. The material furnished in this document is meant to be
+accurate and reliable. However, the material herein is provided “as is”
+and Softhouse shall not be liable for the use of this document, or any
+material included herein by any third party. Softhouse reserves the
+right to make changes to this document or any material included herein
+at any time and without notice. -  Confidential
+
+Nouman,
+
+I'm excited to share our proposal for the AI Real-Time Discovery and MVP
+Implementation proposal for Doxim.
+
+This proposal is all about using AI to enhance data integration,
+insights, and operational efficiency across Doxim. I genuinely believe
+this is an incredible opportunity to make a big impact on productivity
+and efficiency across the company.
+
+We are looking forward in working with you and the team
+
+Regards,
+
+Robert Sestito
+
+CEO
+
+Softhouse Advisory
+
+Engagement Overview 
+
+  Proposed engagement is a 6-week, “real-time discovery” effort that not
+  only maps out Doxim’s detailed pain points and opportunities but
+  identifies quick wins immediately, driving measurable ROI from day
+  one. By the end of six weeks, Doxim will have a clear AI roadmap,
+  visibility into immediate cost savings, all while laying the
+  foundation for a sustainable, in-house AI practice.
+
+  Alongside this discovery we will identify 2 MVP projects and build two
+  production ready tools to be used by Doxim to drive efficiency into
+  the Professional Services and Data teams. These MVPs will be developed
+  in parallel to the discovery process, the technology, cost, effort,
+  and required platforms will be defined in the first two weeks of
+  discovery.
+
+Proposed Approach 
+
+  The engagement will be structured in 2 sections: 
+
+  Section 1
+
+  The “Real-Time Discovery” is a hands-on, iterative approach that
+  delivers immediate wins and simultaneously maps a longer-term roadmap.
+  By the end of the four weeks, you will have:
+
+1.  Tangible Quick-Win Implementations
+
+-   Identify low-hanging optimization opportunities
+
+    -   A quick win as anything involving pre-existing, pre-configured
+        AI technology, for example:
+
+        -   Implementing a better Foundational model for general use
+
+        -   Implementing a better meeting note taker that demonstrates
+            significant value over existing solutions
+
+        -   Implementing a marketing or sales tool that has proven value
+
+        -   Implementing automation across engineering or QA that has
+            proven value
+
+        -   Training for individuals who are using AI in a sub optimal
+            way
+
+2.  AI Roadmap
+
+-   Strategic plan that outlines how Doxim will adopt, implement, and
+    scale AI technologies to achieve its business objectives.
+
+3.  Governance & Best Practices
+
+-   A sustainable AI operating model, including compliance guidelines
+    for regulated data, recommended training paths for staff, and
+    pilot-to-production scale processes.
+
+4.  Financial ROI
+
+-   Clear business-case calculations and KPIs: potential staff reduction
+    or capacity reallocation, invoice cycle times, new client throughput
+    improvement, etc.
+
+Section 2
+
+1.  Minimum Viable Products (MVP)
+
+-   Analysis and build of opportunities in the following areas;
+
+    -   MVP1 - Professional Services (PS) - Business Analysts (BA),
+        Improve Process of Project Document Creation
+
+    -   MVP2 - Data Processing (DP) - Quality Checking in Data
+        Processing
+
+-   Technical feasibility outlines, recommended architecture (on-prem
+    LLM vs. synthetic data approach for regulated data), timelines, ROI
+    for each identified solution.
+
+Deliverables 
+
+  The following is an overview of the engagement with deliverables.
+  Specifics to be refined at time of engagement and alignment to MVP
+  requirements.
+
++--------+------------------+------------------+------------------+
+|   Week |   Discovery      |   MVPs           |   Deliverables   |
++========+==================+==================+==================+
+|   1    | -   System       | -   Two MVPs     | 1.  High Level   |
+|        |     setup,       |     assessed for |     findings and |
+|        |                  |     feasibility  |     process maps |
+|        |   introductions, |                  |     PS, Data,    |
+|        |     ways of      | -   Initial      |     Billing, CS  |
+|        |     working,     |     discovery    |                  |
+|        |                  |                  | 2.  Week 1       |
+|        |    availability, | -   High level   |     Quick-Win    |
+|        |     stakeholders |     design       |     List         |
+|        |                  |                  |                  |
+|        | -   Initial      |                  | 3.  AI           |
+|        |     interviews:  |                  |     Architecture |
+|        |     PS, Data,    |                  |     & Governance |
+|        |     Billing,     |                  |     framework    |
+|        |     Client       |                  |     outline      |
+|        |     Services     |                  |                  |
+|        |     teams        |                  | 4.  Draft        |
+|        |                  |                  |                  |
+|        | -   Map existing |                  |   considerations |
+|        |     workflows,   |                  |     document     |
+|        |     data flows,  |                  |     (data        |
+|        |     quick wins   |                  |     suitability, |
+|        |                  |                  |     potential    |
+|        | -   Evaluate AI  |                  |     roadblocks   |
+|        |     architecture |                  |     to be        |
+|        |     constraints  |                  |     overcome, AI |
+|        |     (security,   |                  |     readiness)   |
+|        |     on-prem vs.  |                  |                  |
+|        |     synthetic    |                  | 5.  2 feasible   |
+|        |     data)        |                  |     pilots       |
+|        |                  |                  |     identified   |
+|        | -   Map          |                  |                  |
+|        |     regulatory   |                  |                  |
+|        |     landscape    |                  |                  |
++--------+------------------+------------------+------------------+
+|   2    | -   Implement    | -   Begin        | 1.  Week 2 Quick |
+|        |     select week  |     testing      |     win List     |
+|        |     1 quick wins |     options for  |                  |
+|        |                  |     MVP          | 2.  Preliminary  |
+|        | -   Deep Dive    |                  |     “quick-win”  |
+|        |     interviews:  | -   Create       |     results &    |
+|        |     PS, Data,    |     prototypes   |     metrics if   |
+|        |     Billing,     |                  |     implemented  |
+|        |     Client       | -   Gain         |                  |
+|        |     Services     |     feedback     | 3.  Cost review  |
+|        |     teams        |                  |     of MVP       |
+|        |                  |                  |     estimations  |
+|        | -   Evaluate     |                  |                  |
+|        |     roadblocks   |                  |                  |
++--------+------------------+------------------+------------------+
+|   3    | -   Implement    | -   Finalize     | 1.  Week 3 quick |
+|        |     select week  |     Scope of MVP |     win list     |
+|        |     2 quick wins |                  |                  |
+|        |                  | -   Design and   | 2.  MVP scope    |
+|        | -   Roadblock    |     architecture |     document     |
+|        |     resolution   |                  |                  |
+|        |     (regulatory  | -   Sign off     |                  |
+|        |     compliance,  |                  |                  |
+|        |     data         | -   Dev starts   |                  |
+|        |     constraints, |                  |                  |
+|        |     etc.)        |                  |                  |
++--------+------------------+------------------+------------------+
+|   4    | -   Start        | -   MVP          | 1.  Early AI     |
+|        |     drafting     |     Development  |     Roadmap      |
+|        |     full AI      |                  |     draft (incl. |
+|        |     roadmap with | -   Testing as   |     cost/benefit |
+|        |     short, mid,  |     required     |     per          |
+|        |     and          |                  |     initiative)  |
+|        |     long-term    |                  |                  |
+|        |     initiatives  |                  |                  |
+|        |                  |                  |                  |
+|        | -   Final set of |                  |                  |
+|        |     quick-win    |                  |                  |
+|        |                  |                  |                  |
+|        |  implementations |                  |                  |
+|        |                  |                  |                  |
+|        | -   Formalize AI |                  |                  |
+|        |     governance & |                  |                  |
+|        |     best         |                  |                  |
+|        |     practices    |                  |                  |
+|        |                  |                  |                  |
+|        | -   Identify key |                  |                  |
+|        |     players for  |                  |                  |
+|        |     AI Practice  |                  |                  |
++--------+------------------+------------------+------------------+
+|   5    | -   Identify     | -   MVP          | 2.  Doxim AI     |
+|        |     route to     |     Development  |     Roadmap (PS, |
+|        |     success      |                  |     Data,        |
+|        |     (Build / Buy | -   Testing as   |     Billing, CS) |
+|        |     / Partner)   |     required     |                  |
+|        |                  |                  | 3.  Final        |
+|        | -   Present full |                  |     Workshop:    |
+|        |     roadmap      |                  |     next steps,  |
+|        |     (including   |                  |     internal     |
+|        |     suggested    |                  |     training     |
+|        |     phasing,     |                  |     plan,        |
+|        |     potential    |                  |     governance   |
+|        |     staff        |                  |     model        |
+|        |     impacts)     |                  |                  |
+|        |                  |                  | 4.  Sustainable  |
+|        |                  |                  |     AI Practice  |
+|        |                  |                  |     guidelines   |
+|        |                  |                  |                  |
+|        |                  |                  | 5.  Proposal for |
+|        |                  |                  |     Future       |
++--------+------------------+------------------+------------------+
+|   6    | -   Discovery    | -   MVP          | 1.  MVP Delivery |
+|        |     complete     |     Development  |     when ready   |
+|        |                  |                  |                  |
+|        |                  | -   Testing as   | 2.  Training &   |
+|        |                  |     required     |                  |
+|        |                  |                  |    Documentation |
+|        |                  | -   Launch when  |     handover     |
+|        |                  |     ready        |                  |
++--------+------------------+------------------+------------------+
+
+Team
+
+  The engagement will be delivered by the SoftHouse Advisory AI
+  Enablement team led by Rob Williams, Chief AI Officer.
+
+  The team will consist of the following.
+
+-   Rob Williams – Chief AI Officer, Account Manager, Primary point of
+    contact
+
+-   Business Analyst, Facilitator, Trainer
+
+-   AI Implementation Specialist
+
+-   In Product AI Development Subject Matter Expert 
+
+-   AI Tooling Specialist
+
+Client Responsibilities
+
+  Doxim agrees to provide Softhouse with timely access to all necessary
+  personnel, including but not limited to key stakeholders, subject
+  matter experts, and decision-makers, who are critical to the success
+  of the engagement. Additionally, the Client shall grant Softhouse
+  access to all relevant systems, data, and infrastructure required for
+  the provision of services.
+
+  To ensure adherence to project timelines, the Client shall respond to
+  all Softhouse requests, including but not limited to approvals,
+  clarifications, and access provisions, within two (2) business days of
+  receipt. Failure to comply with this requirement may result in project
+  delays for which Softhouse shall not be held liable.
+
+  In the event of repeated delays exceeding three (3) occurrences,
+  Softhouse reserves the right to adjust the project timeline and/or
+  escalate the matter to senior Client representatives for resolution.
+
+Schedule and Fees 
+
+  Initial Engagement: Initial Real-Time Discovery estimated at 4-6 weeks
+  duration. This includes the following.
+
+-   On-site & remote sessions with Doxim teams
+
+-   Immediate implementation of quick wins
+
+-   Executive-level deliverables (roadmap, ROI analysis, governance)
+
+-   In-engagement training where needed to ensure Doxim can sustain and
+    expand these AI capabilities independently
+
+  Initial Fees: $40,000 USD Plus Applicable Tax. 
+
+  MVP Engagement: The MVP build is an estimated engagement cost and
+  duration to be started within the same period as the initial
+  engagement with focus of TWO (2) MVP AI tools including the following.
+
+-   Product management: Scoping and sizing the solutions
+
+-   Design and build: Estimate for design of UI, Architecture
+
+-   Integration: Light integration work with backend or 3^(rd) party
+      tools
+
+-   Private LLM Architecture: potential constraint based on focus areas
+
+-   QA: testing solutions and ensuring safety and scalability
+
+-   Documentation and Training: To ensure clean handover and success
+
+  Estimated Fees: $60,000 USD Plus Applicable Tax. 
+
+  Note: the cost and duration of the MVP engagement is an estimate based
+  on the areas of focus. This depends solely on the initial engagement
+  findings. The cost and duration to be finalized within the discovery
+  scope.
+
+  Further, if additional time is required beyond the initial 6 weeks,
+  for MVP engagement, a weekly fee of $10,000 USD plus applicable taxes
+  will be charged.
+
+  [A red and white logo Description automatically generated]
+
+CONTRACT TERMS
+
+THIS AGREEMENT (the “Agreement”)is made and entered into as of the
+_March 5, 2025____________________ (the “Effective Date”) by and between
+SOFTHOUSE ADVISORY SYSTEMS INC., having its principal place of business
+at 2 Robert Speck Parkway Suite 750, Mississauga, Ontario, Canada, L4Z
+1H8 and Doxim, Inc a company having its principal place of business at
+2200 Production Dr., Indianapolis, IN 46241 (“Client”).
+
+WHEREAS SOFTHOUSE ADVISORY SYSTEMS INC. provides services in the areas
+of systems development, managed services, consulting, and support,
+(collectively, “Consulting Services”).
+
+AND WHEREAS Client desires, on the terms and conditions set forth
+herein, to contract with SOFTHOUSE ADVISORY SYSTEMS INC., for the
+provision of Consulting Services.
+
+NOW THEREFORE in consideration of the mutual promises, covenants and
+warranties set forth herein, the parties hereby agree as follows:
+
+1.  Consulting Services
+
+  Consulting Services to be provided by SOFTHOUSE ADVISORY SYSTEMS INC.,
+  to Client will be described in a proposal as a statement(s) of work
+  (“SOW”). Client and SOFTHOUSE ADVISORY SYSTEMS INC., will sign a
+  separate SOW for each project assignment.
+
+2.  Client Responsibilities
+
+  SOFTHOUSE ADVISORY SYSTEMS INC., will appoint an account manager to
+  work with Client’s respective lead on the project. Client will provide
+  SOFTHOUSE ADVISORY SYSTEMS INC., with access to and use of all
+  information, documentation, computer time and facilities reasonably
+  necessary for SOFTHOUSE ADVISORY SYSTEMS INC., to provide the
+  Consulting Services to Client hereunder.
+
+3.  Change Request Forms
+
+  Changes to the Consulting Services described in the SOW will be
+  effective only if agreed to by SOFTHOUSE ADVISORY SYSTEMS INC., and
+  Client in a written document setting forth the modification and, as
+  applicable, any resultant changes to the delivery schedule, fees and
+  payment terms.
+
+4.  Intellectual Property
+
+  “Intellectual Property” means all intellectual property rights of
+  every kind and description, including without limitation all U.S. and
+  non-U.S. rights in or to trademarks and service marks whether or not
+  registered, trade names, and all related goodwill; patents and patent
+  applications; rights in or to copyrights, whether or not registered;
+  rights in or to trade secrets, know-how, technology, methods, ideas
+  and inventions; and rights in software and computer code (source code,
+  object code, or any other form).
+
+  “Background IP” means Intellectual Property owned, created, developed,
+  leased and/or licensed by a party prior to, outside of or
+  independently from the Agreement, including without limitation
+  technology, tools, methods, algorithms, application programming
+  interfaces, know-how and data, techniques and skills that are specific
+  to Softhouse’s business and generic in nature with respect to any
+  client of Softhouse.
+
+  “Work Product” means all Intellectual Property and other materials
+  uniquely made, authored, conceived, reduced to practice, created or
+  developed for Client under the Agreement.
+
+  Ownership. Each party shall own its Background IP. Client shall
+  exclusively own Work Product as of the date of its creation. Work
+  Product constitutes original works of Softhouse and its personnel, is
+  “work made for hire” under copyright law, and all Intellectual
+  Property rights will be owned exclusively by Client. To the extent
+  that any Work Product is not considered a “work made for hire”,
+  Softhouse shall and does irrevocably assign and transfer all of its
+  right, title, and interest in and to the Work Product, including all
+  Intellectual Property, to Client. Softhouse shall ensure that its
+  employees and contractors engaged under the Agreement comply with
+  these requirements. Softhouse shall deliver an executed, written
+  assignment to the Client of the Work Product and all Intellectual
+  Property including, without limitation, those developed by its
+  employees and contractors, inside or outside of the U.S.
+
+  License to Background IP. If and to the extent that any Background IP
+  is incorporated in the Work Product or is otherwise necessary for the
+  use of the Work Product, Softhouse grants Client a perpetual,
+  irrevocable, non‑exclusive, worldwide, royalty‑free, fully paid-up
+  license, with the right to sublicense through multiple tiers, to use,
+  make, sell, distribute, execute, adapt, translate, reproduce, display,
+  perform, modify, and create derivative works of Softhouse’s Background
+  IP in connection with the Work Product in which they are incorporated,
+  and authorize others to do any, some, or all of the above.
+
+  License to Client Materials. To the extent Client delivers to or
+  provides Softhouse access to any software, specifications,
+  documentation, data, hardware, tools, know-how, methodologies,
+  processes and/or any other materials, information or Intellectual
+  Property owned, leased and/or licensed by Client (“Client Materials”),
+  Softhouse shall have the right to use Client Materials solely for
+  Client’s benefit and solely for the purpose of performing its
+  obligations under the Agreement. Softhouse may not remove any Client
+  Materials from Client’s premises unless expressly authorized in
+  writing.
+
+  Bankruptcy. All rights and licenses that Softhouse grants to Client
+  under the Agreement except for any rights in trademarks are, for
+  purposes of Section 365(n) of Title 11 of the United States Bankruptcy
+  Code (“Code”), licenses to rights in “intellectual property” as
+  defined in the Code and Client shall retain and may fully exercise all
+  of its rights under the Code. Client covenants not to invoke its
+  rights to the Work Product under the previous sentence if (a)
+  Softhouse elects to continue to perform all its obligations under the
+  Agreement within sixty (60) days of the commencement of any bankruptcy
+  proceeding, or (b) the Agreement is rejected by or on behalf of
+  Softhouse any time during the bankruptcy proceeding.
+
+5.  Payment Terms
+
+  Client will pay SOFTHOUSE within 30 days of invoice
+
+6.  Travel
+
+    Client will reimburse Softhouse Advisory Systems Inc., for
+    reasonable travel and living expenses which will not exceed
+    governmental per diems, found at www.gsa.gov, as incurred by
+    Softhouse Advisory Systems Inc. for travel approved by Client.
+
+7.  Warranty and Limitation of Liability
+
+  SOFTHOUSE ADVISORY SYSTEMS INC., warrants only that the Consulting
+  Services provided hereunder will be performed in a workmanlike manner
+  with professional diligence and skill and in compliance with all
+  applicable laws, and that it has all the rights and licenses in any
+  third party data and solutions incorporated into the deliverables as
+  necessary to allow Client to use and/or receive the third party data
+  and solutions without additional restrictions or charges. APART FROM
+  THE FOREGOING WARRANTY, SOFTHOUSE ADVISORY SYSTEMS INC., DISCLAIMS ALL
+  WARRANTIES AND CONDITIONS, WHETHER EXPRESS OR IMPLIED, INCLUDING THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY, EFFORTS, RESULTS,
+  NON-INFRINGEMENT AND FITNESS FOR A PARTICULAR PURPOSE. SOFTHOUSE
+  ADVISORY SYSTEMS INC., MAKES NO WARRANTY AS TO THE RESULTS THAT CLIENT
+  WILL ACHIEVE USING THE CONSULTING SERVICES OR DELIVERABLES PROVIDED BY
+  SOFTHOUSE ADVISORY SYSTEMS INC., OUTSIDE OF ANY WARRANTY IN THIS
+  AGREEMENT.
+
+  SOFTHOUSE ADVISORY SYSTEMS INC’s entire liability for any claims,
+  damages, or loss arising from the provision of professional services
+  to the Client shall be limited to the cost for the particular SOW of
+  said professional service fees within the prior 12 months before the
+  event giving rise to the damages occurs, and no officer, director,
+  agent, or employee of SOFTHOUSE ADVISORY SYSTEMS INC., shall be
+  personally liable for any damages whatsoever. No action may be brought
+  by Client more than two years after the cause of action arose.
+
+  WITH THE EXCEPTION OF SOFTHOUSE’S CONFIDENTIALITY OBLIGATIONS,
+  INDEMNIFICATION OBLIGATIONS, AND DATA PRIVACY OBLIGATIONS, SOFTHOUSE
+  ADVISORY SYSTEMS INC., SHALL NOT BE LIABLE FOR ANY SPECIAL, INDIRECT,
+  INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING FROM OR RELATED TO THE USE
+  OF THE SOFTWARE OR THE INSTALLATION OR USE OF THIRD PARTY PROGRAMS OR
+  SOFTWARE OR IN ANY OTHER WAY ARISING OUT OF THIS AGREEMENT, INCLUDING
+  WITHOUT LIMITATION LOSS OF DATA (DUE TO A “VIRUS” OR OTHERWISE), LOSS
+  OF REVENUE OR PROFITS, FAILURE TO REALIZE SAVINGS OR OTHER BENEFITS,
+  EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+Further, SOFTHOUSE ADVISORY SYSTEMS INC., shall not be liable for any:
+
+(i) damages caused in whole or in part by Client's negligence, wilful
+    misconduct or failure to fulfill its obligations and
+    responsibilities as set forth herein, or
+
+(ii) damages for any delay or failure by SOFTHOUSE ADVISORY SYSTEMS
+     INC., to perform its obligations under this Agreement due to acts
+     of God or any other cause beyond its reasonable control including
+     without limitation, acts of civil or military authority, war, riot,
+     labor dispute, communication line failures or power failures, or
+
+(iii) damages arising out of the termination of this Agreement.
+
+  Client shall indemnify and hold SOFTHOUSE ADVISORY SYSTEMS INC.,
+  harmless from any loss, cost, expense or damage arising out of any
+  claim or proceeding against SOFTHOUSE ADVISORY SYSTEMS INC., by any
+  third party in respect of which Client uses the third party programs,
+  deliverables or software which is based on its performance or
+  non-performance.
+
+  WITH THE EXCEPTION OF CLIENT’S CONFIDENTIALITY OBLIGATIONS,
+  INDEMNIFICATION OBLIGATIONS, AND DATA PRIVACY OBLIGATIONS, CLIENT
+  SHALL NOT BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR
+  CONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT, INCLUDING LOSS OF
+  REVENUE OR PROFITS, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+  The limitations of liability forth in this section shall apply
+  regardless of whether the underlying cause of action is a breach of
+  contract, tort (including negligence) or otherwise and shall survive
+  any termination of this Agreement.
+
+  Client is solely responsible to ensure that all programs and data
+  files are adequately duplicated and documented unless agreed to
+  explicitly in writing otherwise. SOFTHOUSE ADVISORY SYSTEMS INC. will
+  not be responsible for Client's failure to do so, nor for the cost of
+  reconstructing programs or lost data.
+
+8.  Confidentiality
+
+  In the performance and/or receipt of Consulting Services hereunder,
+  each party may have access to information that is confidential or
+  proprietary to the other party (“Confidential Information”).
+  Confidential Information means any information, technical data, or
+  know-how, including, but not limited to, that which relates to
+  research, product plans, products, services, customers, markets,
+  software, developments, inventions, processes, methodologies, designs,
+  engineering, hardware configuration information, marketing or finances
+  of the disclosing party. In order for information to be protected as
+  Confidential Information in accordance with this Agreement, it must
+  be: (a) if embodied in tangible material, clearly identified as
+  Confidential Information by being marked as “Proprietary,”
+  “Confidential,” or with some other appropriate legend; or (b) where
+  such Confidential Information is first conveyed orally or visually, it
+  shall be identified as such as the time of disclosure or the
+  circumstances of such disclosure shall reasonably indicate that such
+  information is proprietary. Confidential Information also includes all
+  source code of the disclosing party, and other information that would
+  otherwise be considered confidential by a reasonable person whether or
+  not specifically identified as confidential or proprietary. As between
+  the parties, All Deliverables, and any summaries of Deliverables or
+  materials derived from or based upon Deliverables, are Confidential
+  Information of SOFTHOUSE ADVISORY SYSTEMS INC., except that
+  Confidential Information of Client provided to SOFTHOUSE ADVISORY
+  SYSTEMS INC., remains Client’s Confidential Information even if
+  incorporated into a Deliverable.
+  Confidential Information does not include information, technical data
+  or know-how which (a) is in the possession of the receiving party at
+  the time of disclosure as shown by the receiving party’s files and
+  records immediately prior to the time of disclosure; (b) prior to or
+  after the time of disclosure becomes part of the public knowledge or
+  literature other than as a result of any improper inaction or action
+  of the receiving party; (c) is approved by the disclosing party, in
+  writing, for release; (d) is required to be disclosed by applicable
+  law or proper legal, governmental or other competent authority
+  (provided that the party whose information is to be disclosed shall be
+  notified sufficiently in advance of such requirement so that it may
+  seek a protective order (or equivalent) with respect to such
+  disclosure, with which the other party shall fully comply; or (e) is
+  independently developed by the receiving party without use of or
+  reference to the Confidential Information as shown by the receiving
+  party’s files and records.
+
+  The receiving party agrees it will not disclose, publish, or
+  disseminate Confidential Information to anyone other than those of its
+  employees or agents with a need to know, and who have agreed to
+  protect the Confidential Information under terms no less restrictive
+  than those contained in this Agreement.
+
+  During the term of this Agreement, each party agrees to take all
+  commercially reasonable steps necessary to ensure that the
+  Confidential Information disclosed to it is not disclosed or
+  distributed by its employees or agents in violation of the provisions
+  of this Agreement. The parties further agree not to make each other’s
+  Confidential Information available in any form to any third party, or
+  to use each other’s Confidential Information for any purpose other
+  than those contemplated hereunder.
+
+9.  Term and Termination
+
+  This Agreement is effective as of the date listed below within the
+  signature line and shall continue in effect until terminated by either
+  party upon sixty (60) days prior written notice; provided, however,
+  that in the event of such notice, this Agreement shall remain in
+  effect in respect of any then current SOW until such time as all work
+  has been completed thereunder. Any such termination shall not relieve
+  either party of their respective obligations under any SOW in effect
+  at the date of termination of the Agreement (which obligations shall
+  remain in effect for such SOW), except as otherwise mutually agreed in
+  writing by the parties.
+
+  Client may terminate the SOW attached hereto for convenience upon
+  sixty (60) days prior written notice to SOFTHOUSE ADVISORY SYSTEMS
+  INC. Either party may terminate a specific SOW for cause if the other
+  party fails to perform any of its material obligations under this
+  Agreement and fails to cure the breach within thirty (30) days after
+  receiving written notice thereof from the non-defaulting party.
+
+  Upon termination of this Agreement or any SOW attached hereto, Client
+  will pay SOFTHOUSE ADVISORY SYSTEMS INC., for all costs incurred to
+  date of termination at SOFTHOUSE ADVISORY SYSTEMS INC., standard
+  services rates, and SOFTHOUSE ADVISORY SYSTEMS INC. will provide
+  Client with any work in progress up until the date of termination.
+  Except for Deliverables that are licensed under Section 4 and
+  Confidential Information contained in backup systems that are purged
+  on a regular basis in the ordinary course of business, within fifteen
+  (15) days after termination of this Agreement, each party shall
+  certify in writing to the other party that all Confidential
+  Information of the other party in conjunction with this Agreement has
+  been destroyed or returned. Any Confidential Information that remains
+  in the possession of the receiving party shall be kept confidential
+  for as long as the receiving party has it.
+
+10. Notices
+
+  All notices relating to this Agreement shall be in writing and shall
+  be delivered (a) by overnight courier or hand; (b) postage prepaid
+  registered first-class mail with return receipt requested; (c) by
+  scanned copy of a written document, sent by email transmission; or (d)
+  facsimile transmission. Notices shall be sent to the address of the
+  other party set forth on the signature page of this Agreement to the
+  attention of a duly-authorized representative of the receiving party
+  or to such other address as either party may specify in accordance
+  with this Section, and shall be deemed given upon personal delivery,
+  five (5) days after deposit in the mail, or upon acknowledgement or
+  receipt of electronic transmission.
+
+11. Assignment
+
+  Neither this Agreement, nor any of the rights granted or duties
+  undertaken, may be assigned by either Party without the prior written
+  consent of the other, which consent shall not be unreasonably
+  withheld; provided, however, that consent shall not be required in
+  connection with any assignment to any entity with whom the assigning
+  party merges or consolidates or to which the assigning party sells
+  substantially all of its assets in the business relating to this
+  Agreement.
+
+12. Restrictions
+
+  Except as prohibited by law, during the term of the Agreement and for
+  a period of one (1) year after termination of the Agreement Client
+  will not recruit, hire, subcontract, employ or use the services of any
+  employee, agent, associates, corporation, contractor, or subcontractor
+  of SOFTHOUSE ADVISORY SYSTEMS INC., that was directly or indirectly
+  providing services to Client during the duration of the Agreement, and
+  should Client breach this term, then Client agrees to pay SOFTHOUSE
+  ADVISORY SYSTEMS INC., twenty-five thousand dollars ($25,000.00) as a
+  finder’s fee for connecting Client with said employee, agent,
+  associates, corporation, contractor, or subcontractor, and if the
+  former employee, agent, associate, corporation, contractor, or
+  subcontractor of SOFTHOUSE ADVISORY SYSTEMS INC., was providing
+  services to Client for greater than one year while acting for
+  SOFTHOUSE ADVISORY SYSTEMS INC., then for every year greater than one
+  year the Client shall also pay $10,000 dollars.
+
+  Example: Client breaches term and hires an employee of SOFTHOUSE
+  ADVISORY SYSTEMS INC. Client shall pay $25,000.00 finder’s fee to
+  SOFTHOUSE ADVISORY SYSTEMS INC. The employee while working for
+  SOFTHOUSE ADVISORY SYSTEMS INC., supplied Client with help for three
+  years, therefore Client shall pay SOFTHOUSE ADVISORY SYSTEMS INC., a
+  further $20,000.00. In total, in this case, Client shall pay SOFTHOUSE
+  ADVISORY SYSTEMS INC. $45,000.00.
+
+  However, the foregoing shall not apply if the individual is hired by
+  Client in response to a general advertisement made available to the
+  public.
+
+13. Governing Law
+
+  Any claim, dispute or controversy arising out of or relating to this
+  Agreement will be governed by and construed in accordance with the
+  laws of the state of Delaware, without giving effect to any choice of
+  law principles that would require the application of the laws of a
+  different jurisdiction.
+
+14. Entire Agreement
+
+  This Agreement, including any addenda, exhibits or statements of work
+  attached hereto, constitutes the final and entire agreement between
+  the parties concerning SOFTHOUSE ADVISORY SYSTEMS INC., provision of
+  Consulting Services to Client. No purchase order, other ordering
+  document or any hand-written or typewritten text which purports to
+  modify or supplement the printed text of this Agreement shall add to
+  or vary the terms of this Agreement unless signed or initialed by both
+  parties. This Agreement replaces and supersedes any prior verbal
+  understandings, written communications or representations with respect
+  to the subject matter hereof.
+
+15. Governing Language
+
+  The parties hereto confirm that they have requested that this
+  Agreement and all related documents be drafted in English.
+
+[SIGNATURE PAGE FOLLOWS]
+
+Accepted and Agreed to:
+
+IN WITNESS WHEREOF the parties have executed this Agreement.
+
+                SOFTHOUSE ADVISORY SYSTEMS INC.                                              DOXIM:
+  ------------- ---------------------------------------------------------------------------- --------
+  PRINT NAME:   Robert Sestito                                                               
+  TITLE:        Chief Executive Officer                                                      
+  DATE:         March 24, 2025                                                               
+  SIGNATURE:    [A signature on a white background AI-generated content may be incorrect.]   

@@ -1,0 +1,659 @@
+A note on Quick Wins vs Pilots vs MVPs
+
+In the previous proposal, we suggested building out a set of quick wins
+and pilots across the four weeks organically, as we discovered ideal use
+cases. This approach allows teams involved to learn the feasibility and
+value of these automations. It also provides early knowledge of
+challenges, both internal and external.
+
+We define a quick win as anything involving pre-existing, pre-configured
+AI technology, i.e:
+
+-   Implementing a better Foundational model for general use
+
+-   Implementing a better meeting note taker that demonstrates
+    significant value over existing solutions
+
+-   Implementing a marketing or sales tool that has proven value
+
+-   Implementing automation across engineering or QA that has proven
+    value
+
+-   Training for individuals who are using AI in a sub optimal way
+
+We define a pilot as a demonstration of viability using lightweight but
+customizable tools, such as IPaaS or Foundational models, an example may
+be:
+We create a series of three “Custom GPTs”
+
+1)  The first one will take a client request and break it down into a
+    series of questions, and clarifications, and it will create a
+    structured form, pre-filled with all existing information from the
+    request, with spaces for questions and clarifications.
+
+2)  The second one takes the complete completed form and outputs an
+    effort assessment, creating a separate document, based on example
+    knowledge it contains, this assessment covers both cost, effort, and
+    the skill set required
+
+3)  The third one takes the completed form, and the effort assessment,
+    and builds out a proposal for the client, and a work order for the
+    team.
+
+We generally advise this approach, as it takes significantly less effort
+allowing multiple pilots, and gives a broad understanding of the value
+and challenges across a range of use cases before significant investment
+occurs.
+
+These pilots still leave a large amount of manual process, and whilst
+they demo well, in consistent use, their flaws and lack of scalability
+start to become apparent. They are designed as fast sense checks,
+validations to demonstrate possibility. Yet they are often still used by
+the teams, as even in this form they may add significant value.
+In this version of the proposal, Doxim have requested that instead of
+focusing on breadth of discovery and validation through these POCs /
+pilots, we focus on the depth of development of two specific use cases,
+alongside quick wins and discovery through workshops and more
+traditional discovery. The goal is, rather than a set of pilots, to
+build two MVP products that could be in production by the end of the
+initial engagement.
+
+This diverts focus to the underlying challenges of “How do we make this
+use case work at scale, effectively and efficiently” rather than “what
+are the best use cases that are most feasible and add the most value”
+
+For example, the mirror of the above pilot as an MVP would be
+
+1)  We build a vector store of knowledge containing the core processes,
+    timelines, and costs of client requests, we ensure we have
+    comprehensive AI readable content
+
+2)  We build a frontend chat application leveraging a local or hosted
+    LLM that has access to this vector store
+
+3)  We integrate into Salesforce to pull client requests tagged in a
+    specific manner.
+
+4)  We create an AI Agent that breaks down the request into a series of
+    questions, and clarifications, and is integrated with Salesforce so
+    it will ask the client relevant questions
+
+5)  We store the original request and the clarifications in a DB
+
+6)  We create a second AI Agent that accesses this DB and analyses
+    effort against data in the Vector DB, and updates the DB with the
+    relevant information
+
+7)  We create a third AI agent that Accesses the DB and creates the
+    proposal and work order
+
+8)  We then fire all this back into salesforce, attached to the original
+    Request.
+
+As you can see, the result is significantly more robust and scalable, an
+MVP that can be improved from this point, although the core
+functionality is the same as the previous pilot, so whilst it gives us
+something to build upon, it does not advance our knowledge of whether
+this is feasible or valuable any further than the initial light weight
+work.
+
+In terms of effort the pilot would be built in 2 days, whereas this
+would take 2 weeks.
+
+This proposal will include the spec and build of 2 MVPs rather than the
+original approach of a number of lightweight pilots across all areas.
+The initial area of focus will be:
+
+MVP1 - Professional Services - Business Analysts (BA), Improve Process
+of Project Document Creation
+
+MVP2 - Data Processing (DP) - Quality Checking in Data Processing
+
+As an aside, I have removed the following from the proposal, as it now runs contrary to the deliverables.  The risk of diving in and building full automations on day one:
+
+70 to 80% of AI projects fail to deliver, often running into problems
+with data quality, labelling, and process confidence. Another reason
+many fail is employee buy-in, many employees see AI as a threat,
+discount its value, or even sabotage attempts to implement. Our approach
+offers many benefits.
+
+-   Familiarization: During discovery many people are involved in
+    conversations around AI, giving them time to understand the
+    potential, and to raise concerns and questions.
+
+-   Assessment: During discovery we get a good understanding of who in
+    the organization is an AI advocate, and who may become a blocker.
+
+-   Roadblocks: Detailed discovery allows us to unearth roadblocks that
+    may cause a great deal of rework, if discovered our latest stage.
+
+Sustainability: taking the time to understand how to factor maintenance
+and further development into Doxim’s core business, removes costly
+Reliance on third parties as AI models, update and functionality changes
+incredibly quickly, sometimes weekly or monthly.
+
+Building a Sustainable AI Practice at Doxim
+
+6-Week Real-Time Discovery & MVP Implementation Engagement
+
+Introduction & Executive Summary
+
+Doxim operates in the Customer Communications Management (CCM) and
+tech-enabled services space, focusing on regulated industries such as
+financial services, healthcare, and utilities. The organization has
+grown through multiple acquisitions, resulting in 20+ legacy and modern
+platforms and a range of manual processes for professional services
+(PS), data operations, billing, and client services.
+
+While Doxim has begun exploring AI (e.g., pilots with custom chatbots,
+staff using ChatGPT for ad-hoc scripting), there is clear consensus that
+manual workflows (particularly in PS, data processing, billing, and
+client services) create high costs, lengthy onboarding, and repetitive
+tasks that slow the company’s ability to scale profitably. In short,
+there is great potential to reduce manual overhead and standardize
+processes through targeted AI adoption.
+
+Our proposed engagement is a 6-week, “real-time discovery” effort that
+not only maps out Doxim’s detailed pain points and opportunities but
+implements quick wins immediately, driving measurable ROI from day one.
+By the end of six weeks, Doxim will have a clear AI roadmap, visibility
+into immediate cost savings, and tangible prototypes or pilots already
+delivering value, all while laying the foundation for a sustainable,
+in-house AI practice.
+
+Alongside this discovery we will identify 2 MVP projects and build two
+production ready tools to be used by Doxim to drive efficiency into the
+Professional Services and Data teams. These MVPs will be developed in
+parallel to the discovery process, the technology, and platforms to be
+used will be defined in the first two weeks of discovery.
+
+The Doxim Industry & Competitive Landscape
+
+Doxim’s CCM and Document Management solutions sit alongside established
+competitors such as Quadient, OpenText, Smart Communications, and others
+that already advertise or experiment with generative AI for:
+
+-   Automating form creation and client communications
+
+-   Scaling client onboarding and data mapping
+
+-   Proactive customer support with AI-driven chat and routing
+
+As generative AI has evolved (particularly in the last 2–3 years), many
+adjacent CCM or printing & mailing organizations are embedding AI to
+reduce staff overhead, accelerate customer onboarding, and create more
+dynamic, data-driven forms. Notably:
+
+-   Quadient markets AI-driven document automation.
+
+-   Smart Communications integrates generative AI for template creation
+    and interactive client forms.
+
+-   OpenText has made acquisitions that strengthen its AI-based ECM
+    (Enterprise Content Management) offerings.
+
+In an industry defined by cost efficiency, turnaround speed, and
+regulatory compliance, failing to adopt AI could leave Doxim at a
+significant disadvantage. Conversely, quick, high-impact AI adoption can
+unlock immediate EBITDA improvements, attractive to private equity
+stakeholders and prospective owners in the short to mid-term.
+
+Current Challenges & Pain Points
+
+Over multiple discovery calls with Doxim leadership (CEO, CFO, SVPs of
+Professional Services & Client Services, Ops managers), we identified
+these key challenges:
+
+1. Professional Services (PS)
+
+-   Large manual effort mapping client data, setting up new clients,
+    managing thousands of changes (MACs).
+
+-   Each new implementation is complex: data arrives in unique formats;
+    repetitive scripts are hand-built.
+
+2. Data Operations
+
+-   Data QA (pre- and post-processing) is often manual and reactive.
+
+-   Legacy systems lacking robust APIs require humans to fill gaps in
+    transformations.
+
+3. Billing
+
+-   ~17 billing staff across inconsistent “middleware” setups.
+
+-   Many manual steps: re-keying data from spreadsheets, from production
+    data into GP or other systems.
+
+4. Client Services
+
+-   40 to 50 staff performing day-to-day production support,
+    coordinating schedules, raw data checks, insertion requests, and
+    small changes.
+
+-   Heavily reliant on Salesforce for tracking but with site-by-site
+    variance.
+
+-   Many requests need “human triage” before moving to professional
+    services or ops.
+
+Why these challenges persist:
+
+-   Multiple acquisitions led to overlapping platforms, unsynchronized
+    processes, and inconsistent automations.
+
+-   Regulatory constraints (banking, healthcare, utilities) discourage
+    sending data externally.
+
+-   Standard “one-size-fits-all RPA” approaches from vendors like IBM or
+    Fortra failed because the data and processes are too varied.
+
+No single, unified approach to AI initiatives or ongoing AI maintenance;
+partial POCs never scaled, inconsistent use of free and paid versions of
+ChatGPT across the organization, no clear AI strategy, policy,
+governance or roadmap.
+
+Strengths & Rationale for AI
+
+1. Speed & Scalability
+
+Generative AI can interpret varied data formats quickly (including
+legacy), automatically mapping data fields and recommending
+transformations, drastically reducing staff overhead.
+
+2. Real-Time Discovery & Automation
+
+AI can identify data quality issues up front, highlighting them at a
+pre-implementation stage (versus day 12 of a project), saving major
+rework.
+
+3. Copilot to Full Automation
+
+Start with a “copilot” approach, AI suggests template code,
+transformations, or billing line items. Humans review and correct it.
+Over time, the AI “graduates” to full autonomy as trust and training
+data grow.
+
+4. Sustainable Practice, Minimizing 3rd-Party Dependency
+
+We upskill your internal teams, ensuring you own your AI practice and
+avoid monthly reliance on an outside vendor. AI changes rapidly,
+embedding knowledge in-house is essential for staying up-to-date.
+
+Potential Opportunities
+
+Professional Services
+
+1. Automated Data Mapping & Template Generation
+A generative AI model could interpret raw client data, identify field
+structures, and automatically generate composition scripts/templates.
+This accelerates client implementations and slashes repetitive coding.
+
+2. Pre-Implementation Data & QA “Copilot”
+Before project kick-off, an AI “copilot” could scan and validate
+incoming data for anomalies (e.g., missing control records, incorrect
+headers). This preemptive QA shortens overall onboarding timelines and
+avoids rework.
+
+3. Automated Scope & Change Estimation
+A specialized model could parse client requests, estimate complexity,
+and even generate rough “statements of work,” letting PS staff rapidly
+quote changes and move them into the pipeline.
+
+Data
+
+1. AI-Driven Data Ingestion & Normalization
+A generative AI pipeline could auto-detect data format variations, apply
+transformations, and flag outliers, reducing the manual overhead in
+normalizing each client’s dataset.
+
+2. Proactive Pre-Processing “Gatekeeper”
+An “intelligent gatekeeper” compares incoming files against historical
+norms (e.g., typical record length) and alerts staff before they invest
+in deeper QA, cutting cycle times.
+
+3. Smart Archive & Retrieval
+Beyond simple ECM solutions, an AI engine could classify and index
+archived documents, providing intelligent search and automated
+compliance tagging, particularly useful for healthcare or finance
+audits.
+
+Billing
+
+1. Seamless Middleware Integration
+A generative model could automatically pull records from multiple
+“middleware” sources, translate them to standardized line items, and
+push them into GP, halving the staff overhead spent on repetitive data
+entry.
+
+2. Automated Invoice Verification
+An AI-driven reconciliation tool could match production logs, shipping
+data, and posted statements to verify invoice details or identify
+missing charges.
+
+3. Consolidated Billing Insights & Exception Handling
+AI could flag anomalies (e.g., outlier invoice amounts) and route
+exceptions straight to finance or ops managers, reducing manual triage
+and letting staff focus on high-value tasks.
+
+Client Services
+
+1. MAC Request Triage & Auto-Scoping
+A chatbot “front end” to parse MAC details (e.g., “What new envelope?
+Which design change?”) and auto-create the project skeleton, including
+preliminary cost/time estimates, in Salesforce, reducing back-and-forth
+by CS staff.
+
+2. Automated Status Updates & Daily Production Reports
+A “smart aggregator” could pull daily or weekly status from each ops
+location, merge it, and send out templated or even chatbot-driven
+updates to clients, cutting staff email volume.
+
+3. Knowledge Base Q&A and Self-Service
+Train an internal large language model on Doxim’s process docs, typical
+MAC workflows, and historical tickets. Employees or clients ask natural
+language questions, and the AI provides step-by-step guidance. This
+reduces training time for new hires and cuts routine inquiries from
+clients.
+
+Across Professional Services, Data, Billing, and Client Services, we
+consistently see duplicated manual effort, site-by-site variance, and
+heavy reliance on staff to fill technology gaps. These initial thoughts
+represent high-impact scenarios where generative AI or intelligent
+automation can drive tangible value for Doxim, and are precisely the
+kind of areas that need deep dives to investigate feasibility, ROI, and
+implementation path.
+
+Our Proposed 6-Week “Real-Time Discovery” Engagement
+
+Unlike a traditional consulting “assessment” with a single deliverable
+in the form of a static report, our Real-Time Discovery is a hands-on,
+iterative approach that delivers immediate wins and simultaneously maps
+a longer-term roadmap. By the end of the four weeks, you will have:
+
+1. Tangible Quick-Win Implementations
+
+-   As soon as we identify a low-hanging optimization (e.g., streamlined
+    billing upload, an AI-based data QA script, or a Mac triage
+    improvement), we’ll write it up, and suggest we implement it on the
+    spot, no waiting for a final “report.”
+
+2. AI Roadmap & 2 MVPs
+
+-   Full documentation of major opportunities in PS, Data, Billing, and
+    Client Services.
+
+-   Technical feasibility outlines, recommended architecture (on-prem
+    LLM vs. synthetic data approach for regulated data), timelines, ROI
+    for each identified solution.
+
+-   Two use cases will be built out to an initial MVP: Professional
+    Services - Business Analysts (BA), Improve Process of Project
+    Document Creation and Data Processing (DP) - Quality Checking in
+    Data Processing
+
+3. Governance & Best Practices
+
+-   A sustainable AI operating model, including compliance guidelines
+    for regulated data, recommended training paths for staff, and
+    pilot-to-production scale processes.
+
+4. Financial ROI
+
+-   Clear business-case calculations and KPIs: potential staff reduction
+    or capacity reallocation, invoice cycle times, new client throughput
+    improvement, etc.
+
+Engagement Plan & Deliverables
+
+Below is a suggested overview of how we’ll structure the engagement. We
+will refine tasks or timeline as needed once on site:
+
++------+-------------------+-------------------+-------------------+
+| Week | Discovery         | MVPs              | Deliverables      |
++======+===================+===================+===================+
+| 1    | -   System setup, | -   Two MVPs      | 1.  High Level    |
+|      |                   |       assessed    |       findings    |
+|      |    introductions, |       for         |       and process |
+|      |       ways of     |       feasibility |       maps PS,    |
+|      |       working,    |                   |       Data,       |
+|      |                   | -   Initial       |       Billing, CS |
+|      |     availability, |       discovery   |                   |
+|      |                   |                   | 2.  Week 1        |
+|      |      stakeholders | -   High level    |       Quick-Win   |
+|      |                   |       design      |       List        |
+|      | -   Initial       |                   |                   |
+|      |       interviews: |                   | 3.  AI            |
+|      |       PS, Data,   |                   |                   |
+|      |       Billing,    |                   |      Architecture |
+|      |       Client      |                   |       &           |
+|      |       Services    |                   |       Governance  |
+|      |       teams       |                   |       framework   |
+|      |                   |                   |       outline     |
+|      | -   Map existing  |                   |                   |
+|      |       workflows,  |                   | 4.  Draft         |
+|      |       data flows, |                   |                   |
+|      |       quick wins  |                   |    considerations |
+|      |                   |                   |       document    |
+|      | -   Evaluate AI   |                   |       (data       |
+|      |                   |                   |                   |
+|      |      architecture |                   |      suitability, |
+|      |       constraints |                   |       potential   |
+|      |       (security,  |                   |       roadblocks  |
+|      |       on-prem vs. |                   |       to be       |
+|      |       synthetic   |                   |       overcome,   |
+|      |       data)       |                   |       AI          |
+|      |                   |                   |       readiness)  |
+|      | -   Map           |                   |                   |
+|      |       regulatory  |                   | 5.  2 feasible    |
+|      |       landscape   |                   |       pilots      |
+|      |                   |                   |       identified  |
++------+-------------------+-------------------+-------------------+
+| 2    | -   Implement     | -   Begin testing | 1.  Week 2 Quick  |
+|      |       select week |       options for |       win List    |
+|      |       1 quick     |       MVP         |                   |
+|      |       wins        |                   | 2.  Preliminary   |
+|      |                   | -   Create        |       “quick-win” |
+|      | -   Deep Dive     |       prototypes  |       results &   |
+|      |       interviews: |                   |       metrics if  |
+|      |       PS, Data,   | -   Gain feedback |       implemented |
+|      |       Billing,    |                   |                   |
+|      |       Client      |                   |                   |
+|      |       Services    |                   |                   |
+|      |       teams       |                   |                   |
+|      |                   |                   |                   |
+|      | -   Evaluate      |                   |                   |
+|      |       roadblocks  |                   |                   |
++------+-------------------+-------------------+-------------------+
+| 3    | -   Implement     | -   Finalize      | 1.  Week 3 quick  |
+|      |       select week |       Scope of    |       win list    |
+|      |       2 quick     |       MVP         |                   |
+|      |       wins        |                   | 2.  MVP scope     |
+|      |                   | -   Design and    |       document    |
+|      | -   Roadblock     |                   |                   |
+|      |       resolution  |      architecture |                   |
+|      |       (regulatory |                   |                   |
+|      |       compliance, | -   Sign off      |                   |
+|      |       data        |                   |                   |
+|      |                   | -   Dev starts    |                   |
+|      |      constraints, |                   |                   |
+|      |       etc.)       |                   |                   |
++------+-------------------+-------------------+-------------------+
+| 4    | -   Start         | -   MVP           | 1.  Early AI      |
+|      |       drafting    |       Development |       Roadmap     |
+|      |       full AI     |                   |       draft       |
+|      |       roadmap     | -   Testing as    |       (incl.      |
+|      |       with short, |       required    |                   |
+|      |       mid, and    |                   |      cost/benefit |
+|      |       long-term   |                   |       per         |
+|      |       initiatives |                   |       initiative) |
+|      |                   |                   |                   |
+|      | -   Final set of  |                   |                   |
+|      |       quick-win   |                   |                   |
+|      |                   |                   |                   |
+|      |   implementations |                   |                   |
+|      |                   |                   |                   |
+|      | -   Formalize AI  |                   |                   |
+|      |       governance  |                   |                   |
+|      |       & best      |                   |                   |
+|      |       practices   |                   |                   |
+|      |                   |                   |                   |
+|      | -   Identify key  |                   |                   |
+|      |       players for |                   |                   |
+|      |       AI Practice |                   |                   |
++------+-------------------+-------------------+-------------------+
+| 5    | -   Identify      | -   MVP           | 2.  Doxim AI      |
+|      |       route to    |     Development   |       Roadmap     |
+|      |       success     |                   |       (PS, Data,  |
+|      |       (Build /    | -   Testing as    |       Billing,    |
+|      |       Buy /       |     required      |       CS)         |
+|      |       Partner)    |                   |                   |
+|      |                   |                   | 3.  Final         |
+|      | -   Present full  |                   |       Workshop:   |
+|      |       roadmap     |                   |       next steps, |
+|      |       (including  |                   |       internal    |
+|      |       suggested   |                   |       training    |
+|      |       phasing,    |                   |       plan,       |
+|      |       potential   |                   |       governance  |
+|      |       staff       |                   |       model       |
+|      |       impacts)    |                   |                   |
+|      |                   |                   | 4.  Sustainable   |
+|      |                   |                   |       AI Practice |
+|      |                   |                   |       guidelines  |
+|      |                   |                   |                   |
+|      |                   |                   | 5.  Proposal for  |
+|      |                   |                   |       Future      |
++------+-------------------+-------------------+-------------------+
+| 6    | -   Discovery     | -   MVP           | 1.  MVP Delivery  |
+|      |       complete    |     Development   |     when ready    |
+|      |                   |                   |                   |
+|      |                   | -   Testing as    | 2.  Training &    |
+|      |                   |     required      |     Documentation |
+|      |                   |                   |     handover      |
+|      |                   | -   Launch when   |                   |
+|      |                   |     ready         |                   |
++------+-------------------+-------------------+-------------------+
+
+ Investment & ROI Rationale
+
+We propose a 6-week real-time discovery engagement including the
+parallel build of 2 MVPs at $100,000 USD.
+
+The discovery price remains unchanged at $40,000 and includes:
+
+-   On-site & remote sessions with Doxim teams
+
+-   Immediate implementation of quick wins (no waiting until the end)
+
+-   Executive-level deliverables (roadmap, ROI analysis, governance)
+
+-   In-engagement training where needed to ensure Doxim can sustain and
+    expand these AI capabilities independently
+
+The additional $60,000 is an estimate of development of the 2 MVP AI
+tools and includes additional development resource across:
+
+-   Product management: Scoping and sizing the solutions
+
+-   Design and build: Estimate for design of UI, Architecture
+
+-   Integration: Light integration work with backend or 3^(rd) party
+    tools
+
+-   Private LLM Architecture: potential constraint based on focus areas
+
+-   QA: testing out solutions and ensuring safety and scalability
+
+-   Documentation and Training: To ensure clean handover and success
+
+While the Price of the MVP section is an estimate based on the areas of
+focus, dependent on the scope of the MVP requested by Doxim the costs
+for the MVP section of the proposal may increase or decrease.
+
+Also dependent on the scope of the MVP requested by Doxim this may
+continue past week 6, additional weeks will be charged at $10,000 USD
+per week
+
+Why This Pays for Itself Quickly:
+
+-   Quick Wins: Across all 200+ people in scope, if quick wins create
+    even an overly conservative 1% time saving, this is equivalent to 2
+    FTEs, paying for the entire engagement.
+
+-   Cost Recovery: It is relatively easy to recoup the entire engagement
+    cost within 6 months from efficiency gains.
+
+-   
+
+Next Steps
+
+1. Finalize Contract & Scheduling
+
+-   We jointly confirm engagement scope, sign off on timeline.
+
+-   Identify a single executive sponsor and cross-functional “champions”
+    for each domain.
+
+2. Pre-Engagement Document Sharing & Prep
+
+-   Provide sample Mac requests, sample billing workflows, updated
+    platform architecture diagrams, etc.
+
+-   Align on data security (e.g., on-prem LLM vs. synthetic data sets).
+
+-   Agree availability and schedule, in office vs remote etc.
+
+3. Kickoff & Week 1 Workshop
+
+-   Conduct extended on-site/remote sessions: map out details, refine
+    pilot goals.
+
+4. Begin Quick-Win Implementations
+
+-   Start building or deploying at least one immediate AI solution in
+    parallel with deeper discovery.
+
+At the conclusion of six weeks, Doxim leadership will receive:
+
+-   Immediate Gains: At least one or two quick-win pilots operating in a
+    live or near-live environment, potentially many more depending on
+    Doxim’s capacity and enthusiasm.
+
+-   On the ground advice: Teams already using AI across the organization
+    will have had the opportunity to validate and refine their
+    approaches through discussions throughout the engagement, generating
+    increased value and potentially reducing costs. Many teams not using
+    AI, will have received advice and demonstrations on the instant
+    value they could gain through adoption of even simple of the shelf
+    tools.
+
+-   AI Roadmap & ROI: A recommended 12–18 month plan specifying the
+    highest-value AI projects, cost/benefit analysis, and
+    time-to-savings projections.
+
+-   Sustainable Practice: Guidelines, governance, and a blueprint for
+    continued adoption, we will create a phased path to an independent
+    sustainable practice, minimizing the risk of long term monthly
+    overhead or external dependency.
+
+-   Two MVP Products in Production: Two production ready automation
+    flows that add material value on an ongoing basis to the teams at
+    Doxim, creating efficiency and productivity gains across existing
+    manual processes. (six week delivery dependent on scope set by
+    Doxim)
+
+We Look Forward to Building Doxim’s AI-Enabled Future
+
+By accelerating billing, onboarding, and client services tasks via
+high-impact AI adoption, Doxim can reinforce its position in CCM while
+freeing capacity to innovate. Our 4-week Real-Time Discovery approach
+mitigates risk, implementing quick wins now while building a long-term,
+scalable AI practice inside Doxim.
+
+We appreciate the opportunity to partner on this transformative journey
+and stand ready to answer any questions or tailor the plan further.
+
+Thank you for your time and consideration.
+
+We look forward to collaborating with you on this strategic initiative.

@@ -1,0 +1,324 @@
+[A red and white logo Description automatically generated]
+
+SOFTHOUSE AI ADVISORY
+
+AI Enablement and Implementation Proposal
+
+For Myland
+
+Oct 23, 2024
+
+This document contains proprietary and confidential material of
+Softhouse Advisory Services Ltd., its subsidiaries and its authorized
+partners. Any unauthorized reproduction, use, or disclosure of this
+material, or any part thereof, is strictly prohibited. This document is
+solely for the use of Softhouse employees and authorized partners and
+customers. The material furnished in this document is meant to be
+accurate and reliable. However, the material herein is provided “as is”
+and Softhouse shall not be liable for the use of this document, or any
+material included herein by any third party. Softhouse reserves the
+right to make changes to this document or any material included herein
+at any time and without notice. -  Confidential
+
+Chris,
+
+I hope you're doing well.
+
+I'm excited to share our proposal for the AI Integration and Data
+Consolidation Strategy for MyLand. After the AI workshop I did with
+MyLand last year, I've been really looking forward to continuing the
+journey and building on what we started.
+
+This proposal is all about using AI to enhance data integration,
+insights, and operational efficiency across MyLand. I genuinely believe
+this is an incredible opportunity to make a big impact on productivity
+and efficiency across the company.
+
+The plan includes mapping out data sources, identifying key use cases,
+and implementing AI solutions that can boost productivity and help
+MyLand lead the way in regenerative agriculture. We want to ensure you
+get both immediate and long-term value, and the retainer model will help
+us provide continuous support as MyLand becomes more and more
+experienced in AI adoption and innovation.
+
+I'm really looking forward to chatting more about this and aligning it
+with your vision for the future of MyLand.
+
+Best,
+
+Rob
+
+Engagement Scope 
+
+In response to MyLand's current challenges and growth, this proposal
+outlines a comprehensive plan to leverage AI to enhance MyLand’s data
+integration, insights, and operational efficiency. The engagement will
+involve mapping existing data sources, evaluating high-impact use cases,
+and implementing AI-driven solutions to maximize business value, boost
+productivity, and strengthen MyLand's competitive edge in the
+regenerative agriculture market.
+
+2. Objectives 
+
+Data Mapping and Understanding: Map out and understand the existing
+systems, including NetSuite, HubSpot, Shepherd, other relevant tools and
+datasets, to create a comprehensive overview of MyLand's data landscape.
+This objective focuses on understanding current tools, identifying
+integration points, and evaluating connectivity. The goal is to provide
+clarity on how data flows between systems, enabling streamlined access
+and laying the foundation for future AI-driven initiatives.
+
+-   Outcome: A comprehensive mapping of the data and tools across the
+    organization that can be used for any future integrations or AI
+    opportunities, identifying weak spots and any work that needs to be
+    done to better structure data for AI consumption.
+
+Identifying Opportunities to Leverage Data: Identify ways to capitalize
+on the data integration insights gained. This involves evaluating
+opportunities to generate actionable insights, enhance reporting
+capabilities, support customer retention, and assess overall business
+health. The objective is to leverage the mapped data to identify
+synergies and high-value opportunities that can drive profitability and
+strategic growth.
+
+-   Outcome: A ranked list of core business opportunities, including
+    estimated effort and an approach for each.
+
+Use Case Discovery, Prioritization, and Implementation: Prioritize AI
+use cases based on the understanding and opportunities identified,
+focusing on those that can have the greatest business impact the
+fastest. Continually implement selected high-value use cases, ensuring
+resources are allocated effectively to drive key business outcomes,
+including operational efficiency, revenue growth, and enhanced service
+quality.
+
+-   Outcome: A high velocity pipeline of delivered initiatives that
+    address prioritized use cases, providing tangible business value and
+    clear ROI.
+
+3. Proposed Approach 
+
+The engagement will be structured in three key phases: 
+
+Phase 1: Data Mapping and Understanding (2 –3 weeks duration) 
+
+Objective: Identify all current data systems, understand their
+connectivity, and outline data sources. 
+
+Activities: 
+
+-   Conduct interviews with relevant stakeholders to identify data
+    points, systems, and desired outcomes. 
+
+-   Create an audit of relevant tools and assess ease of integration and
+    automation. 
+
+-   Create a high-level map of data flows and existing integrations. 
+
+-   Evaluate the complexity of connecting each system.
+
+-   Suggest challenges, required changes,
+
+Note: One of the most common causes of failure in AI initiatives is
+building solutions before there is a clear understanding of the
+availability and quality of data that AI requires to be effective. Doing
+this upfront gives us that clear view, and can greatly enhance the
+return on investment by avoiding dead ends later.
+
+Key Outcome: A comprehensive mapping of data and tools to serve as a
+foundation for future initiatives. 
+
+Approach Options for Phases 2 and 3: The phases can be carried out
+across the whole company in sequence, where Phase 2 (Use Case Discovery
+and Prioritization) is completed for all areas before moving to Phase 3
+(Implementation of Use Cases). Alternatively, Phases 2 and 3 could be
+executed consecutively for specific focus areas. This approach allows
+for prioritizing high-value areas first, enabling quicker identification
+and implementation of impactful solutions. The choice between these
+approaches will depend on MyLand's strategic priorities and resource
+availability. 
+ 
+
+Phase 2: Use Case Discovery and Prioritization (4-5 weeks duration) 
+
+Objective: Educate the team and identify and prioritize use cases for AI
+applications that can bring the most value to MyLand. 
+
+Activities: 
+
+-   Conduct an initial education session with the team to help them
+    understand the state of AI and the art of the possible. 
+
+-   Facilitate brainstorming sessions to understand specific needs,
+    opportunities, and priorities. 
+
+-   Assess the AI models that could be used, the approach from an AI
+    perspective, and the tools that would be leveraged for each use
+    case. 
+
+-   Develop a list of possible use cases, including operational
+    efficiency, customer engagement, predictive modeling, and customer
+    communication enhancement. 
+
+-   Conduct a skills audit to understand who within MyLand could support
+    implementation efforts if needed. 
+
+-   Prioritize use cases based on feasibility, potential ROI, and
+    alignment with MyLand’s strategic goals. 
+
+Key Outcome: A ranked list of core business opportunities, including
+estimated effort and an approach for each. 
+
+Transition to Retainer-Based Model: At this point, we transition to a
+retainer, replacing the traditional engagement model. Phases 1 and 2,
+which involve assessment, identification, categorization, with limited
+team interaction, can be time-boxed and adjusted as needed. Phases 3
+onwards involve integrating AI solutions into business processes and
+tools, requiring change management, customer impact, budget
+considerations, and ongoing adjustments. A retainer model better suits
+these needs, allowing continuous work until successful implementation.
+
+Beyond implementation, the retainer model offers significant value. It
+can be used to position MyLand as having a Chief AI Officer, enhancing
+industry reputation and providing PR benefits. It allows flexibility to
+develop an AI strategy, including governance, ethics, documentation,
+policies, and an AI usage framework. 
+
+ 
+
+Phase 3: Implementation of Use Cases (Retainer-Based Model)
+
+Objective: Build prototypes and implement solutions for prioritized use
+cases. 
+
+Activities: 
+
+-   Design solutions for high-priority use cases, focusing on practical
+    implementation. 
+
+-   Develop a mini-ROI analysis for each selected use case continually
+    proving value. 
+
+-   Create a high-level implementation plan, including required tools,
+    resources, and timeline. 
+
+-   We will build the solution / implement the tool / change the
+    workflow
+
+-   Test with relevant stakeholders and iterate based on feedback.
+
+-   Pilot and implement
+
+-   Train the team as required, assist with change management and
+    process documentation.
+
+Key Outcome: AI implementations delivering tangible business value. The
+goal is to generate an annual impact on profitability of $100,000 each
+month through a variety of methods, such as increasing win rates,
+gaining broader market reach, aiding customer retention, or lowering
+operational costs.
+
+Note: Even a relatively simple tool or small iterative improvement in
+process that saves just one hour per week for each of MyLand’s 50+
+employees can translate into significant cost savings as the company
+scales. These efficiencies contribute to the overall business impact,
+allowing the company to maximize the value of its workforce while
+focusing on strategic growth. 
+
+Transition of AI Enablement and Implementation to MyLand: As we build
+out new solutions, the skills and familiarization of the MyLand team
+with AI should grow. This growth will be an integral part of the
+retainer model, with the aim of making the AI function sustainable
+within MyLand.
+
+An objective of phase 3 will be to transition away from the
+implementation retainer model once MyLand establishes a fully autonomous
+and capable AI practice. At that stage, MyLand may opt to adopt a
+Softhouse AI Advisor support model with a low-cost subscription fee to
+retain the strategic guidance and expertise of the Virtual Chief AI
+Officer.
+
+However, the timeline for this transition will depend on the level of
+resources MyLand dedicates to developing skills and supporting AI
+tooling. There is no rush, and the pace of becoming self-sufficient is
+entirely up to MyLand. 
+
+ 
+
+4. Deliverables 
+
+-   Data Integration Map: A detailed overview of data systems and
+    integration possibilities highlighting opportunities and risks. 
+
+-   Use Case Portfolio: A list of prioritized use cases with feasibility
+    and ROI estimates along with high level estimations of effort and
+    ROI. 
+
+-   Implementation Plans: Detailed implementation analysis and plan for
+    each chosen use case. 
+
+-   Prototypes for Selected Use Cases: Working prototypes of prioritized
+    solutions, such as the report generation system to enable assessment
+    and value estimation. 
+
+-   Fully implemented tools and products: Launched internal and external
+    products and processes across all teams 
+
+-   AI Strategy and Governance Documentation: A comprehensive AI
+    strategy including AI governance, ethics, documentation policies,
+    and an AI usage framework across the organization. 
+
+-   Enhanced PR Opportunities: Positioning MyLand as a leader in AI
+    innovation through the association with a Chief AI Officer,
+    enhancing industry reputation and providing visibility. 
+
+5. Team 
+
+MyLand will be supported by the SoftHouse Advisory AI team headed up by
+Rob Williams, Chief AI Officer and comprising of several individuals in
+various roles.
+
+The team is also supported by the broader SoftHouse Group with a 300
+strong technical team comprising of developers, architects, testers and
+more, all able to assist if required.
+
+-   Rob Williams – Chief AI Officer, Account Manager, Primary point of
+    contact
+
+-   Business Analyst, Facilitator, Trainer
+
+-   AI Implementation Specialist
+
+-   In Product AI Development Subject Matter Expert 
+
+-   AI Tooling Specialist
+
+6. Timeline and Cost 
+
+Total Duration: Initial phases (Phase 1 and Phase 2) estimated at 6
+weeks duration for the team. This includes additional activities such as
+skills auditing, model assessment, and AI Education sessions to ensure a
+thorough foundation for future implementation. 
+
+Cost: $60,000 USD Plus Tax for initial 2 phases. 
+
+Retainer-Based Model for Development and Implementation: Engagement will
+transition to a retainer model after initial phases, allowing for
+ongoing integration, change management, and the build-out of sustainable
+AI capabilities. The retainer model will support the continuous
+development and implementation of AI solutions, AI governance, ethics,
+documentation policies, and an AI usage framework. This approach will
+also enable MyLand to gain enhanced public relations visibility by
+having a Chief AI Officer on staff, positioning MyLand as a leader in AI
+innovation. Costs and timelines for the retainer will be dependent on
+the scope of identified use cases and implementation needs. 
+
+Estimated Retainer Cost Implementation phase: $25,000 USD Plus Tax per
+month (min 3 months) 
+
+Retainer-Based Model for Support: At the point of which Myland have a
+sustainable AI practice, the retainable could shift to purely advisory
+and support with a focus on new AI developments and potential new
+business opportunities or efficiencies within the organization
+
+Retainer Cost Support phase: $5,000 USD Plus Tax per month 

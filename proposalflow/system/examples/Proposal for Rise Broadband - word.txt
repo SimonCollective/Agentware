@@ -1,0 +1,511 @@
+Rise Broadband AI Discovery Engagement Proposal
+
+Executive summary
+
+Rise Broadband is the largest fixed‑wireless broadband provider in the
+United States, employing more than 600 people and serving residential
+and business customers in 16 states. The company provides internet and
+voice services with speeds ranging from 3 Mbps to 1 Gbps and has been
+rated Best Rural ISP for four consecutive years.
+SoftHouse Advisory is a global AI consultancy serving clients across the
+US, Canada, the UK, and Europe. With a team of experienced AI
+consultants and over 200 developers, SoftHouse helps organizations
+progress from early steps in generative AI adoption to becoming fully
+AI-forward, sustainable enterprises.
+
+This proposal outlines a four‑week Real‑Time Discovery engagement
+designed to help Rise identify and prioritize AI opportunities across
+its network, data and customer‑service domains. Our goal is to deliver a
+clear roadmap and a high‑impact pilot that can unlock efficiency, reduce
+costs and improve service quality using generative and agentic AI.
+
+Objectives
+
+Understand Rise’s Customer and Network landscape. Working with key
+stakeholders we will map and understand Rise’s current network and
+customer workflows, datasets, processes, and systems.
+
+Identify high‑impact AI opportunities. Using this understanding we will
+pinpoint both quick‑win and strategic applications of AI across this
+landscape, for example, reducing the cost of technical support,
+implementing predictive maintenance, technician dispatch optimization,
+generative call summarization and proactive outage detection.
+
+Assess AI readiness. An assessment of data availability, governance,
+compliance and change‑management readiness will highlight enablers and
+gaps. We will draw on recognized frameworks (e.g., NIST AI RMF 1.0) to
+recommend governance and risk‑mitigation practices if needed.
+
+Deliver a prioritized roadmap and pilot plan. Findings will be
+synthesized into a discovery report containing an AI opportunity matrix,
+high‑level solution architectures, estimated ROI and a series of pilot
+proposals
+
+Engagement approach
+
+Real‑Time Discovery methodology
+
+Our proven Real‑Time Discovery approach accelerates insight generation
+by running mini‑experiments, Pilots and iterating weekly. The four‑week
+engagement is structured as follows:
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Week                                  Activities                                                                                                                                              Expected outcomes
+  ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------
+  1 Kickoff & data immersion            • Kickoff meeting with executives to align objectives and success criteria.                                                                             Clear understanding of business context, pain points and available data.
+                                                                                                                                                                                                
+                                        • Stakeholder interviews across network engineering, customer support, finance and IT.                                                                  Identification of initial focus areas (e.g., technician routing, outage prediction, call‑centre efficiency).
+                                                                                                                                                                                                
+                                        • Inventory of available data sources (graph database, network management metrics, customer‑support transcripts, reinforcement‑learning models, etc.)   
+
+  2 Exploration & opportunity mapping   • Data exploration sessions discussing and analyzing network performance, customer‑support transcripts and service tickets.                             List of potential AI use cases ranked by impact and feasibility; early proof‑of‑concept results highlighting benefits and data gaps.
+                                                                                                                                                                                                
+                                        • Brainstorming workshops to map potential use cases.                                                                                                   
+                                                                                                                                                                                                
+                                        • Rapid prototyping (e.g., generative AI summarizing sample call transcripts; models evaluating technician routes).                                     
+                                                                                                                                                                                                
+                                        • Discussion and implementation of any quick wins                                                                                                       
+                                                                                                                                                                                                
+                                        from week 1                                                                                                                                             
+
+  3 Feasibility & ROI assessment        • Evaluate each use case for technical feasibility, data readiness, regulatory considerations and estimated return on investment.                       Quantified AI opportunity matrix with cost, benefit and risk estimations; recommended quick‑wins vs. longer‑term initiatives.
+                                                                                                                                                                                                
+                                        • Engage subject‑matter experts to validate assumptions and refine solutions.                                                                           
+                                                                                                                                                                                                
+                                        • Develop high‑level architectures (e.g., generative AI pipelines, agentic‑maintenance prediction models).                                              
+                                        • Discussion and implementation of any quick wins                                                                                                       
+                                                                                                                                                                                                
+                                        from week 2                                                                                                                                             
+
+  4 Synthesis & roadmap                 • Consolidate findings into a discovery report and executive presentation.                                                                              Final report and roadmap delivered; pilot plan ready for execution; stakeholders aligned on priorities and investment.
+                                                                                                                                                                                                
+                                        • Present recommendations, governance approach and next steps to leadership.                                                                            
+                                                                                                                                                                                                
+                                        • ROI analysis on quick wins                                                                                                                            
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Throughout the engagement we will work transparently, teaching your
+teams how to use AI tools and ensuring that knowledge transfer begins
+during the discovery process. The scope of quick wins and pilots can
+scale up or down based on your appetite.
+
+Deliverables
+
+1.  Discovery report summarizing:
+    a.  AI opportunity matrix, list of use cases across network,
+        customer and support functions ranked by impact and feasibility.
+    b.  High‑level solution architectures, for top use cases.
+
+2.  Data and technology readiness assessment with recommendations for
+    governance, privacy and security aligned to relevant standards.
+
+3.  Change‑management and training plan to uplift skills and encourage
+    adoption.
+
+4.  Estimated ROI and timeline for top initiatives to help prioritize
+    investments.
+
+5.  Executive presentation summarizing key findings, recommendations and
+    pilot details.
+
+Investment
+
+The four‑week discovery for Rise will cost a total of US$40,000. This
+covers a team comprising a Lead Consultant, Process Specialist, Product
+Manager and AI Engineer as required. The engagement will be intensive
+
+Why AI now?
+
+Businesses across the world have demonstrated that embracing generative
+and agentic AI can deliver dramatic productivity gains and cost savings:
+
+-   Salesforce reported that their internal AI tools are currently doing
+    around 30% to 50% of the company’s work [1].
+-   Microsoft COO States the company has already saved $500M by
+    embracing AI [2].
+-   Walmart integrated agentic AI into support and development; during
+    its Q4‑2025 earnings call the company said AI coding tools saved
+    about 4 million hours [3].
+-   Klarna CEO Sebastian Siemiatkowski revealed that AI adoption enabled
+    the fintech to reduce headcount from about 5 000 to 3 000 employees,
+    with their AI assistant performing the work of 700 customer‑service
+    agents[4].
+-   Centro de la Familia used AI to automate reporting; yielding a
+    five‑fold reduction in admin time and 54% cost reduction, turning
+    hours‑long tasks into minutes[5].
+-   A European telecom call‑centre applied generative AI to summarise
+    calls and flag churn risks delivering 30% savings in pre and post
+    call operations and more than US$5 million in annual operational
+    improvements[6].
+
+These examples illustrate how AI can deliver significant efficiencies
+and free staff to focus on higher‑value tasks. For a mid‑sized provider
+like Rise, similar benefits are attainable.
+
+Next steps
+
+Internal alignment. Review this proposal internally and confirm that the
+outlined objectives, timeline and estimated budget meet your needs.
+
+Contracting. Execute a mutually agreeable master services agreement
+(MSA) and statement of work (SOW) to define scope, deliverables and
+pricing.
+
+Kick‑off scheduling. Schedule a project kick‑off meeting, identify core
+stakeholders and provide initial access to relevant data sets.
+
+We appreciate your consideration and look forward to helping Rise
+Broadband unlock the power of AI to deliver superior service and
+operational efficiency.
+
+CONTRACT TERMS
+
+THIS AGREEMENT (the “Agreement”)is made and entered into as of the
+_____________________ (the “Effective Date”) by and between SOFTHOUSE
+ADVISORY SYSTEMS INC., having its principal place of business at 2
+Robert Speck Parkway Suite 750, Mississauga, Ontario, Canada, L4Z 1H8
+and ________________________ a company having its principal place of
+business at _________________________________ (“Client”).
+
+WHEREAS SOFTHOUSE ADVISORY SYSTEMS INC. provides services in the areas
+of systems development, managed services, consulting, and support,
+(collectively, “Consulting Services”).
+
+AND WHEREAS Client desires, on the terms and conditions set forth
+herein, to contract with SOFTHOUSE ADVISORY SYSTEMS INC., for the
+provision of Consulting Services.
+
+NOW THEREFORE in consideration of the mutual promises, covenants and
+warranties set forth herein, the parties hereby agree as follows:
+
+1.  Consulting Services
+
+  Consulting Services to be provided by SOFTHOUSE ADVISORY SYSTEMS INC.,
+  to Client will be described in a proposal as a statement(s) of work
+  (“SOW”). Client and SOFTHOUSE ADVISORY SYSTEMS INC., will sign a
+  separate SOW for each project assignment.
+
+2.  Client Responsibilities
+
+  SOFTHOUSE ADVISORY SYSTEMS INC., will appoint an account manager to
+  work with Client’s respective lead on the project. Client will provide
+  SOFTHOUSE ADVISORY SYSTEMS INC., with access to and use of all
+  information, documentation, computer time and facilities reasonably
+  necessary for SOFTHOUSE ADVISORY SYSTEMS INC., to provide the
+  Consulting Services to Client hereunder.
+
+3.  Change Request Forms
+
+  Changes to the Consulting Services described in the SOW will be
+  effective only if agreed to by SOFTHOUSE ADVISORY SYSTEMS INC., and
+  Client in a written document setting forth the modification and, as
+  applicable, any resultant changes to the delivery schedule, fees and
+  payment terms.
+
+4.  Intellectual Property
+
+  “Intellectual Property” means all intellectual property rights of
+  every kind and description, including without limitation all Canadian
+  and non-Canadian rights in or to trademarks and service marks (whether
+  or not registered), trade names, and all related goodwill; patents and
+  patent applications; rights in or to copyrights (whether or not
+  registered); rights in or to trade secrets, know-how, technology,
+  methods, ideas, and inventions; and rights in software and computer
+  code (source code, object code, or any other form).
+  “Background IP” means Intellectual Property owned, created, developed,
+  leased, or licensed by a party prior to, outside of, or independently
+  from this Agreement, including without limitation tools, methods,
+  algorithms, APIs, know-how, data, techniques, and skills specific to
+  Softhouse’s business and not uniquely developed for Client.
+  “Work Product” means all Intellectual Property and other materials
+  uniquely made, authored, conceived, reduced to practice, created, or
+  developed by Softhouse under this Agreement for Client.
+
+  Ownership
+
+  Each party shall retain all right, title, and interest in its
+  respective Background IP. All Work Product created by Softhouse in the
+  performance of services under this Agreement shall be owned by
+  Softhouse.
+
+  License to Work Product
+
+  Softhouse grants Client a perpetual, irrevocable, worldwide,
+  non-exclusive, royalty-free license (with the right to sublicense
+  through multiple tiers) to use, reproduce, perform, display,
+  distribute, adapt, modify, and create derivative works of the Work
+  Product for Client’s internal and external business purposes. This
+  license shall be deemed fully paid-up and shall survive termination of
+  this Agreement. Nothing in this Agreement shall restrict Softhouse
+  from using any ideas, know-how, techniques, skills, tools, or
+  methodologies acquired, developed, or improved during the engagement,
+  including any components of the Work Product that are not specific to
+  Client’s Confidential Information, for the benefit of Softhouse or its
+  other clients, including for resale, licensing, or commercialization.
+
+  License to Background IP
+  To the extent any Background IP of Softhouse is incorporated in the
+  Work Product or otherwise necessary for its use, Softhouse grants
+  Client a perpetual, irrevocable, non-exclusive, worldwide,
+  royalty-free, fully paid-up license, with the right to sublicense, to
+  use, execute, adapt, translate, reproduce, display, perform, modify,
+  and create derivative works of such Background IP as incorporated into
+  or necessary for the use of the Work Product.
+
+  License to Client Materials
+  To the extent Client delivers or provides access to software,
+  documentation, data, tools, or other Intellectual Property (“Client
+  Materials”), Softhouse shall have a non-exclusive right to use such
+  Client Materials solely for the purpose of performing its obligations
+  under this Agreement and solely for Client’s benefit. Softhouse may
+  not remove Client Materials from Client’s premises unless expressly
+  authorized in writing.
+
+5.  Payment Terms
+
+  Client will pay SOFTHOUSE within 15 days of invoice
+
+6.  Travel
+
+  Client will reimburse Softhouse Advisory Systems Inc., for reasonable
+  travel and living expenses which will not exceed governmental per
+  diems, found at www.gsa.gov, as incurred by Softhouse Advisory Systems
+  Inc. for travel approved by Client.
+
+7.  Warranty and Limitation of Liability
+
+  SOFTHOUSE ADVISORY SYSTEMS INC., warrants only that the Consulting
+  Services provided hereunder will be performed in a workmanlike manner
+  with professional diligence and skill. APART FROM THE FOREGOING
+  WARRANTY, SOFTHOUSE ADVISORY SYSTEMS INC., DISCLAIMS ALL WARRANTIES
+  AND CONDITIONS, WHETHER EXPRESS OR IMPLIED, INCLUDING THE IMPLIED
+  WARRANTIES OF MERCHANTABILITY, EFFORTS, RESULTS, NON-INFRINGEMENT AND
+  FITNESS FOR A PARTICULAR PURPOSE. SOFTHOUSE ADVISORY SYSTEMS INC.,
+  MAKES NO WARRANTY AS TO THE RESULTS THAT CLIENT WILL ACHIEVE USING THE
+  CONSULTING SERVICES OR DELIVERABLES PROVIDED BY SOFTHOUSE ADVISORY
+  SYSTEMS INC., OUTSIDE OF ANY WARRANTY IN THIS AGREEMENT.
+
+  SOFTHOUSE ADVISORY SYSTEMS INC’s entire liability for any claims,
+  damages, or loss arising from the provision of professional services
+  to the Client shall be limited to the cost for the particular SOW of
+  said professional service fees within the prior 12 months before the
+  event giving rise to the damages occurs, and no officer, director,
+  agent, or employee of SOFTHOUSE ADVISORY SYSTEMS INC., shall be
+  personally liable for any damages whatsoever. No action may be brought
+  by Client more than two years after the cause of action arose.
+
+  SOFTHOUSE ADVISORY SYSTEMS INC., SHALL NOT BE LIABLE FOR ANY SPECIAL,
+  INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING FROM OR RELATED
+  TO THE USE OF THE SOFTWARE OR THE INSTALLATION OR USE OF THIRD PARTY
+  PROGRAMS OR SOFTWARE OR IN ANY OTHER WAY ARISING OUT OF THIS
+  AGREEMENT, INCLUDING WITHOUT LIMITATION LOSS OF DATA (DUE TO A “VIRUS”
+  OR OTHERWISE), LOSS OF REVENUE OR PROFITS, FAILURE TO REALIZE SAVINGS
+  OR OTHER BENEFITS, AND CLAIMS AGAINST CUSTOMER BY A THIRD PARTY, EVEN
+  IF ADVISED OF THE POSSIBILITY THEREOF.
+
+Further, SOFTHOUSE ADVISORY SYSTEMS INC., shall not be liable for any:
+
+(i) damages caused in whole or in part by Client's negligence, wilful
+    misconduct or failure to fulfill its obligations and
+    responsibilities as set forth herein, or
+
+(ii) (ii)damages for any delay or failure by SOFTHOUSE ADVISORY SYSTEMS
+     INC., to perform its obligations under this Agreement due to acts
+     of God or any other cause beyond its reasonable control including
+     without limitation, acts of civil or military authority, war, riot,
+     labor dispute, communication line failures or power failures, or
+
+(iii) damages arising out of the termination of this Agreement.
+
+  Client shall indemnify and hold SOFTHOUSE ADVISORY SYSTEMS INC.,
+  harmless from any loss, cost, expense or damage arising out of any
+  claim or proceeding against SOFTHOUSE ADVISORY SYSTEMS INC., by any
+  third party in respect of which Client uses the third party programs,
+  deliverables or software which is based on its performance or
+  non-performance.
+
+  The limitations of liability forth in this section shall apply
+  regardless of whether the underlying cause of action is a breach of
+  contract, tort (including negligence) or otherwise and shall survive
+  any termination of this Agreement.
+
+  Client is solely responsible to ensure that all programs and data
+  files are adequately duplicated and documented unless agreed to
+  explicitly in writing otherwise. SOFTHOUSE ADVISORY SYSTEMS INC. will
+  not be responsible for Client's failure to do so, nor for the cost of
+  reconstructing programs or lost data.
+
+8.  Confidentiality
+
+  In the performance and/or receipt of Consulting Services hereunder,
+  each party may have access to information that is confidential or
+  proprietary to the other party (“Confidential Information”).
+  Confidential Information means any information, technical data, or
+  know-how, including, but not limited to, that which relates to
+  research, product plans, products, services, customers, markets,
+  software, developments, inventions, processes, methodologies, designs,
+  engineering, hardware configuration information, marketing or finances
+  of the disclosing party. In order for information to be protected as
+  Confidential Information in accordance with this Agreement, it must
+  be: (a) if embodied in tangible material, clearly identified as
+  Confidential Information by being marked as “Proprietary,”
+  “Confidential,” or with some other appropriate legend; or (b) where
+  such Confidential Information is first conveyed orally or visually, it
+  shall be identified as such as the time of disclosure or the
+  circumstances of such disclosure shall reasonably indicate that such
+  information is proprietary. Confidential Information also includes all
+  source code of the disclosing party, whether or not specifically
+  identified as confidential or proprietary. As between the parties, All
+  Deliverables, and any summaries of Deliverables or materials derived
+  from or based upon Deliverables, are Confidential Information of
+  SOFTHOUSE ADVISORY SYSTEMS INC., except that Confidential Information
+  of Client provided to SOFTHOUSE ADVISORY SYSTEMS INC., remains
+  Client’s Confidential Information even if incorporated into a
+  Deliverable.
+  Confidential Information does not include information, technical data
+  or know-how which (a) is in the possession of the receiving party at
+  the time of disclosure as shown by the receiving party’s files and
+  records immediately prior to the time of disclosure; (b) prior to or
+  after the time of disclosure becomes part of the public knowledge or
+  literature other than as a result of any improper inaction or action
+  of the receiving party; (c) is approved by the disclosing party, in
+  writing, for release; (d) is required to be disclosed by applicable
+  law or proper legal, governmental or other competent authority
+  (provided that the party whose information is to be disclosed shall be
+  notified sufficiently in advance of such requirement so that it may
+  seek a protective order (or equivalent) with respect to such
+  disclosure, with which the other party shall fully comply; or (e) is
+  independently developed by the receiving party as shown by the
+  receiving party’s files and records.
+
+  During the term of this Agreement, each party agrees to take all
+  commercially reasonable steps necessary to ensure that the
+  Confidential Information disclosed to it is not disclosed or
+  distributed by its employees or agents in violation of the provisions
+  of this Agreement. The parties further agree not to make each other’s
+  Confidential Information available in any form to any third party, or
+  to use each other’s Confidential Information for any purpose other
+  than those contemplated hereunder.
+
+9.  Term and Termination
+
+  This Agreement is effective as of the date listed below within the
+  signature line and shall continue in effect until terminated by either
+  party upon sixty (60) days prior written notice; provided, however,
+  that in the event of such notice, this Agreement shall remain in
+  effect in respect of any then current SOW until such time as all work
+  has been completed thereunder. Any such termination shall not relieve
+  either party of their respective obligations under any SOW in effect
+  at the date of termination of the Agreement (which obligations shall
+  remain in effect for such SOW), except as otherwise mutually agreed in
+  writing by the parties.
+
+  Client may terminate the SOW attached hereto for convenience upon
+  sixty (60) days prior written notice to SOFTHOUSE ADVISORY SYSTEMS
+  INC. Either party may terminate a specific SOW for cause if the other
+  party fails to perform any of its material obligations under this
+  Agreement and fails to cure the breach within thirty (30) days after
+  receiving written notice thereof from the non-defaulting party.
+
+  Upon termination of this Agreement or any SOW attached hereto, Client
+  will pay SOFTHOUSE ADVISORY SYSTEMS INC., for all costs incurred to
+  date of termination at SOFTHOUSE ADVISORY SYSTEMS INC., standard
+  services rates, and SOFTHOUSE ADVISORY SYSTEMS INC. will provide
+  Client with any work in progress up until the date of termination.
+  Except for Deliverables that are licensed under Section 4, within
+  fifteen (15) days after termination of this Agreement, each party
+  shall certify in writing to the other party that all Confidential
+  Information of the other party in conjunction with this Agreement has
+  been destroyed or returned.
+
+10. Notices
+
+  All notices relating to this Agreement shall be in writing and shall
+  be delivered (a) by overnight courier or hand; (b) postage prepaid
+  registered first-class mail with return receipt requested; (c) by
+  scanned copy of a written document, sent by email transmission; or (d)
+  facsimile transmission. Notices shall be sent to the address of the
+  other party set forth on the signature page of this Agreement to the
+  attention of a duly-authorized representative of the receiving party
+  or to such other address as either party may specify in accordance
+  with this Section, and shall be deemed given upon personal delivery,
+  five (5) days after deposit in the mail, or upon acknowledgement or
+  receipt of electronic transmission.
+
+11. Assignment
+
+  Neither this Agreement, nor any of the rights granted or duties
+  undertaken, may be assigned by either Party without the prior written
+  consent of the other, which consent shall not be unreasonably
+  withheld; provided, however, that consent shall not be required in
+  connection with any assignment to any entity with whom the assigning
+  party merges or consolidates or to which the assigning party sells
+  substantially all of its assets in the business relating to this
+  Agreement.
+
+12. Restrictions
+
+  During the term of the Agreement and for a period of two (2) years
+  after termination of the Agreement Client will not recruit, hire,
+  subcontract, employ or use the services of any employee, agent,
+  associates, corporation, contractor, or subcontractor of SOFTHOUSE
+  ADVISORY SYSTEMS INC., that was directly or indirectly providing
+  services to Client during the duration of the Agreement, and should
+  Client breach this term, then Client agrees to pay SOFTHOUSE ADVISORY
+  SYSTEMS INC., twenty-five thousand dollars ($25,000.00) as a finder’s
+  fee for connecting Client with said employee, agent, associates,
+  corporation, contractor, or subcontractor, and if the former employee,
+  agent, associate, corporation, contractor, or subcontractor of
+  SOFTHOUSE ADVISORY SYSTEMS INC., was providing services to Client for
+  greater than one year while acting for SOFTHOUSE ADVISORY SYSTEMS
+  INC., then for every year greater than one year the Client shall also
+  pay $10,000 dollars.
+
+  Example: Client breaches term and hires an employee of SOFTHOUSE
+  ADVISORY SYSTEMS INC. Client shall pay $25,000.00 finder’s fee to
+  SOFTHOUSE ADVISORY SYSTEMS INC. The employee while working for
+  SOFTHOUSE ADVISORY SYSTEMS INC., supplied Client with help for three
+  years, therefore Client shall pay SOFTHOUSE ADVISORY SYSTEMS INC., a
+  further $20,000.00. In total, in this case, Client shall pay SOFTHOUSE
+  ADVISORY SYSTEMS INC. $45,000.00.
+
+13. Governing Law
+
+  Any claim, dispute or controversy arising out of or relating to this
+  Agreement will be governed by and construed in accordance with the
+  laws of the Province of Ontario, without giving effect to any choice
+  of law principles that would require the application of the laws of a
+  different jurisdiction. Any claim under or relating to this Agreement
+  must be commenced in the City of Toronto, Province of Ontario, and
+  each party consents to venue and jurisdiction in such courts.
+
+14. Entire Agreement
+
+  This Agreement, including any addenda, exhibits or statements of work
+  attached hereto, constitutes the final and entire agreement between
+  the parties concerning SOFTHOUSE ADVISORY SYSTEMS INC., provision of
+  Consulting Services to Client. No purchase order, other ordering
+  document or any hand-written or typewritten text which purports to
+  modify or supplement the printed text of this Agreement shall add to
+  or vary the terms of this Agreement unless signed or initialed by both
+  parties. This Agreement replaces and supersedes any prior verbal
+  understandings, written communications or representations with respect
+  to the subject matter hereof.
+
+15. Governing Language
+
+  The parties hereto confirm that they have requested that this
+  Agreement and all related documents be drafted in English.
+
+[SIGNATURE PAGE FOLLOWS]
+
+Accepted and Agreed to:
+
+IN WITNESS WHEREOF the parties have executed this Agreement.
+
+                SOFTHOUSE ADVISORY SYSTEMS INC.   CLIENT:
+  ------------- --------------------------------- ---------
+  PRINT NAME:                                     
+  TITLE:                                          
+  DATE:                                           
+  SIGNATURE:                                      

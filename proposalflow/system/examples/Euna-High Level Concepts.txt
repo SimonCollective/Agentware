@@ -1,0 +1,271 @@
+AI Skills & Adoption Uplift (I think this is required regardless of the
+below choices)
+
+An internal enablement program focused on AI skills and adoption is
+essential to ensure that teams, from PS to support to leadership, are
+equipped to leverage AI safely and effectively. The program would blend
+targeted training, real-world use cases, and safe practice guidelines,
+building confidence and creating advocates to drive adoption. Broad
+rollout of the right tools with good training would enable anyone to
+build high value tools and automations that can have real impact, and
+the snowball effect that can occur as the organization broadly up skills
+can be transformational.
+
+Potential Value:
+
+-   Accelerates safe, compliant AI use across the org
+
+-   Increases productivity by embedding AI into daily workflows
+
+-   Builds a culture of innovation and learning
+
+-   Lowers resistance and anxiety around new tech
+
+-   Supports development of AI “power users” and internal champions
+
+-   Ensures regulatory and security guardrails are followed
+
+Potential Measurements / KPIs:
+
+-   Percentage of staff completing AI enablement program
+
+-   Employee AI usage/adoption rates post-training
+
+-   Number of AI-driven process improvements reported
+
+-   Internal satisfaction and feedback scores
+
+-   Reduction in manual, repetitive tasks
+
+-   Frequency of AI-related compliance incidents
+
+Likely Challenges:
+
+Building confidence at scale demands sustained leadership support, clear
+comms, and ongoing opportunities for h experimentation. Some may resist
+change or fear job impact, so messaging must focus on upskilling and
+empowerment. Ensuring security, privacy, and compliance while
+democratizing AI access also requires careful planning and oversight.
+
+Special Note
+
+Whilst not overly advertised as such, nor specifically kept secret, this
+fundamentally would be a change management program, putting the right
+people in front of the teams, building enthusiasm and excitement around
+AI, and being there to answer questions and concerns throughout the
+process are all critical success factors. Special attention would be
+paid to those who fear or are uncomfortable with the technology,
+ensuring care and sensitivity helps bring everyone along on the journey.
+
+AI-Accelerated Mid-Market Adoption & Onboarding
+
+Leveraging AI to streamline and accelerate onboarding for mid-market
+customers could be transformative, addressing a known friction point
+where current implementations feel overly complex and
+resource-intensive. By applying AI to extract actionable onboarding
+requirements from unstructured data (like meeting notes and client
+docs), at the initial stages of the project, and using these insights to
+profile the client, and understand the best path to low effort on
+boarding (potentially including elements of self on boarding,
+self-learning, and streamlined workflows. And by empowering the
+mid-market onboarding teams with best inbreed AI tools and training to
+automate much of the process. Euna can create a more standardized,
+digestible, and scalable onboarding experience. This shift not only
+lowers costs for the business but directly aligns with mid-market
+expectations for simplicity, speed, and first-time-to-value.
+
+Potential Value:
+
+-   Reduces perceived and actual onboarding complexity for mid-market
+    clients
+
+-   Accelerates time to first value, improving client satisfaction
+
+-   Enables repeatable, scalable onboarding “packages”
+
+-   Supports revenue velocity and reduces sales cycle times
+
+-   Frees resources for more complex/enterprise implementations
+
+-   Enhances brand perception as client-centric and modern
+
+Potential Measurements / KPIs:
+
+-   Average time from contract to “first value”
+
+-   Customer satisfaction (CSAT/NPS) during onboarding
+
+-   Percentage of mid-market onboardings using AI-driven process
+
+-   Implementation cost per client (mid-market segment)
+
+-   Reduction in support tickets related to onboarding confusion
+
+-   Revenue recognized within first 90 days post-sale
+
+Likely Challenges:
+
+Successfully standardizing and packaging onboarding for a diverse
+mid-market client base is not trivial, AI must have access to historical
+data to spot relevant patterns, and unstructured client requirements
+must be accurately extracted and classified. Resistance may come from
+internal teams who perceive “one size fits all” as lowering quality, or
+from clients with genuinely unique needs. There will also be technical
+challenges around integrating disparate data sources and ensuring AI
+recommendations are trusted and actionable. Finally, change management
+is critical, teams must buy in to both the AI approach and the new ways
+of working.
+
+AI-Enabled Self-Serve Support, Learning & Triage
+
+Transforming support and learning through AI involves creating powerful
+self-serve knowledge bases, intelligent ticket triage, and guided
+troubleshooting tools that empower clients to resolve issues
+independently and proactively. By expanding beyond onboarding to provide
+dynamic, context-aware support resources, Euna can accelerate issue
+resolution, reduce support burden, and deliver more proactive and
+data-driven experiences.
+
+Potential Value:
+
+-   Frees up support team for higher-complexity queries
+
+-   Improves customer experience by enabling 24/7 self-service
+
+-   Reduces time to resolution for common issues
+
+-   Builds a living knowledge base that improves over time
+
+-   Lowers support cost-to-serve for all clients
+
+-   Boosts customer retention by solving problems faster
+
+Potential Measurements / KPIs:
+
+-   First-contact resolution rate
+
+-   Average ticket response and resolution time
+
+-   Usage rates of self-serve tools/resources
+
+-   Support ticket volume per client segment
+
+-   Client satisfaction scores (post-support)
+
+-   Knowledge base article effectiveness/feedback
+
+Likely Challenges:
+
+Deploying AI-powered support requires a critical mass of high-quality
+knowledge assets and process documentation, as well as ongoing tuning to
+ensure accuracy and relevance. Change management can be a barrier,
+especially if support staff feel their roles are threatened. There is
+also the risk of customer frustration if the self-serve experience is
+incomplete or clunky, so human backup must remain accessible. Finally,
+measurement and improvement loops must be in place to ensure the system
+continually evolves with real customer needs.
+
+Implementation Resource Optimizer
+
+AI can help optimize the allocation of professional services resources
+by analyzing project complexity, timelines, and required skill sets,
+then dynamically matching staff and predicting bottlenecks or overruns.
+This enables better utilization, more consistent project outcomes, and
+faster revenue recognition.
+
+Potential Value:
+
+-   Increases project throughput and utilization
+
+-   Minimizes project overruns and resource idle time
+
+-   Improves project forecasting and planning
+
+-   Drives consistency in project outcomes across diverse client types
+
+-   Enhances staff satisfaction by aligning skills/interests with work
+
+-   Accelerates backlog reduction and revenue realization
+
+Potential Measurements / KPIs:
+
+-   Resource utilization rates
+
+-   Average project overrun (time/cost)
+
+-   Project backlog size and velocity
+
+-   Number of projects delivered on-time/on-budget
+
+-   Employee satisfaction with project assignments
+
+-   Time to revenue recognition per project
+
+Likely Challenges:
+
+Building a robust resource optimizer depends on high-quality, granular
+project and resource data. Variability in project types and legacy
+processes may complicate data collection and AI model training. Change
+management is also a factor: teams must trust the optimizer’s
+recommendations and be willing to adjust legacy workflows. Finally,
+continuous monitoring is needed to ensure optimization doesn’t create
+new bottlenecks or quality issues.
+
+AI-Driven Onboarding Hub
+
+An AI-powered “golden thread” solution that creates a seamless data flow
+from first conversation through onboarding and beyond, aggregating
+unstructured and structured data, meeting notes, documentation, project
+plans, and communications. This unified, real-time record gives all
+stakeholders a shared, transparent view of requirements, progress,
+risks, and sentiment, surfacing issues and opportunities early and
+making onboarding measurable and repeatable. However, this is much more
+than just a list of documents, the hub would use Agentic AI to extract
+relevant facts from all documentation and data and then allow relevant
+team members to query this fact store in plain english or even build
+tools on top of it. Project managers could query customer sentiment, or
+the current state of the project timeline, or spot conflicts within the
+facts where people have given conflicting information highlighting
+potential disconnects. Onboarding engineers could use the data store to
+understand requirements, the QA team could use it to build test cases,
+and it could be built piece by piece, starting simple and being added to
+over time.
+
+Potential Value:
+
+-   Delivers total transparency to all stakeholders
+
+-   Flags potential gaps, risks, or conflicts before they escalate
+
+-   Simplifies project tracking “are there any risks to the delivery
+    date”
+
+-   Improves client trust and satisfaction
+
+-   Provides a living record for continuous improvement
+
+-   Enables early intervention to keep projects on track
+
+Potential Measurements / KPIs:
+
+-   Incidents of missed requirements or late-stage surprises
+
+-   Stakeholder satisfaction with onboarding transparency
+
+-   Average time to issue resolution during onboarding
+
+-   Number of proactive interventions triggered by AI
+
+-   Completion rates for onboarding tasks/milestones
+
+-   Reduction in onboarding-related escalations
+
+Likely Challenges:
+
+Aggregating disparate data sources, especially unstructured content, may
+require integration and data quality work up front. There may be privacy
+or compliance concerns, particularly around meeting transcripts and
+sensitive client information. Success also depends on stakeholder
+adoption: the system must be seen as an enabler, not extra overhead.
+Over time, the AI must continually improve at surfacing relevant
+insights while filtering noise.

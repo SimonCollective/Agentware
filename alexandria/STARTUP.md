@@ -271,6 +271,9 @@ Then populate it as you work through each section.
 | `person` | Team members, clients, contacts, partners |
 | `company` | Your companies, client companies, partners |
 | `project` | Active engagements, internal projects, products |
+| `proposal` | Proposal documents sent to clients |
+| `engagement` | Ongoing client retainers, contracts, active work |
+| `document` | Deliverables, policies, reports, key documents |
 | `location` | Offices, cities, client sites |
 | `interest` | Professional expertise, personal interests |
 | `activity` | Recurring meetings, routines, events |
@@ -291,3 +294,6 @@ Then populate it as you work through each section.
 | `mother_of` | Person is parent of person | - |
 | `manages` | Person manages person/project | kate manages brand-projects |
 | `contacts_at` | Person is key contact at company | patrick contacts_at acme |
+| `authored` | Person authored a proposal/document | simon authored acme-proposal |
+| `belongs_to` | Proposal/document belongs to project/engagement | acme-proposal belongs_to acme-project |
+| `engagement_with` | Engagement is with a company | acme-retainer engagement_with acme |

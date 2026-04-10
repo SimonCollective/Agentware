@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alexandria Knowledge Graph</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0f172a; color: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; overflow: hidden; }
+  canvas { display: block; }
+
+  #sidebar {
+    position: fixed; right: 0; top: 0; bottom: 0; width: 340px;
+    background: #1e293b; border-left: 1px solid #334155;
+    padding: 24px; overflow-y: auto; z-index: 10;
+    transform: translateX(100%); transition: transform 0.2s ease;
+  }
+  #sidebar.open { transform: translateX(0); }
+  #sidebar h2 { font-size: 18px; margin-bottom: 4px; }
+  #sidebar .type-badge {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 99px; margin-bottom: 12px; font-weight: 600;
+  }
+  #sidebar .context { color: #94a3b8; font-size: 13px; line-height: 1.5; margin-bottom: 16px; }
+  #sidebar .meta { font-size: 12px; color: #64748b; margin-bottom: 4px; }
+  #sidebar .meta span { color: #94a3b8; }
+  #sidebar .edges-title { font-size: 12px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; margin: 16px 0 8px; }
+  #sidebar .edge-item {
+    font-size: 13px; color: #94a3b8; padding: 4px 0;
+    border-bottom: 1px solid #334155;
+  }
+  #sidebar .edge-item .edge-type { color: #60a5fa; font-weight: 500; }
+  #sidebar .edge-item .edge-target { color: #e2e8f0; }
+  #sidebar .close-btn {
+    position: absolute; top: 16px; right: 16px;
+    background: none; border: none; color: #94a3b8; font-size: 20px; cursor: pointer;
+  }
+
+  #legend {
+    position: fixed; left: 20px; bottom: 20px;
+    background: #1e293bdd; border: 1px solid #334155; border-radius: 8px;
+    padding: 16px; z-index: 10;
+  }
+  #legend h3 { font-size: 12px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  #legend .legend-item { display: flex; align-items: center; gap: 8px; font-size: 13px; color: #94a3b8; margin-bottom: 4px; }
+  #legend .dot { width: 12px; height: 12px; border-radius: 50%; }
+
+  #title {
+    position: fixed; left: 20px; top: 20px; z-index: 10;
+  }
+  #title h1 { font-size: 20px; font-weight: 700; }
+  #title p { font-size: 12px; color: #64748b; margin-top: 2px; }
+
+  #instructions {
+    position: fixed; left: 50%; top: 20px; transform: translateX(-50%);
+    background: #1e293bdd; border: 1px solid #334155; border-radius: 8px;
+    padding: 8px 16px; z-index: 10; font-size: 12px; color: #64748b;
+  }
+</style>
+</head>
+<body>
+<div id="title">
+  <h1>Alexandria</h1>
+  <p>Knowledge Graph Visualisation</p>
+</div>
+
+<div id="instructions">
+  Click a node to inspect &bull; Drag nodes to rearrange &bull; Scroll to zoom
+</div>
+
+<div id="legend">
+  <h3>Node Types</h3>
+  <div class="legend-item"><div class="dot" style="background:#3b82f6"></div> Person</div>
+  <div class="legend-item"><div class="dot" style="background:#8b5cf6"></div> Company</div>
+  <div class="legend-item"><div class="dot" style="background:#22c55e"></div> Project</div>
+  <div class="legend-item"><div class="dot" style="background:#f97316"></div> Proposal</div>
+  <div class="legend-item"><div class="dot" style="background:#14b8a6"></div> Engagement</div>
+  <div class="legend-item"><div class="dot" style="background:#a78bfa"></div> Document</div>
+  <div class="legend-item"><div class="dot" style="background:#f59e0b"></div> Location</div>
+  <div class="legend-item"><div class="dot" style="background:#ec4899"></div> Interest</div>
+  <div class="legend-item"><div class="dot" style="background:#06b6d4"></div> Activity</div>
+</div>
+
+<div id="sidebar">
+  <button class="close-btn" onclick="closeSidebar()">&times;</button>
+  <div id="sidebar-content"></div>
+</div>
+
+<canvas id="canvas"></canvas>
+
+<script>
+const graph = {
+  "nodes": {
+    "simon": { "type": "person", "name": "Simon Plummer", "role": "Director", "org": "collective-security", "context": "Co-founder. Focuses on security consulting and technical delivery. Early adopter of AI tools." },
+    "kate": { "type": "person", "name": "Kate Plummer", "role": "Director", "org": "collective-inspiration", "context": "Co-founder. Handles brand, operations, client services, and creative direction." },
+    "collective-security": { "type": "company", "name": "Collective Security", "context": "Security consulting business. One of two brands under the Collective umbrella." },
+    "collective-inspiration": { "type": "company", "name": "Collective Inspiration", "context": "Creative and brand-focused business. One of two brands under the Collective umbrella." },
+    "example-client": { "type": "company", "name": "Example Client Ltd", "context": "SAMPLE: A mid-size logistics company in the Midlands looking at AI for route optimisation." },
+    "example-contact": { "type": "person", "name": "Jane Smith", "role": "Head of Operations", "org": "example-client", "context": "SAMPLE: Primary contact at Example Client. Met at a networking event." },
+    "example-project": { "type": "project", "name": "Example Client AI Assessment", "context": "SAMPLE: Initial AI readiness assessment, scoping a familiarisation day." },
+    "example-proposal": { "type": "proposal", "name": "AI Assessment Proposal", "context": "SAMPLE: A proposal document for the AI readiness assessment engagement.", "status": "draft" },
+    "example-engagement": { "type": "engagement", "name": "Example Client Retainer", "context": "SAMPLE: Ongoing monthly retainer for security advisory services.", "status": "active" },
+    "example-document": { "type": "document", "name": "Security Policy", "context": "SAMPLE: A security policy document delivered as part of the retainer engagement.", "doc_type": "deliverable" },
+    "nottingham": { "type": "location", "name": "Nottingham", "context": "SAMPLE: Home base for the Collective businesses." },
+    "interest-cybersecurity": { "type": "interest", "name": "Cybersecurity", "context": "Core professional domain for Collective Security." },
+    "interest-ai": { "type": "interest", "name": "Artificial Intelligence", "context": "Growing focus area across both businesses." },
+    "weekly-planning": { "type": "activity", "name": "Weekly Planning", "context": "SAMPLE: Weekly sync between Simon and Kate." }
+  },
+  "edges": [
+    {"from": "simon", "to": "collective-security", "type": "owns"},
+    {"from": "kate", "to": "collective-inspiration", "type": "owns"},
+    {"from": "simon", "to": "collective-inspiration", "type": "works_at", "detail": "cross-business"},
+    {"from": "kate", "to": "collective-security", "type": "works_at", "detail": "cross-business"},
+    {"from": "example-client", "to": "collective-security", "type": "client_of"},
+    {"from": "simon", "to": "example-client", "type": "advises"},
+    {"from": "example-contact", "to": "example-client", "type": "works_at"},
+    {"from": "simon", "to": "example-project", "type": "assigned_to"},
+    {"from": "example-project", "to": "example-client", "type": "client_of"},
+    {"from": "example-proposal", "to": "example-project", "type": "belongs_to"},
+    {"from": "simon", "to": "example-proposal", "type": "authored"},
+    {"from": "example-engagement", "to": "example-client", "type": "engagement_with"},
+    {"from": "simon", "to": "example-engagement", "type": "assigned_to"},
+    {"from": "kate", "to": "example-engagement", "type": "assigned_to", "detail": "oversight"},
+    {"from": "example-document", "to": "example-engagement", "type": "belongs_to"},
+    {"from": "simon", "to": "example-document", "type": "authored"},
+    {"from": "simon", "to": "nottingham", "type": "located_in"},
+    {"from": "kate", "to": "nottingham", "type": "located_in"},
+    {"from": "collective-security", "to": "nottingham", "type": "located_in"},
+    {"from": "simon", "to": "interest-cybersecurity", "type": "interested_in"},
+    {"from": "simon", "to": "interest-ai", "type": "interested_in"},
+    {"from": "kate", "to": "interest-ai", "type": "interested_in"},
+    {"from": "simon", "to": "weekly-planning", "type": "participates_in"},
+    {"from": "kate", "to": "weekly-planning", "type": "participates_in"}
+  ]
+};
+
+const typeColors = {
+  person: '#3b82f6',
+  company: '#8b5cf6',
+  project: '#22c55e',
+  proposal: '#f97316',
+  engagement: '#14b8a6',
+  document: '#a78bfa',
+  location: '#f59e0b',
+  interest: '#ec4899',
+  activity: '#06b6d4'
+};
+
+const typeRadius = {
+  person: 28,
+  company: 32,
+  project: 24,
+  proposal: 24,
+  engagement: 26,
+  document: 22,
+  location: 20,
+  interest: 20,
+  activity: 20
+};
+
+const edgeColors = {
+  owns: '#8b5cf6',
+  works_at: '#6366f1',
+  client_of: '#22c55e',
+  advises: '#f59e0b',
+  assigned_to: '#3b82f6',
+  located_in: '#f59e0b',
+  interested_in: '#ec4899',
+  participates_in: '#06b6d4',
+  belongs_to: '#94a3b8',
+  authored: '#f97316',
+  engagement_with: '#14b8a6'
+};
+
+// Canvas setup
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+let W, H;
+
+function resize() {
+  W = canvas.width = window.innerWidth;
+  H = canvas.height = window.innerHeight;
+}
+resize();
+window.addEventListener('resize', resize);
+
+// Build simulation nodes
+const nodeIds = Object.keys(graph.nodes);
+const nodes = nodeIds.map((id, i) => {
+  const angle = (2 * Math.PI * i) / nodeIds.length;
+  const r = Math.min(W, H) * 0.28;
+  return {
+    id,
+    ...graph.nodes[id],
+    x: W / 2 + r * Math.cos(angle) + (Math.random() - 0.5) * 60,
+    y: H / 2 + r * Math.sin(angle) + (Math.random() - 0.5) * 60,
+    vx: 0, vy: 0,
+    radius: typeRadius[graph.nodes[id].type] || 22
+  };
+});
+
+const nodeMap = {};
+nodes.forEach(n => nodeMap[n.id] = n);
+
+const edges = graph.edges.map(e => ({
+  ...e,
+  source: nodeMap[e.from],
+  target: nodeMap[e.to]
+}));
+
+// Camera
+let camX = 0, camY = 0, camZoom = 1;
+
+// Physics
+const REPULSION = 8000;
+const ATTRACTION = 0.005;
+const REST_LENGTH = 180;
+const DAMPING = 0.85;
+const CENTER_GRAVITY = 0.002;
+
+function simulate() {
+  // Repulsion between all nodes
+  for (let i = 0; i < nodes.length; i++) {
+    for (let j = i + 1; j < nodes.length; j++) {
+      const a = nodes[i], b = nodes[j];
+      let dx = b.x - a.x, dy = b.y - a.y;
+      let dist = Math.sqrt(dx * dx + dy * dy) || 1;
+      let force = REPULSION / (dist * dist);
+      let fx = (dx / dist) * force, fy = (dy / dist) * force;
+      a.vx -= fx; a.vy -= fy;
+      b.vx += fx; b.vy += fy;
+    }
+  }
+
+  // Attraction along edges
+  for (const e of edges) {
+    const a = e.source, b = e.target;
+    let dx = b.x - a.x, dy = b.y - a.y;
+    let dist = Math.sqrt(dx * dx + dy * dy) || 1;
+    let force = (dist - REST_LENGTH) * ATTRACTION;
+    let fx = (dx / dist) * force, fy = (dy / dist) * force;
+    a.vx += fx; a.vy += fy;
+    b.vx -= fx; b.vy -= fy;
+  }
+
+  // Center gravity
+  for (const n of nodes) {
+    n.vx += (W / 2 - n.x) * CENTER_GRAVITY;
+    n.vy += (H / 2 - n.y) * CENTER_GRAVITY;
+  }
+
+  // Apply velocity
+  for (const n of nodes) {
+    if (n === dragging) continue;
+    n.vx *= DAMPING;
+    n.vy *= DAMPING;
+    n.x += n.vx;
+    n.y += n.vy;
+  }
+}
+
+function toScreen(x, y) {
+  return [(x - camX) * camZoom + W / 2, (y - camY) * camZoom + H / 2];
+}
+
+function toWorld(sx, sy) {
+  return [(sx - W / 2) / camZoom + camX, (sy - H / 2) / camZoom + camY];
+}
+
+function draw() {
+  ctx.clearRect(0, 0, W, H);
+
+  // Draw edges
+  for (const e of edges) {
+    const [x1, y1] = toScreen(e.source.x, e.source.y);
+    const [x2, y2] = toScreen(e.target.x, e.target.y);
+
+    ctx.beginPath();
+    ctx.moveTo(x1, y1);
+    ctx.lineTo(x2, y2);
+    ctx.strokeStyle = (edgeColors[e.type] || '#475569') + '55';
+    ctx.lineWidth = 1.5 * camZoom;
+    ctx.stroke();
+
+    // Edge label
+    const mx = (x1 + x2) / 2, my = (y1 + y2) / 2;
+    const fontSize = Math.max(9, 10 * camZoom);
+    ctx.font = `${fontSize}px -apple-system, sans-serif`;
+    ctx.fillStyle = (edgeColors[e.type] || '#475569') + 'aa';
+    ctx.textAlign = 'center';
+    ctx.fillText(e.type, mx, my - 4 * camZoom);
+  }
+
+  // Draw nodes
+  for (const n of nodes) {
+    const [x, y] = toScreen(n.x, n.y);
+    const r = n.radius * camZoom;
+    const color = typeColors[n.type] || '#64748b';
+
+    // Glow
+    const grad = ctx.createRadialGradient(x, y, r * 0.3, x, y, r * 1.8);
+    grad.addColorStop(0, color + '30');
+    grad.addColorStop(1, color + '00');
+    ctx.beginPath();
+    ctx.arc(x, y, r * 1.8, 0, Math.PI * 2);
+    ctx.fillStyle = grad;
+    ctx.fill();
+
+    // Circle
+    ctx.beginPath();
+    ctx.arc(x, y, r, 0, Math.PI * 2);
+    ctx.fillStyle = color + '22';
+    ctx.fill();
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 2 * camZoom;
+    ctx.stroke();
+
+    // Highlight if selected
+    if (n === selectedNode) {
+      ctx.beginPath();
+      ctx.arc(x, y, r + 4 * camZoom, 0, Math.PI * 2);
+      ctx.strokeStyle = '#ffffff44';
+      ctx.lineWidth = 2 * camZoom;
+      ctx.stroke();
+    }
+
+    // Label
+    const fontSize = Math.max(10, 12 * camZoom);
+    ctx.font = `600 ${fontSize}px -apple-system, sans-serif`;
+    ctx.fillStyle = '#e2e8f0';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+
+    // Wrap name if needed
+    const name = n.name;
+    const words = name.split(' ');
+    if (words.length > 1 && ctx.measureText(name).width > r * 1.8) {
+      const mid = Math.ceil(words.length / 2);
+      const line1 = words.slice(0, mid).join(' ');
+      const line2 = words.slice(mid).join(' ');
+      ctx.fillText(line1, x, y - fontSize * 0.4);
+      ctx.fillText(line2, x, y + fontSize * 0.6);
+    } else {
+      ctx.fillText(name, x, y);
+    }
+
+    // Type label below
+    const typeSize = Math.max(8, 9 * camZoom);
+    ctx.font = `${typeSize}px -apple-system, sans-serif`;
+    ctx.fillStyle = color + 'aa';
+    ctx.fillText(n.type, x, y + r + typeSize + 2);
+  }
+}
+
+// Interaction
+let dragging = null;
+let selectedNode = null;
+let dragOffsetX = 0, dragOffsetY = 0;
+let isPanning = false, panStartX = 0, panStartY = 0, panCamX = 0, panCamY = 0;
+
+function getNodeAt(sx, sy) {
+  const [wx, wy] = toWorld(sx, sy);
+  for (let i = nodes.length - 1; i >= 0; i--) {
+    const n = nodes[i];
+    const dx = n.x - wx, dy = n.y - wy;
+    if (dx * dx + dy * dy < n.radius * n.radius) return n;
+  }
+  return null;
+}
+
+canvas.addEventListener('mousedown', (e) => {
+  const node = getNodeAt(e.clientX, e.clientY);
+  if (node) {
+    dragging = node;
+    const [wx, wy] = toWorld(e.clientX, e.clientY);
+    dragOffsetX = node.x - wx;
+    dragOffsetY = node.y - wy;
+  } else {
+    isPanning = true;
+    panStartX = e.clientX;
+    panStartY = e.clientY;
+    panCamX = camX;
+    panCamY = camY;
+  }
+});
+
+canvas.addEventListener('mousemove', (e) => {
+  if (dragging) {
+    const [wx, wy] = toWorld(e.clientX, e.clientY);
+    dragging.x = wx + dragOffsetX;
+    dragging.y = wy + dragOffsetY;
+    dragging.vx = 0;
+    dragging.vy = 0;
+  } else if (isPanning) {
+    camX = panCamX - (e.clientX - panStartX) / camZoom;
+    camY = panCamY - (e.clientY - panStartY) / camZoom;
+  }
+});
+
+canvas.addEventListener('mouseup', (e) => {
+  if (dragging && !isPanning) {
+    // Check if it was a click (not a drag)
+    const [wx, wy] = toWorld(e.clientX, e.clientY);
+    const dx = dragging.x - (wx + dragOffsetX);
+    const dy = dragging.y - (wy + dragOffsetY);
+    if (dx * dx + dy * dy < 4) {
+      showNodeDetail(dragging);
+    }
+  }
+  dragging = null;
+  isPanning = false;
+});
+
+canvas.addEventListener('wheel', (e) => {
+  e.preventDefault();
+  const factor = e.deltaY > 0 ? 0.9 : 1.1;
+  camZoom = Math.max(0.3, Math.min(3, camZoom * factor));
+}, { passive: false });
+
+function showNodeDetail(node) {
+  selectedNode = node;
+  const sidebar = document.getElementById('sidebar');
+  const content = document.getElementById('sidebar-content');
+  const color = typeColors[node.type] || '#64748b';
+
+  const nodeEdges = edges.filter(e => e.source.id === node.id || e.target.id === node.id);
+
+  let html = `<h2>${node.name}</h2>`;
+  html += `<div class="type-badge" style="background:${color}22;color:${color}">${node.type}</div>`;
+
+  if (node.role) html += `<div class="meta">Role: <span>${node.role}</span></div>`;
+  if (node.org) {
+    const orgName = graph.nodes[node.org]?.name || node.org;
+    html += `<div class="meta">Org: <span>${orgName}</span></div>`;
+  }
+  if (node.context) html += `<div class="context">${node.context}</div>`;
+
+  if (nodeEdges.length > 0) {
+    html += `<div class="edges-title">Relationships (${nodeEdges.length})</div>`;
+    for (const e of nodeEdges) {
+      const isSource = e.source.id === node.id;
+      const other = isSource ? e.target : e.source;
+      const direction = isSource ? '\u2192' : '\u2190';
+      const detail = e.detail ? ` (${e.detail})` : '';
+      html += `<div class="edge-item">${direction} <span class="edge-type">${e.type}</span> <span class="edge-target">${other.name}</span>${detail}</div>`;
+    }
+  }
+
+  // Show the raw JSON for this node (educational)
+  html += `<div class="edges-title" style="margin-top:20px">Raw Node (graph.json)</div>`;
+  html += `<pre style="font-size:11px;color:#94a3b8;background:#0f172a;padding:12px;border-radius:6px;overflow-x:auto;white-space:pre-wrap">"${node.id}": ${JSON.stringify(graph.nodes[node.id], null, 2)}</pre>`;
+
+  if (nodeEdges.length > 0) {
+    html += `<div class="edges-title">Raw Edges</div>`;
+    const rawEdges = graph.edges.filter(e => e.from === node.id || e.to === node.id);
+    html += `<pre style="font-size:11px;color:#94a3b8;background:#0f172a;padding:12px;border-radius:6px;overflow-x:auto;white-space:pre-wrap">${JSON.stringify(rawEdges, null, 2)}</pre>`;
+  }
+
+  content.innerHTML = html;
+  sidebar.classList.add('open');
+}
+
+function closeSidebar() {
+  document.getElementById('sidebar').classList.remove('open');
+  selectedNode = null;
+}
+
+// Animation loop
+function loop() {
+  simulate();
+  draw();
+  requestAnimationFrame(loop);
+}
+loop();
+</script>
+</body>
+</html>

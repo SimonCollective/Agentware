@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updated_at": "2026-04-10T00:00:00+00:00",
+  "updated_at": "2026-04-10T06:30:00+00:00",
   "updated_by": "setup",
   "nodes": {
     "simon": {
       "type": "person",
       "name": "Simon Plummer",
       "role": "Director",
-      "org": "collective-intelligence",
+      "org": "collective-security",
       "relationship": "team",
       "context": "Co-founder. Focuses on security consulting and technical delivery. Early adopter of AI tools.",
       "tags": ["core", "team"]
@@ -21,9 +21,9 @@
       "context": "Co-founder. Handles brand, operations, client services, and creative direction. Wants operational visibility across both businesses.",
       "tags": ["core", "team"]
     },
-    "collective-intelligence": {
+    "collective-security": {
       "type": "company",
-      "name": "Collective Intelligence",
+      "name": "Collective Security",
       "context": "Security consulting business. One of two brands under the Collective umbrella.",
       "tags": ["own", "security"]
     },
@@ -56,16 +56,38 @@
       "context": "SAMPLE: Replace with a real project. Initial AI readiness assessment for Example Client, scoping a familiarisation day.",
       "tags": ["active", "sample"]
     },
-    "derby": {
+    "example-proposal": {
+      "type": "proposal",
+      "name": "Example Client AI Assessment Proposal",
+      "context": "SAMPLE: Replace with a real proposal. A proposal document for the AI readiness assessment engagement.",
+      "status": "draft",
+      "tags": ["sample"]
+    },
+    "example-engagement": {
+      "type": "engagement",
+      "name": "Example Client Retainer",
+      "context": "SAMPLE: Replace with a real engagement. Ongoing monthly retainer for security advisory services.",
+      "status": "active",
+      "start_date": "2026-01-15",
+      "tags": ["sample"]
+    },
+    "example-document": {
+      "type": "document",
+      "name": "Example Client Security Policy",
+      "context": "SAMPLE: Replace with a real document. A security policy document delivered as part of the retainer engagement.",
+      "doc_type": "deliverable",
+      "tags": ["sample"]
+    },
+    "nottingham": {
       "type": "location",
-      "name": "Derby",
+      "name": "Nottingham",
       "context": "SAMPLE: Replace with your actual location. Home base for the Collective businesses.",
       "tags": ["sample"]
     },
     "interest-cybersecurity": {
       "type": "interest",
       "name": "Cybersecurity",
-      "context": "Core professional domain for Collective Intelligence.",
+      "context": "Core professional domain for Collective Security.",
       "tags": []
     },
     "interest-ai": {
@@ -82,18 +104,25 @@
     }
   },
   "edges": [
-    {"from": "simon", "to": "collective-intelligence", "type": "owns"},
+    {"from": "simon", "to": "collective-security", "type": "owns"},
     {"from": "kate", "to": "collective-inspiration", "type": "owns"},
     {"from": "simon", "to": "collective-inspiration", "type": "works_at", "detail": "cross-business involvement"},
-    {"from": "kate", "to": "collective-intelligence", "type": "works_at", "detail": "cross-business involvement"},
-    {"from": "example-client", "to": "collective-intelligence", "type": "client_of"},
+    {"from": "kate", "to": "collective-security", "type": "works_at", "detail": "cross-business involvement"},
+    {"from": "example-client", "to": "collective-security", "type": "client_of"},
     {"from": "simon", "to": "example-client", "type": "advises"},
     {"from": "example-contact", "to": "example-client", "type": "works_at"},
     {"from": "simon", "to": "example-project", "type": "assigned_to"},
     {"from": "example-project", "to": "example-client", "type": "client_of"},
-    {"from": "simon", "to": "derby", "type": "located_in"},
-    {"from": "kate", "to": "derby", "type": "located_in"},
-    {"from": "collective-intelligence", "to": "derby", "type": "located_in"},
+    {"from": "example-proposal", "to": "example-project", "type": "belongs_to"},
+    {"from": "simon", "to": "example-proposal", "type": "authored"},
+    {"from": "example-engagement", "to": "example-client", "type": "engagement_with"},
+    {"from": "simon", "to": "example-engagement", "type": "assigned_to"},
+    {"from": "kate", "to": "example-engagement", "type": "assigned_to", "detail": "oversight"},
+    {"from": "example-document", "to": "example-engagement", "type": "belongs_to"},
+    {"from": "simon", "to": "example-document", "type": "authored"},
+    {"from": "simon", "to": "nottingham", "type": "located_in"},
+    {"from": "kate", "to": "nottingham", "type": "located_in"},
+    {"from": "collective-security", "to": "nottingham", "type": "located_in"},
     {"from": "simon", "to": "interest-cybersecurity", "type": "interested_in"},
     {"from": "simon", "to": "interest-ai", "type": "interested_in"},
     {"from": "kate", "to": "interest-ai", "type": "interested_in"},
