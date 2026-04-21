@@ -205,7 +205,7 @@ const initialTasks: Task[] = [
     title: "Push Client Knowledge agentware to the repo",
     owner: "Rob",
     session: "2026-04-21",
-    status: "todo",
+    status: "done",
   },
   {
     id: "29",
@@ -219,7 +219,7 @@ const initialTasks: Task[] = [
     title: "Randomise transcripts password and WhatsApp Simon",
     owner: "Rob",
     session: "2026-04-21",
-    status: "todo",
+    status: "in-progress",
   },
   {
     id: "31",
