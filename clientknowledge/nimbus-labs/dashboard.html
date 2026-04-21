@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nimbus Labs Dashboard</title>
+<style>
+  :root {
+    --bg: #faf8f4;
+    --card: #ffffff;
+    --ink: #1d1d1f;
+    --muted: #6b6b70;
+    --accent: #2a5d8f;
+    --border: #e6e2da;
+    --warn: #b45309;
+    --ok: #166534;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 32px 24px 64px; }
+  header { border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 24px; }
+  h1 { margin: 0 0 8px 0; font-size: 28px; font-weight: 600; }
+  .meta { color: var(--muted); font-size: 14px; }
+  .meta strong { color: var(--ink); font-weight: 600; }
+  .grid { display: grid; gap: 20px; grid-template-columns: repeat(12, 1fr); }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+  }
+  .card h2 { margin: 0 0 12px 0; font-size: 16px; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase; color: var(--muted); }
+  .card ul { margin: 0; padding-left: 20px; }
+  .card li { margin: 6px 0; }
+  .col-6 { grid-column: span 6; }
+  .col-4 { grid-column: span 4; }
+  .col-12 { grid-column: span 12; }
+  .snippet { font-size: 15px; color: var(--ink); }
+  .links a { color: var(--accent); text-decoration: none; margin-right: 14px; font-size: 14px; }
+  .links a:hover { text-decoration: underline; }
+  .timeline { list-style: none; padding: 0; margin: 0; }
+  .timeline .event { padding: 10px 0; border-bottom: 1px dashed var(--border); display: grid; grid-template-columns: 120px 1fr; gap: 12px; }
+  .timeline .event:last-child { border-bottom: none; }
+  .timeline .date { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 13px; padding-top: 2px; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #eee; color: var(--ink); font-size: 12px; margin-left: 6px; }
+  .tag.active { background: #dcfce7; color: var(--ok); }
+  .tag.paused { background: #fde68a; color: var(--warn); }
+  .back { font-size: 13px; color: var(--muted); }
+  .back a { color: var(--accent); text-decoration: none; }
+  @media (max-width: 800px) {
+    .col-6, .col-4 { grid-column: span 12; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="back"><a href="../all-clients-dashboard.html">&larr; All clients</a></div>
+  <header>
+    <h1>Nimbus Labs <span class="tag active">active</span></h1>
+    <div class="meta">
+      <strong>Primary contact:</strong> Celeste Moreau, VP Marketing &nbsp; | &nbsp;
+      <strong>Next action:</strong> Draft positioning recommendation deck (due 2026-05-15) &nbsp; | &nbsp;
+      <strong>Last updated:</strong> 2026-04-21
+    </div>
+    <div class="links" style="margin-top:10px">
+      <a href="README.md">README</a>
+      <a href="client-summary.md">Summary</a>
+      <a href="internet-research.md">Research</a>
+      <a href="client-asks.md">Asks</a>
+      <a href="client-commitments.md">Commitments</a>
+      <a href="key-people.md">People</a>
+      <a href="open-questions.md">Open questions</a>
+      <a href="decisions.md">Decisions</a>
+      <a href="meetings/">Meetings</a>
+      <a href="archive/">Archive</a>
+    </div>
+  </header>
+
+  <div class="grid">
+    <div class="card col-12">
+      <h2>Snapshot</h2>
+      <div class="snippet">Nimbus Labs is a B2B operational analytics platform for mid-market SaaS companies, founded in Manchester in 2022. Closed a $12M Series A in February 2026 led by Notion Capital. Headcount ~45. Engaged SoftHouse Advisory in March 2026 for positioning and go-to-market sharpening ahead of an 18-month Series B window.</div>
+    </div>
+
+    <div class="card col-4">
+      <h2>Key people</h2>
+      <ul>
+        <li><strong>Priya Chandra</strong>, CEO. Decisive, delegating.</li>
+        <li><strong>Finn Oakley</strong>, CTO. Neutral leaning skeptical.</li>
+        <li><strong>Celeste Moreau</strong>, VP Marketing. Champion, primary contact.</li>
+      </ul>
+    </div>
+
+    <div class="card col-4">
+      <h2>Open asks</h2>
+      <ul>
+        <li>Sharpen positioning vs competitors (in progress)</li>
+        <li>Refine ICP definition (in progress)</li>
+        <li>Review new website messaging draft (open)</li>
+        <li>Advise on VP Sales profile (open)</li>
+      </ul>
+    </div>
+
+    <div class="card col-4">
+      <h2>Open commitments</h2>
+      <ul>
+        <li>Positioning deck, due 2026-05-15 (in progress)</li>
+        <li>Competitive landscape briefing, due 2026-05-01 (not started)</li>
+        <li>VP Sales profile POV, due 2026-04-30 (not started)</li>
+        <li>Monthly strategy sessions (ongoing)</li>
+      </ul>
+    </div>
+
+    <div class="card col-6">
+      <h2>Top open questions</h2>
+      <ul>
+        <li>Is Finn bought in on marketing investment, or just tolerating?</li>
+        <li>What is their real customer concentration? (Top 3 ~40% of ARR per Priya)</li>
+        <li>What Series B timeline are they actually targeting?</li>
+        <li>Is "operational analytics" being adopted externally or still a Nimbus-only phrase?</li>
+      </ul>
+    </div>
+
+    <div class="card col-6">
+      <h2>Timeline</h2>
+      <ul class="timeline">
+        <li class="event"><span class="date">2026-04-21</span><span>Monthly strategy session synthesized into knowledge base. VP Sales profile POV and competitive landscape briefing added as commitments.</span></li>
+        <li class="event"><span class="date">2026-04-15</span><span>Monthly strategy session. Interview synthesis walked through with Priya and Celeste. VP Sales profile request raised.</span></li>
+        <li class="event"><span class="date">2026-04-15</span><span>Customer interview synthesis delivered (5 interviews). Surfaced referral-heavy acquisition and Salesforce sync as trial blocker.</span></li>
+        <li class="event"><span class="date">2026-04-02</span><span>Phase 1 scope confirmed: positioning plus ICP only. Brand and campaign work deferred.</span></li>
+        <li class="event"><span class="date">2026-03-20</span><span>Customer interview program kicked off.</span></li>
+        <li class="event"><span class="date">2026-03-12</span><span>Positioning workshop held. Decision to anchor on "operational analytics" category frame.</span></li>
+        <li class="event"><span class="date">2026-03-05</span><span>Internet research completed by research-agent v1. Nimbus Labs dashboard initialized.</span></li>
+        <li class="event"><span class="date">2026-03-03</span><span>Intro call with Priya and Celeste. Engagement initiated.</span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>

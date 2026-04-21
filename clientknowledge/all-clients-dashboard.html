@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>All Clients</title>
+<style>
+  :root {
+    --bg: #faf8f4;
+    --card: #ffffff;
+    --ink: #1d1d1f;
+    --muted: #6b6b70;
+    --accent: #2a5d8f;
+    --border: #e6e2da;
+    --ok: #166534;
+    --warn: #b45309;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 32px 24px 64px; }
+  header { border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 24px; }
+  h1 { margin: 0 0 4px 0; font-size: 28px; font-weight: 600; }
+  .meta { color: var(--muted); font-size: 14px; }
+  .whatchanged { background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 16px 20px; margin-bottom: 24px; }
+  .whatchanged h2 { margin: 0 0 8px 0; font-size: 14px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+  .whatchanged ul { margin: 0; padding-left: 20px; }
+  .whatchanged li { margin: 4px 0; }
+  .clients { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+  article.client {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  article.client h3 { margin: 0; font-size: 18px; }
+  article.client h3 a { color: var(--ink); text-decoration: none; }
+  article.client h3 a:hover { color: var(--accent); }
+  .brief { font-size: 14px; color: var(--ink); margin: 0; }
+  .status { display: flex; gap: 8px; flex-wrap: wrap; font-size: 12px; }
+  .status span { background: #f1ece3; padding: 2px 8px; border-radius: 999px; color: var(--ink); }
+  .status span.active { background: #dcfce7; color: var(--ok); }
+  .status span.paused { background: #fde68a; color: var(--warn); }
+  .counts { font-size: 13px; color: var(--muted); display: flex; gap: 16px; }
+  .counts strong { color: var(--ink); font-weight: 600; }
+  .next { font-size: 13px; color: var(--ink); }
+  .next strong { color: var(--muted); font-weight: 600; }
+  .cta { margin-top: auto; font-size: 13px; padding-top: 6px; }
+  .cta a { color: var(--accent); text-decoration: none; }
+  .cta a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>All Clients</h1>
+    <div class="meta">Generated 2026-04-21</div>
+  </header>
+
+  <section class="whatchanged">
+    <h2>What changed recently</h2>
+    <ul>
+      <li><strong>2026-04-21:</strong> Nimbus Labs. Monthly strategy session synthesized. Two new commitments added (VP Sales profile POV, competitive landscape briefing).</li>
+      <li><strong>2026-04-15:</strong> Nimbus Labs. Customer interview synthesis delivered. Trial churn question marked answered.</li>
+    </ul>
+  </section>
+
+  <section class="clients">
+
+    <article class="client">
+      <h3><a href="nimbus-labs/dashboard.html">Nimbus Labs</a></h3>
+      <div class="status">
+        <span class="active">active</span>
+        <span>Phase 1: positioning + ICP</span>
+      </div>
+      <p class="brief">B2B operational analytics platform for mid-market SaaS, Manchester. Series A ($12M) Feb 2026. Engaged for positioning and GTM sharpening ahead of Series B.</p>
+      <div class="next"><strong>Next:</strong> Positioning deck draft (due 2026-05-15)</div>
+      <div class="counts">
+        <span><strong>4</strong> open asks</span>
+        <span><strong>4</strong> open commitments</span>
+        <span><strong>5</strong> open questions</span>
+      </div>
+      <div class="cta"><a href="nimbus-labs/dashboard.html">Open dashboard &rarr;</a></div>
+    </article>
+
+  </section>
+</div>
+</body>
+</html>

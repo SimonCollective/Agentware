@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{CLIENT_NAME}} Dashboard</title>
+<!--
+  Client dashboard template.
+  When generating for a specific client, replace the {{TOKENS}} below and
+  regenerate the whole file. Do not try to patch individual sections.
+
+  Tokens:
+    {{CLIENT_NAME}}         display name
+    {{CLIENT_SLUG}}         folder name (for file links)
+    {{STAGE}}               engagement stage (prospecting / active / paused / closed)
+    {{PRIMARY_CONTACT}}     name, role
+    {{NEXT_ACTION}}         next thing we owe them or are waiting on
+    {{LAST_UPDATED}}         YYYY-MM-DD
+    {{SUMMARY_SNIPPET}}     two to four sentences from client-summary.md "Who they are"
+    {{KEY_PEOPLE_LIST}}     <li> items, one per person: name, role
+    {{OPEN_ASKS_LIST}}      <li> items, each an open ask
+    {{OPEN_COMMITMENTS_LIST}} <li> items, each an open commitment
+    {{OPEN_QUESTIONS_LIST}} <li> items, top open questions
+    {{TIMELINE_ITEMS}}      <li class="event"> items, newest first
+-->
+<style>
+  :root {
+    --bg: #faf8f4;
+    --card: #ffffff;
+    --ink: #1d1d1f;
+    --muted: #6b6b70;
+    --accent: #2a5d8f;
+    --border: #e6e2da;
+    --warn: #b45309;
+    --ok: #166534;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 32px 24px 64px; }
+  header { border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 24px; }
+  h1 { margin: 0 0 8px 0; font-size: 28px; font-weight: 600; }
+  .meta { color: var(--muted); font-size: 14px; }
+  .meta strong { color: var(--ink); font-weight: 600; }
+  .grid { display: grid; gap: 20px; grid-template-columns: repeat(12, 1fr); }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+  }
+  .card h2 { margin: 0 0 12px 0; font-size: 16px; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase; color: var(--muted); }
+  .card ul { margin: 0; padding-left: 20px; }
+  .card li { margin: 6px 0; }
+  .col-6 { grid-column: span 6; }
+  .col-4 { grid-column: span 4; }
+  .col-12 { grid-column: span 12; }
+  .snippet { font-size: 15px; color: var(--ink); }
+  .links a { color: var(--accent); text-decoration: none; margin-right: 14px; font-size: 14px; }
+  .links a:hover { text-decoration: underline; }
+  .timeline { list-style: none; padding: 0; margin: 0; }
+  .timeline .event { padding: 10px 0; border-bottom: 1px dashed var(--border); display: grid; grid-template-columns: 120px 1fr; gap: 12px; }
+  .timeline .event:last-child { border-bottom: none; }
+  .timeline .date { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 13px; padding-top: 2px; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #eee; color: var(--ink); font-size: 12px; margin-left: 6px; }
+  .tag.active { background: #dcfce7; color: var(--ok); }
+  .tag.paused { background: #fde68a; color: var(--warn); }
+  .back { font-size: 13px; color: var(--muted); }
+  .back a { color: var(--accent); text-decoration: none; }
+  @media (max-width: 800px) {
+    .col-6, .col-4 { grid-column: span 12; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="back"><a href="../all-clients-dashboard.html">&larr; All clients</a></div>
+  <header>
+    <h1>{{CLIENT_NAME}} <span class="tag active">{{STAGE}}</span></h1>
+    <div class="meta">
+      <strong>Primary contact:</strong> {{PRIMARY_CONTACT}} &nbsp; | &nbsp;
+      <strong>Next action:</strong> {{NEXT_ACTION}} &nbsp; | &nbsp;
+      <strong>Last updated:</strong> {{LAST_UPDATED}}
+    </div>
+    <div class="links" style="margin-top:10px">
+      <a href="README.md">README</a>
+      <a href="client-summary.md">Summary</a>
+      <a href="internet-research.md">Research</a>
+      <a href="client-asks.md">Asks</a>
+      <a href="client-commitments.md">Commitments</a>
+      <a href="key-people.md">People</a>
+      <a href="open-questions.md">Open questions</a>
+      <a href="decisions.md">Decisions</a>
+      <a href="meetings/">Meetings</a>
+      <a href="archive/">Archive</a>
+    </div>
+  </header>
+
+  <div class="grid">
+    <div class="card col-12">
+      <h2>Snapshot</h2>
+      <div class="snippet">{{SUMMARY_SNIPPET}}</div>
+    </div>
+
+    <div class="card col-4">
+      <h2>Key people</h2>
+      <ul>{{KEY_PEOPLE_LIST}}</ul>
+    </div>
+
+    <div class="card col-4">
+      <h2>Open asks</h2>
+      <ul>{{OPEN_ASKS_LIST}}</ul>
+    </div>
+
+    <div class="card col-4">
+      <h2>Open commitments</h2>
+      <ul>{{OPEN_COMMITMENTS_LIST}}</ul>
+    </div>
+
+    <div class="card col-6">
+      <h2>Top open questions</h2>
+      <ul>{{OPEN_QUESTIONS_LIST}}</ul>
+    </div>
+
+    <div class="card col-6">
+      <h2>Timeline</h2>
+      <ul class="timeline">{{TIMELINE_ITEMS}}</ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>

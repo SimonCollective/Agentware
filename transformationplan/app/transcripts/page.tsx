@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const PASSWORD = "collective2026";
+const PASSWORD = "gale-anchor-harbor-08";
 
 type Transcript = {
   date: string;
@@ -40,6 +40,37 @@ const transcripts: Transcript[] = [
       "Rob to build proposal flow over the weekend; sessions to be practical going forward",
     ],
     file: "/transcripts/2026-03-27-transcript.txt",
+  },
+  {
+    date: "2026-04-10",
+    title: "Session 3: Alexandria and Proposal Flow",
+    summary:
+      "Walkthrough of the transformationplan website, introduction to Alexandria (the structured knowledge graph), and a live demo of the proposal flow's startup wizard. Simon cloned the Agentware repo into Cowork. Captured via Omi — Fellow Notetaker was not in the call.",
+    highlights: [
+      "Alexandria introduced: shared knowledge graph (people, companies, projects, proposals, engagements) with private overlays per person",
+      "Node types expanded live: proposal, engagement, and document added alongside person/company/project/location/interest/activity",
+      "Corrections made live: location → Nottingham, Simon's brand → Collective Security",
+      "GitHub repos hold only bare software; client data stays in OneDrive/local folders",
+      "Proposal flow is reusable — copy folder, run STARTUP.md wizard, customise per business",
+      "Next session extended to two hours: Cowork training + website/Kanban work",
+    ],
+    file: "/transcripts/2026-04-10-summary.md",
+  },
+  {
+    date: "2026-04-21",
+    title: "Session 4: AI Fundamentals and Client Knowledge",
+    summary:
+      "Two-hour extended session. Foundational AI training covering system instructions, model choice, dictation, markdown, artifacts, and Chat vs Cowork vs Code. Ended with Rob building a Client Knowledge agentware piece live in response to a real problem from Kate.",
+    highlights: [
+      "Waterfall beats agile for AI builds: spec fully first, then one-shot the build with full context",
+      "System instructions (CLAUDE.md) are the single most important setting — treat the AI as a partner, not a tool",
+      "Model choice: Haiku (quick, cheap), Sonnet (daily driver), Opus (strategy, planning, one-shot builds)",
+      "Markdown is the working format for everything non-final — every AI reads it natively",
+      "Chat vs Cowork vs Code: Chat memory lives in the thread, Cowork memory lives in a folder, Code is for big apps",
+      "Kate's Claude ban is not a blocker — the work lives in files, portable across any AI provider",
+      "New Client Knowledge flow built live for Kate's Trust engagement — to-process queue, per-client dashboards, scheduled nightly processing option",
+    ],
+    file: "/transcripts/2026-04-21-transcript.txt",
   },
 ];
 

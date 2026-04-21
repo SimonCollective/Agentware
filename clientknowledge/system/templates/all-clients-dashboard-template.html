@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>All Clients</title>
+<!--
+  All-clients dashboard template.
+  When regenerating, scan every client folder (any subdirectory that is not
+  `to-process/`, `system/`, or hidden). For each, pull:
+    - name from folder name or client README frontmatter
+    - engagement stage from README frontmatter
+    - brief from the first paragraph of client-summary.md "Who they are"
+    - next action from client README
+    - count of open asks and open commitments
+    - last_updated from the most recent frontmatter across the client's files
+  Emit one <article class="client"> per client. Newest updates first.
+
+  Tokens:
+    {{GENERATED_AT}}      YYYY-MM-DD
+    {{WHAT_CHANGED}}      <li> items describing what changed since last regenerate
+    {{CLIENT_CARDS}}      full <article> blocks, one per client
+-->
+<style>
+  :root {
+    --bg: #faf8f4;
+    --card: #ffffff;
+    --ink: #1d1d1f;
+    --muted: #6b6b70;
+    --accent: #2a5d8f;
+    --border: #e6e2da;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 32px 24px 64px; }
+  header { border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 24px; }
+  h1 { margin: 0 0 4px 0; font-size: 28px; font-weight: 600; }
+  .meta { color: var(--muted); font-size: 14px; }
+  .whatchanged { background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 16px 20px; margin-bottom: 24px; }
+  .whatchanged h2 { margin: 0 0 8px 0; font-size: 14px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+  .whatchanged ul { margin: 0; padding-left: 20px; }
+  .clients { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+  article.client {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  article.client h3 { margin: 0; font-size: 18px; }
+  article.client h3 a { color: var(--ink); text-decoration: none; }
+  article.client h3 a:hover { color: var(--accent); }
+  .brief { font-size: 14px; color: var(--ink); margin: 0; }
+  .status { display: flex; gap: 10px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+  .status span { background: #f1ece3; padding: 2px 8px; border-radius: 999px; }
+  .open-item { font-size: 13px; color: var(--ink); }
+  .open-item strong { color: var(--muted); font-weight: 600; }
+  .cta { margin-top: auto; font-size: 13px; }
+  .cta a { color: var(--accent); text-decoration: none; }
+  .cta a:hover { text-decoration: underline; }
+  .empty { color: var(--muted); font-style: italic; padding: 48px 0; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>All Clients</h1>
+    <div class="meta">Generated {{GENERATED_AT}}</div>
+  </header>
+
+  <section class="whatchanged">
+    <h2>What changed recently</h2>
+    <ul>{{WHAT_CHANGED}}</ul>
+  </section>
+
+  <section class="clients">
+    {{CLIENT_CARDS}}
+  </section>
+</div>
+</body>
+</html>

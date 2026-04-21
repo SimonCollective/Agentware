@@ -25,6 +25,7 @@ function Nav() {
     { href: "/tasks", label: "Tasks" },
     { href: "/training", label: "Training" },
     { href: "/transcripts", label: "Transcripts" },
+    { href: "/alexandria", label: "Alexandria" },
   ];
 
   return (
